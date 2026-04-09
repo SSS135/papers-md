@@ -1,0 +1,1440 @@
+{
+  "table_of_contents": [
+    {
+      "title": "SEMI-SUPERVISED CLASSIFICATION WITH GRAPH CONVOLUTIONAL NETWORKS",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          106.5,
+          81.0
+        ],
+        [
+          417.0,
+          80.25
+        ],
+        [
+          417.0,
+          114.75
+        ],
+        [
+          106.5,
+          114.75
+        ]
+      ]
+    },
+    {
+      "title": "ABSTRACT",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          276.416015625,
+          210.75
+        ],
+        [
+          334.5,
+          210.75
+        ],
+        [
+          334.5,
+          219.75
+        ],
+        [
+          276.416015625,
+          219.75
+        ]
+      ]
+    },
+    {
+      "title": "1 Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          107.578125,
+          367.3828125
+        ],
+        [
+          206.25,
+          367.3828125
+        ],
+        [
+          206.25,
+          378.75
+        ],
+        [
+          107.578125,
+          378.75
+        ]
+      ]
+    },
+    {
+      "title": "2 FAST APPROXIMATE CONVOLUTIONS ON GRAPHS",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          108.17578125,
+          81.2109375
+        ],
+        [
+          380.25,
+          81.2109375
+        ],
+        [
+          380.25,
+          92.25
+        ],
+        [
+          108.17578125,
+          92.25
+        ]
+      ]
+    },
+    {
+      "title": "2.1 Spectral Graph Convolutions",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          106.5,
+          260.6484375
+        ],
+        [
+          282.09375,
+          260.6484375
+        ],
+        [
+          282.09375,
+          270.0
+        ],
+        [
+          106.5,
+          270.0
+        ]
+      ]
+    },
+    {
+      "title": "2.2 LAYER-WISE LINEAR MODEL",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          106.5,
+          636.15234375
+        ],
+        [
+          260.25,
+          636.15234375
+        ],
+        [
+          260.25,
+          648.0
+        ],
+        [
+          106.5,
+          648.0
+        ]
+      ]
+    },
+    {
+      "title": "3 SEMI-SUPERVISED NODE CLASSIFICATION",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          107.25,
+          527.87109375
+        ],
+        [
+          345.0,
+          527.87109375
+        ],
+        [
+          345.0,
+          537.75
+        ],
+        [
+          107.25,
+          537.75
+        ]
+      ]
+    },
+    {
+      "title": "3.1 EXAMPLE",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          106.5,
+          654.71484375
+        ],
+        [
+          174.75,
+          654.71484375
+        ],
+        [
+          174.75,
+          663.22265625
+        ],
+        [
+          106.5,
+          663.22265625
+        ]
+      ]
+    },
+    {
+      "title": "3.2 Implementation",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          106.3828125,
+          496.93359375
+        ],
+        [
+          210.0,
+          496.93359375
+        ],
+        [
+          210.0,
+          507.0
+        ],
+        [
+          106.3828125,
+          507.0
+        ]
+      ]
+    },
+    {
+      "title": "4 RELATED WORK",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          106.98046875,
+          567.75
+        ],
+        [
+          211.5,
+          567.75
+        ],
+        [
+          211.5,
+          577.5
+        ],
+        [
+          106.98046875,
+          577.5
+        ]
+      ]
+    },
+    {
+      "title": "4.1 GRAPH-BASED SEMI-SUPERVISED LEARNING",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          106.5,
+          639.0
+        ],
+        [
+          326.25,
+          639.0
+        ],
+        [
+          326.25,
+          648.0
+        ],
+        [
+          106.5,
+          648.0
+        ]
+      ]
+    },
+    {
+      "title": "4.2 NEURAL NETWORKS ON GRAPHS",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          106.98046875,
+          187.171875
+        ],
+        [
+          273.7572326660156,
+          187.171875
+        ],
+        [
+          273.7572326660156,
+          197.59698486328125
+        ],
+        [
+          106.98046875,
+          197.59698486328125
+        ]
+      ]
+    },
+    {
+      "title": "5 EXPERIMENTS",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          106.681640625,
+          468.9770812988281
+        ],
+        [
+          200.08348083496094,
+          468.9770812988281
+        ],
+        [
+          200.08348083496094,
+          480.9322814941406
+        ],
+        [
+          106.681640625,
+          480.9322814941406
+        ]
+      ]
+    },
+    {
+      "title": "5.1 DATASETS",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          106.98046875,
+          543.33984375
+        ],
+        [
+          175.79579162597656,
+          543.33984375
+        ],
+        [
+          175.79579162597656,
+          553.6718292236328
+        ],
+        [
+          106.98046875,
+          553.6718292236328
+        ]
+      ]
+    },
+    {
+      "title": "5.2 EXPERIMENTAL SET-UP",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          106.3828125,
+          338.37890625
+        ],
+        [
+          234.01434326171875,
+          338.37890625
+        ],
+        [
+          234.01434326171875,
+          348.4588623046875
+        ],
+        [
+          106.3828125,
+          348.4588623046875
+        ]
+      ]
+    },
+    {
+      "title": "5.3 BASELINES",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          106.98046875,
+          524.5701904296875
+        ],
+        [
+          180.06385803222656,
+          524.5701904296875
+        ],
+        [
+          180.06385803222656,
+          534.5328063964844
+        ],
+        [
+          106.98046875,
+          534.5328063964844
+        ]
+      ]
+    },
+    {
+      "title": "6 RESULTS",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          108.17578125,
+          81.75
+        ],
+        [
+          173.25,
+          81.75
+        ],
+        [
+          173.25,
+          91.5
+        ],
+        [
+          108.17578125,
+          91.5
+        ]
+      ]
+    },
+    {
+      "title": "6.1 Semi-Supervised Node Classification",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          106.5,
+          107.25
+        ],
+        [
+          313.76953125,
+          107.25
+        ],
+        [
+          313.76953125,
+          115.5
+        ],
+        [
+          106.5,
+          115.5
+        ]
+      ]
+    },
+    {
+      "title": "6.2 EVALUATION OF PROPAGATION MODEL",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          106.3828125,
+          462.90234375
+        ],
+        [
+          300.0,
+          462.90234375
+        ],
+        [
+          300.0,
+          471.75
+        ],
+        [
+          106.3828125,
+          471.75
+        ]
+      ]
+    },
+    {
+      "title": "6.3 TRAINING TIME PER EPOCH",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          106.5,
+          82.7578125
+        ],
+        [
+          252.0,
+          82.7578125
+        ],
+        [
+          252.0,
+          92.25
+        ],
+        [
+          106.5,
+          92.25
+        ]
+      ]
+    },
+    {
+      "title": "7 Discussion",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          107.578125,
+          230.87109375
+        ],
+        [
+          191.25,
+          230.87109375
+        ],
+        [
+          191.25,
+          240.75
+        ],
+        [
+          107.578125,
+          240.75
+        ]
+      ]
+    },
+    {
+      "title": "7.1 Semi-Supervised Model",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          106.5,
+          255.75
+        ],
+        [
+          246.75,
+          255.75
+        ],
+        [
+          246.75,
+          264.0
+        ],
+        [
+          106.5,
+          264.0
+        ]
+      ]
+    },
+    {
+      "title": "7.2 LIMITATIONS AND FUTURE WORK",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          106.5,
+          438.15234375
+        ],
+        [
+          277.5,
+          438.15234375
+        ],
+        [
+          277.5,
+          446.66015625
+        ],
+        [
+          106.5,
+          446.66015625
+        ]
+      ]
+    },
+    {
+      "title": "8 CONCLUSION",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          107.876953125,
+          133.2943115234375
+        ],
+        [
+          195.732421875,
+          133.2943115234375
+        ],
+        [
+          195.732421875,
+          145.24951171875
+        ],
+        [
+          107.876953125,
+          145.24951171875
+        ]
+      ]
+    },
+    {
+      "title": "ACKNOWLEDGMENTS",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          106.681640625,
+          236.28515625
+        ],
+        [
+          200.0730438232422,
+          236.28515625
+        ],
+        [
+          200.0730438232422,
+          246.3389892578125
+        ],
+        [
+          106.681640625,
+          246.3389892578125
+        ]
+      ]
+    },
+    {
+      "title": "REFERENCES",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          106.98046875,
+          293.6202392578125
+        ],
+        [
+          175.2598419189453,
+          293.6202392578125
+        ],
+        [
+          175.2598419189453,
+          305.575439453125
+        ],
+        [
+          106.98046875,
+          305.575439453125
+        ]
+      ]
+    },
+    {
+      "title": "A RELATION TO WEISFEILER-LEHMAN ALGORITHM",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          107.578125,
+          82.37109375
+        ],
+        [
+          384.0,
+          82.37109375
+        ],
+        [
+          384.0,
+          92.25
+        ],
+        [
+          107.578125,
+          92.25
+        ]
+      ]
+    },
+    {
+      "title": "Algorithm 1: WL-1 algorithm (Weisfeiler & Lehmann, 1968)",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          107.25,
+          173.25
+        ],
+        [
+          364.5703125,
+          173.25
+        ],
+        [
+          364.5703125,
+          183.3046875
+        ],
+        [
+          107.25,
+          183.3046875
+        ]
+      ]
+    },
+    {
+      "title": "A.1 Node Embeddings with Random Weights",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          107.25,
+          543.0
+        ],
+        [
+          332.296875,
+          543.0
+        ],
+        [
+          332.296875,
+          551.84765625
+        ],
+        [
+          107.25,
+          551.84765625
+        ]
+      ]
+    },
+    {
+      "title": "A.2 SEMI-SUPERVISED NODE EMBEDDINGS",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          106.98046875,
+          419.58984375
+        ],
+        [
+          302.3934631347656,
+          419.58984375
+        ],
+        [
+          302.3934631347656,
+          430.34698486328125
+        ],
+        [
+          106.98046875,
+          430.34698486328125
+        ]
+      ]
+    },
+    {
+      "title": "B EXPERIMENTS ON MODEL DEPTH",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          108.17578125,
+          82.37109375
+        ],
+        [
+          301.5,
+          82.37109375
+        ],
+        [
+          301.5,
+          92.25
+        ],
+        [
+          108.17578125,
+          92.25
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          60
+        ],
+        [
+          "Span",
+          47
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Equation",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          106
+        ],
+        [
+          "Line",
+          60
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "Reference",
+          6
+        ],
+        [
+          "Equation",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          65
+        ],
+        [
+          "Line",
+          62
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "Reference",
+          5
+        ],
+        [
+          "Equation",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          54
+        ],
+        [
+          "Span",
+          45
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Equation",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          208
+        ],
+        [
+          "Line",
+          50
+        ],
+        [
+          "TableCell",
+          35
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          245
+        ],
+        [
+          "Line",
+          52
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          85
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Span",
+          22
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "TableGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          72
+        ],
+        [
+          "Span",
+          30
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Equation",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          130
+        ],
+        [
+          "Line",
+          47
+        ],
+        [
+          "Text",
+          15
+        ],
+        [
+          "Reference",
+          12
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          155
+        ],
+        [
+          "Line",
+          48
+        ],
+        [
+          "ListItem",
+          20
+        ],
+        [
+          "Reference",
+          20
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          58
+        ],
+        [
+          "Span",
+          56
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "Reference",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Equation",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          156
+        ],
+        [
+          "Line",
+          33
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "Footnote",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          23
+        ],
+        [
+          "Line",
+          9
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          67
+        ],
+        [
+          "Span",
+          13
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Equation",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/1609.02907"
+}

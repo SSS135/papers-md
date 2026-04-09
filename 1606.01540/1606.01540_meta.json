@@ -1,0 +1,375 @@
+{
+  "table_of_contents": [
+    {
+      "title": "OpenAI Gym",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          249.47799682617188,
+          70.4217529296875
+        ],
+        [
+          362.5225524902344,
+          70.4217529296875
+        ],
+        [
+          362.5225524902344,
+          91.08428955078125
+        ],
+        [
+          249.47799682617188,
+          91.08428955078125
+        ]
+      ]
+    },
+    {
+      "title": "Abstract",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          285.380859375,
+          154.6875
+        ],
+        [
+          324.53582763671875,
+          154.6875
+        ],
+        [
+          324.53582763671875,
+          164.921142578125
+        ],
+        [
+          285.380859375,
+          164.921142578125
+        ]
+      ]
+    },
+    {
+      "title": "1 Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          72.00000762939453,
+          241.50311279296875
+        ],
+        [
+          171.3761444091797,
+          241.50311279296875
+        ],
+        [
+          171.3761444091797,
+          255.84930419921875
+        ],
+        [
+          72.00000762939453,
+          255.84930419921875
+        ]
+      ]
+    },
+    {
+      "title": "2 Background",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          72.0,
+          518.203125
+        ],
+        [
+          169.435546875,
+          518.203125
+        ],
+        [
+          169.435546875,
+          533.671875
+        ],
+        [
+          72.0,
+          533.671875
+        ]
+      ]
+    },
+    {
+      "title": "3 Design Decisions",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          71.12109375,
+          247.11328125
+        ],
+        [
+          195.93682861328125,
+          247.11328125
+        ],
+        [
+          195.93682861328125,
+          261.88836669921875
+        ],
+        [
+          71.12109375,
+          261.88836669921875
+        ]
+      ]
+    },
+    {
+      "title": "4 Environments",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          70.224609375,
+          356.7049865722656
+        ],
+        [
+          179.56776428222656,
+          356.7049865722656
+        ],
+        [
+          179.56776428222656,
+          371.0511779785156
+        ],
+        [
+          70.224609375,
+          371.0511779785156
+        ]
+      ]
+    },
+    {
+      "title": "5 Future Directions",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          71.99994659423828,
+          579.9679870605469
+        ],
+        [
+          201.77566528320312,
+          579.9679870605469
+        ],
+        [
+          201.77566528320312,
+          594.3141784667969
+        ],
+        [
+          71.99994659423828,
+          594.3141784667969
+        ]
+      ]
+    },
+    {
+      "title": "References",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          71.12109375,
+          71.94805908203125
+        ],
+        [
+          138.65245056152344,
+          71.94805908203125
+        ],
+        [
+          138.65245056152344,
+          86.29425048828125
+        ],
+        [
+          71.12109375,
+          86.29425048828125
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          134
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          180
+        ],
+        [
+          "Line",
+          49
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          104
+        ],
+        [
+          "Line",
+          28
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          144
+        ],
+        [
+          "Line",
+          35
+        ],
+        [
+          "ListItem",
+          15
+        ],
+        [
+          "Reference",
+          15
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/1606.01540"
+}

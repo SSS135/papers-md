@@ -1,0 +1,1104 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Adafactor: Adaptive Learning Rates with Sublinear Memory Cost",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          94.4296875,
+          89.9119873046875
+        ],
+        [
+          501.6422119140625,
+          89.9119873046875
+        ],
+        [
+          501.6422119140625,
+          104.2581787109375
+        ],
+        [
+          94.4296875,
+          104.2581787109375
+        ]
+      ]
+    },
+    {
+      "title": "Noam Shazeer 1 Mitchell Stern 1 2",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          223.224609375,
+          140.765625
+        ],
+        [
+          370.0005798339844,
+          140.765625
+        ],
+        [
+          370.0005798339844,
+          152.96612548828125
+        ],
+        [
+          223.224609375,
+          152.96612548828125
+        ]
+      ]
+    },
+    {
+      "title": "Abstract",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          150.01171875,
+          174.2171630859375
+        ],
+        [
+          194.68328857421875,
+          174.2171630859375
+        ],
+        [
+          194.68328857421875,
+          186.17236328125
+        ],
+        [
+          150.01171875,
+          186.17236328125
+        ]
+      ]
+    },
+    {
+      "title": "1. Introduction and Background",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.43999481201172,
+          532.0111389160156
+        ],
+        [
+          220.53515625,
+          532.0111389160156
+        ],
+        [
+          220.53515625,
+          543.9663543701172
+        ],
+        [
+          55.43999481201172,
+          543.9663543701172
+        ]
+      ]
+    },
+    {
+      "title": "2. A Brief Review of Adam",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          54.0,
+          161.26171875
+        ],
+        [
+          192.75,
+          161.26171875
+        ],
+        [
+          192.75,
+          171.0
+        ],
+        [
+          54.0,
+          171.0
+        ]
+      ]
+    },
+    {
+      "title": "Algorithm 1 Adam (Kingma & Ba, 2015)",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          54.0,
+          188.25
+        ],
+        [
+          224.71875,
+          188.25
+        ],
+        [
+          224.71875,
+          198.7734375
+        ],
+        [
+          54.0,
+          198.7734375
+        ]
+      ]
+    },
+    {
+      "title": "3. Factored Second Moment Estimation",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          53.7890625,
+          639.0
+        ],
+        [
+          258.0,
+          639.0
+        ],
+        [
+          258.0,
+          648.75
+        ],
+        [
+          53.7890625,
+          648.75
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Relation to Prior Work",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          305.103515625,
+          651.62109375
+        ],
+        [
+          423.75,
+          651.62109375
+        ],
+        [
+          423.75,
+          661.5
+        ],
+        [
+          305.103515625,
+          661.5
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Experiments",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          54.0,
+          69.0
+        ],
+        [
+          127.5,
+          69.0
+        ],
+        [
+          127.5,
+          78.0
+        ],
+        [
+          54.0,
+          78.0
+        ]
+      ]
+    },
+    {
+      "title": "4. No Momentum",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          54.0,
+          324.75
+        ],
+        [
+          144.75,
+          324.75
+        ],
+        [
+          144.75,
+          334.5
+        ],
+        [
+          54.0,
+          334.5
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Experiments",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          54.0,
+          428.87109375
+        ],
+        [
+          128.25,
+          428.87109375
+        ],
+        [
+          128.25,
+          438.75
+        ],
+        [
+          54.0,
+          438.75
+        ]
+      ]
+    },
+    {
+      "title": "5. A Problem with Adam: Out-of-Date Second Moment Estimator",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          54.0,
+          576.2109375
+        ],
+        [
+          252.75,
+          576.2109375
+        ],
+        [
+          252.75,
+          600.75
+        ],
+        [
+          54.0,
+          600.75
+        ]
+      ]
+    },
+    {
+      "title": "6. Update Clipping",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          305.103515625,
+          675.0
+        ],
+        [
+          404.25,
+          675.0
+        ],
+        [
+          404.25,
+          685.65234375
+        ],
+        [
+          305.103515625,
+          685.65234375
+        ]
+      ]
+    },
+    {
+      "title": "6.1. Comparison to Gradient Clipping",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          54.0,
+          441.0
+        ],
+        [
+          217.5,
+          441.0
+        ],
+        [
+          217.5,
+          450.75
+        ],
+        [
+          54.0,
+          450.75
+        ]
+      ]
+    },
+    {
+      "title": "6.2. Experiments",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          54.0,
+          616.5
+        ],
+        [
+          127.5,
+          616.5
+        ],
+        [
+          127.5,
+          626.25
+        ],
+        [
+          54.0,
+          626.25
+        ]
+      ]
+    },
+    {
+      "title": "7. Increasing Decay Parameter",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          304.20703125,
+          68.0625
+        ],
+        [
+          465.57421875,
+          68.0625
+        ],
+        [
+          465.57421875,
+          78.890625
+        ],
+        [
+          304.20703125,
+          78.890625
+        ]
+      ]
+    },
+    {
+      "title": "7.1. In Adam",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          304.505859375,
+          161.25
+        ],
+        [
+          363.0,
+          161.25
+        ],
+        [
+          363.0,
+          170.25
+        ],
+        [
+          304.505859375,
+          170.25
+        ]
+      ]
+    },
+    {
+      "title": "7.2. Proposed Alternative",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          306.0,
+          657.80859375
+        ],
+        [
+          415.5,
+          657.80859375
+        ],
+        [
+          415.5,
+          668.25
+        ],
+        [
+          306.0,
+          668.25
+        ]
+      ]
+    },
+    {
+      "title": "7.3. Experiments",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          306.0,
+          404.12109375
+        ],
+        [
+          379.5,
+          404.12109375
+        ],
+        [
+          379.5,
+          414.0
+        ],
+        [
+          306.0,
+          414.0
+        ]
+      ]
+    },
+    {
+      "title": "8. Relative Step Size",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          306.0,
+          511.5
+        ],
+        [
+          410.291015625,
+          511.5
+        ],
+        [
+          410.291015625,
+          521.25
+        ],
+        [
+          306.0,
+          521.25
+        ]
+      ]
+    },
+    {
+      "title": "8.1. Experiments",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          305.25,
+          676.37109375
+        ],
+        [
+          379.5,
+          676.37109375
+        ],
+        [
+          379.5,
+          685.5
+        ],
+        [
+          305.25,
+          685.5
+        ]
+      ]
+    },
+    {
+      "title": "9. Experimental Setup",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          306.0,
+          597.0
+        ],
+        [
+          422.25,
+          597.0
+        ],
+        [
+          422.25,
+          607.53515625
+        ],
+        [
+          306.0,
+          607.53515625
+        ]
+      ]
+    },
+    {
+      "title": "Algorithm 4 Adafactor for weight matrices.",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          54.0,
+          68.25
+        ],
+        [
+          231.0,
+          68.25
+        ],
+        [
+          231.0,
+          78.50390625
+        ],
+        [
+          54.0,
+          78.50390625
+        ]
+      ]
+    },
+    {
+      "title": "Algorithm 5 Adafactor for weight vectors.",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          54.0,
+          284.23828125
+        ],
+        [
+          225.75,
+          284.23828125
+        ],
+        [
+          225.75,
+          294.75
+        ],
+        [
+          54.0,
+          294.75
+        ]
+      ]
+    },
+    {
+      "title": "Algorithm 6 Proposed hyperparameters for Adafactor",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          304.20703125,
+          68.25
+        ],
+        [
+          524.25,
+          68.25
+        ],
+        [
+          524.25,
+          78.1171875
+        ],
+        [
+          304.20703125,
+          78.1171875
+        ]
+      ]
+    },
+    {
+      "title": "9.1. Results",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          303.908203125,
+          180.0
+        ],
+        [
+          356.25,
+          180.0
+        ],
+        [
+          356.25,
+          188.25
+        ],
+        [
+          303.908203125,
+          188.25
+        ]
+      ]
+    },
+    {
+      "title": "10. Conclusion",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          306.75,
+          500.02734375
+        ],
+        [
+          383.25,
+          500.02734375
+        ],
+        [
+          383.25,
+          510.75
+        ],
+        [
+          306.75,
+          510.75
+        ]
+      ]
+    },
+    {
+      "title": "Acknowledgements",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          303.908203125,
+          651.0
+        ],
+        [
+          406.5,
+          651.0
+        ],
+        [
+          406.5,
+          660.75
+        ],
+        [
+          303.908203125,
+          660.75
+        ]
+      ]
+    },
+    {
+      "title": "References",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          54.685546875,
+          96.412109375
+        ],
+        [
+          110.9838638305664,
+          96.412109375
+        ],
+        [
+          110.9838638305664,
+          108.3673095703125
+        ],
+        [
+          54.685546875,
+          108.3673095703125
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          206
+        ],
+        [
+          "Line",
+          86
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          128
+        ],
+        [
+          "Span",
+          123
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Equation",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          148
+        ],
+        [
+          "Line",
+          82
+        ],
+        [
+          "Text",
+          13
+        ],
+        [
+          "ListItem",
+          9
+        ],
+        [
+          "Equation",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          107
+        ],
+        [
+          "Span",
+          70
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "TableCell",
+          9
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Equation",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          108
+        ],
+        [
+          "Line",
+          74
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "ListItem",
+          9
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Equation",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          95
+        ],
+        [
+          "Span",
+          82
+        ],
+        [
+          "Text",
+          14
+        ],
+        [
+          "Equation",
+          7
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          204
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "Span",
+          39
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "TableGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          124
+        ],
+        [
+          "Line",
+          122
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "Code",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          202
+        ],
+        [
+          "Line",
+          70
+        ],
+        [
+          "ListItem",
+          13
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/1804.04235"
+}

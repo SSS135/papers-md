@@ -1,0 +1,748 @@
+{
+  "table_of_contents": [
+    {
+      "title": "3D-JEPA: A Joint Embedding Predictive Architecture for 3D Self-Supervised Representation Learning",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          89.25,
+          72.75
+        ],
+        [
+          520.5,
+          72.75
+        ],
+        [
+          520.5,
+          107.89453125
+        ],
+        [
+          89.25,
+          107.89453125
+        ]
+      ]
+    },
+    {
+      "title": "I. INTRODUCTION",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          127.8984375,
+          391.74609375
+        ],
+        [
+          223.5,
+          391.74609375
+        ],
+        [
+          223.5,
+          401.25
+        ],
+        [
+          127.8984375,
+          401.25
+        ]
+      ]
+    },
+    {
+      "title": "II. RELATED WORK",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          125.25,
+          573.75
+        ],
+        [
+          225.75,
+          573.75
+        ],
+        [
+          225.75,
+          582.78515625
+        ],
+        [
+          125.25,
+          582.78515625
+        ]
+      ]
+    },
+    {
+      "title": "A. Invariance-based Method In 3D Vision",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          51.3984375,
+          588.75
+        ],
+        [
+          225.75,
+          588.75
+        ],
+        [
+          225.75,
+          598.25390625
+        ],
+        [
+          51.3984375,
+          598.25390625
+        ]
+      ]
+    },
+    {
+      "title": "B. Generative Method In 3D Vision",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          311.080078125,
+          371.25
+        ],
+        [
+          461.25,
+          371.25
+        ],
+        [
+          461.25,
+          380.25
+        ],
+        [
+          311.080078125,
+          380.25
+        ]
+      ]
+    },
+    {
+      "title": "C. Joint Embedding Predictive Architecture",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          311.37890625,
+          623.25
+        ],
+        [
+          493.5,
+          623.25
+        ],
+        [
+          493.5,
+          632.28515625
+        ],
+        [
+          311.37890625,
+          632.28515625
+        ]
+      ]
+    },
+    {
+      "title": "III. METHOD",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          141.75,
+          430.5
+        ],
+        [
+          209.25,
+          430.5
+        ],
+        [
+          209.25,
+          440.47265625
+        ],
+        [
+          141.75,
+          440.47265625
+        ]
+      ]
+    },
+    {
+      "title": "A. Token Embedding",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          51.99609375,
+          552.0
+        ],
+        [
+          140.25,
+          552.0
+        ],
+        [
+          140.25,
+          561.12890625
+        ],
+        [
+          51.99609375,
+          561.12890625
+        ]
+      ]
+    },
+    {
+      "title": "B. Multi-block Sampling Strategy",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          310.78125,
+          576.75
+        ],
+        [
+          450.75,
+          576.75
+        ],
+        [
+          450.75,
+          585.87890625
+        ],
+        [
+          310.78125,
+          585.87890625
+        ]
+      ]
+    },
+    {
+      "title": "C. Model Architecture",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          52.5,
+          230.25
+        ],
+        [
+          146.25,
+          230.25
+        ],
+        [
+          146.25,
+          239.25
+        ],
+        [
+          52.5,
+          239.25
+        ]
+      ]
+    },
+    {
+      "title": "D. Objective Function",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          52.5,
+          672.0
+        ],
+        [
+          147.0,
+          672.0
+        ],
+        [
+          147.0,
+          681.78515625
+        ],
+        [
+          52.5,
+          681.78515625
+        ]
+      ]
+    },
+    {
+      "title": "IV. EXPERIMENTS",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          394.5,
+          435.05859375
+        ],
+        [
+          475.435546875,
+          435.05859375
+        ],
+        [
+          475.435546875,
+          444.75
+        ],
+        [
+          394.5,
+          444.75
+        ]
+      ]
+    },
+    {
+      "title": "A. Pretraining Setting",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          311.25,
+          453.0
+        ],
+        [
+          405.2109375,
+          453.0
+        ],
+        [
+          405.2109375,
+          462.12890625
+        ],
+        [
+          311.25,
+          462.12890625
+        ]
+      ]
+    },
+    {
+      "title": "B. Downstream Tasks",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          311.080078125,
+          670.18359375
+        ],
+        [
+          402.75,
+          670.18359375
+        ],
+        [
+          402.75,
+          680.25
+        ],
+        [
+          311.080078125,
+          680.25
+        ]
+      ]
+    },
+    {
+      "title": "C. Ablation Study",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          311.25,
+          684.0
+        ],
+        [
+          387.75,
+          684.0
+        ],
+        [
+          387.75,
+          694.16015625
+        ],
+        [
+          311.25,
+          694.16015625
+        ]
+      ]
+    },
+    {
+      "title": "V. CONCLUSIONS",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          389.25,
+          598.5
+        ],
+        [
+          480.75,
+          598.5
+        ],
+        [
+          480.75,
+          607.53515625
+        ],
+        [
+          389.25,
+          607.53515625
+        ]
+      ]
+    },
+    {
+      "title": "REFERENCES",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          147.919921875,
+          54.4814453125
+        ],
+        [
+          204.30548095703125,
+          54.4814453125
+        ],
+        [
+          204.30548095703125,
+          64.44403076171875
+        ],
+        [
+          147.919921875,
+          64.44403076171875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          122
+        ],
+        [
+          "Span",
+          44
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          124
+        ],
+        [
+          "Span",
+          65
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          96
+        ],
+        [
+          "Span",
+          38
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Reference",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "PictureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          134
+        ],
+        [
+          "Line",
+          99
+        ],
+        [
+          "Text",
+          15
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Reference",
+          4
+        ],
+        [
+          "Equation",
+          3
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PictureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          184
+        ],
+        [
+          "Line",
+          81
+        ],
+        [
+          "Span",
+          41
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "Caption",
+          3
+        ],
+        [
+          "Table",
+          3
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "TableGroup",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          76
+        ],
+        [
+          "TableCell",
+          33
+        ],
+        [
+          "Span",
+          11
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Caption",
+          4
+        ],
+        [
+          "Reference",
+          4
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "FigureGroup",
+          2
+        ],
+        [
+          "TableGroup",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          464
+        ],
+        [
+          "Line",
+          142
+        ],
+        [
+          "ListItem",
+          39
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/2409.15803"
+}

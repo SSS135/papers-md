@@ -1,0 +1,994 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Feature Pyramid Networks for Object Detection",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          150.01171875,
+          105.57421875
+        ],
+        [
+          445.25390625,
+          105.57421875
+        ],
+        [
+          445.25390625,
+          120.2681884765625
+        ],
+        [
+          150.01171875,
+          120.2681884765625
+        ]
+      ]
+    },
+    {
+      "title": "Abstract",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          145.23046875,
+          247.88671875
+        ],
+        [
+          190.4802703857422,
+          247.88671875
+        ],
+        [
+          190.4802703857422,
+          260.24737548828125
+        ],
+        [
+          145.23046875,
+          260.24737548828125
+        ]
+      ]
+    },
+    {
+      "title": "1. Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          49.904296875,
+          526.0719604492188
+        ],
+        [
+          126.94805145263672,
+          526.0719604492188
+        ],
+        [
+          126.94805145263672,
+          538.0271606445312
+        ],
+        [
+          49.904296875,
+          538.0271606445312
+        ]
+      ]
+    },
+    {
+      "title": "2. Related Work",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          307.494140625,
+          527.4778442382812
+        ],
+        [
+          391.974609375,
+          527.4778442382812
+        ],
+        [
+          391.974609375,
+          539.47265625
+        ],
+        [
+          307.494140625,
+          539.47265625
+        ]
+      ]
+    },
+    {
+      "title": "Hand-engineered features and early neural networks.",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          308.390625,
+          546.046875
+        ],
+        [
+          545.1151733398438,
+          546.046875
+        ],
+        [
+          545.1151733398438,
+          557.8988189697266
+        ],
+        [
+          308.390625,
+          557.8988189697266
+        ]
+      ]
+    },
+    {
+      "title": "3. Feature Pyramid Networks",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          49.60546875,
+          574.0170745849609
+        ],
+        [
+          200.8790283203125,
+          574.0170745849609
+        ],
+        [
+          200.8790283203125,
+          585.9722747802734
+        ],
+        [
+          49.60546875,
+          585.9722747802734
+        ]
+      ]
+    },
+    {
+      "title": "4. Applications",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          48.708984375,
+          382.46484375
+        ],
+        [
+          126.20689392089844,
+          382.46484375
+        ],
+        [
+          126.20689392089844,
+          394.7774353027344
+        ],
+        [
+          48.708984375,
+          394.7774353027344
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Feature Pyramid Networks for RPN",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          49.0078125,
+          493.37384033203125
+        ],
+        [
+          238.2544403076172,
+          493.37384033203125
+        ],
+        [
+          238.2544403076172,
+          504.3327331542969
+        ],
+        [
+          49.0078125,
+          504.3327331542969
+        ]
+      ]
+    },
+    {
+      "title": "4.2. Feature Pyramid Networks for Fast R-CNN",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          306.59765625,
+          415.74285888671875
+        ],
+        [
+          532.3359375,
+          415.74285888671875
+        ],
+        [
+          532.3359375,
+          426.7017517089844
+        ],
+        [
+          306.59765625,
+          426.7017517089844
+        ]
+      ]
+    },
+    {
+      "title": "5. Experiments on Object Detection",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          49.60546875,
+          288.4921875
+        ],
+        [
+          231.7353973388672,
+          288.4921875
+        ],
+        [
+          231.7353973388672,
+          301.1225280761719
+        ],
+        [
+          49.60546875,
+          301.1225280761719
+        ]
+      ]
+    },
+    {
+      "title": "5.1. Region Proposal with RPN",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          49.0078125,
+          461.7779235839844
+        ],
+        [
+          194.81332397460938,
+          461.7779235839844
+        ],
+        [
+          194.81332397460938,
+          472.73681640625
+        ],
+        [
+          49.0078125,
+          472.73681640625
+        ]
+      ]
+    },
+    {
+      "title": "5.1.1 Ablation Experiments",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          308.390625,
+          74.31646728515625
+        ],
+        [
+          432.703125,
+          74.31646728515625
+        ],
+        [
+          432.703125,
+          84.279052734375
+        ],
+        [
+          308.390625,
+          84.279052734375
+        ]
+      ]
+    },
+    {
+      "title": "5.2. Object Detection with Fast/Faster R-CNN",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          48.75,
+          441.0
+        ],
+        [
+          265.5,
+          441.0
+        ],
+        [
+          265.5,
+          450.75
+        ],
+        [
+          48.75,
+          450.75
+        ]
+      ]
+    },
+    {
+      "title": "5.2.1 Fast R-CNN (on fixed proposals)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          48.0,
+          660.0
+        ],
+        [
+          219.75,
+          660.0
+        ],
+        [
+          219.75,
+          669.75
+        ],
+        [
+          48.0,
+          669.75
+        ]
+      ]
+    },
+    {
+      "title": "5.2.2 Faster R-CNN (on consistent proposals)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          49.0078125,
+          413.40234375
+        ],
+        [
+          248.91571044921875,
+          413.40234375
+        ],
+        [
+          248.91571044921875,
+          423.8309631347656
+        ],
+        [
+          49.0078125,
+          423.8309631347656
+        ]
+      ]
+    },
+    {
+      "title": "5.2.3 Comparing with COCO Competition Winners",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          307.1953125,
+          511.4554443359375
+        ],
+        [
+          535.6107177734375,
+          511.4554443359375
+        ],
+        [
+          535.6107177734375,
+          521.4180297851562
+        ],
+        [
+          307.1953125,
+          521.4180297851562
+        ]
+      ]
+    },
+    {
+      "title": "6. Extensions: Segmentation Proposals",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          50.112030029296875,
+          453.7740173339844
+        ],
+        [
+          247.21742248535156,
+          453.7740173339844
+        ],
+        [
+          247.21742248535156,
+          465.7292175292969
+        ],
+        [
+          50.112030029296875,
+          465.7292175292969
+        ]
+      ]
+    },
+    {
+      "title": "6.1. Segmentation Proposal Results",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          307.1953125,
+          294.6447448730469
+        ],
+        [
+          472.7413330078125,
+          294.6447448730469
+        ],
+        [
+          472.7413330078125,
+          305.6036376953125
+        ],
+        [
+          307.1953125,
+          305.6036376953125
+        ]
+      ]
+    },
+    {
+      "title": "7. Conclusion",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          307.494140625,
+          575.2309417724609
+        ],
+        [
+          377.9510192871094,
+          575.2309417724609
+        ],
+        [
+          377.9510192871094,
+          587.1861419677734
+        ],
+        [
+          307.494140625,
+          587.1861419677734
+        ]
+      ]
+    },
+    {
+      "title": "A. Implementation of Segmentation Proposals",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          49.0078125,
+          71.9296875
+        ],
+        [
+          284.6730041503906,
+          71.9296875
+        ],
+        [
+          284.6730041503906,
+          84.7423095703125
+        ],
+        [
+          49.0078125,
+          84.7423095703125
+        ]
+      ]
+    },
+    {
+      "title": "References",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          308.8619384765625,
+          218.49609375
+        ],
+        [
+          364.5703125,
+          218.49609375
+        ],
+        [
+          364.5703125,
+          230.4683837890625
+        ],
+        [
+          308.8619384765625,
+          230.4683837890625
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          215
+        ],
+        [
+          "Line",
+          88
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          250
+        ],
+        [
+          "Line",
+          97
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "PictureGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          273
+        ],
+        [
+          "Line",
+          97
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "PictureGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          423
+        ],
+        [
+          "Line",
+          110
+        ],
+        [
+          "Text",
+          13
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "Equation",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          377
+        ],
+        [
+          "Line",
+          112
+        ],
+        [
+          "Text",
+          13
+        ],
+        [
+          "Reference",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Footnote",
+          3
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          223
+        ],
+        [
+          "Line",
+          63
+        ],
+        [
+          "Span",
+          39
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "Reference",
+          4
+        ],
+        [
+          "Table",
+          3
+        ],
+        [
+          "Caption",
+          3
+        ],
+        [
+          "TableGroup",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          529
+        ],
+        [
+          "TableCell",
+          138
+        ],
+        [
+          "Line",
+          97
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "TableGroup",
+          2
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          399
+        ],
+        [
+          "Line",
+          110
+        ],
+        [
+          "TableCell",
+          70
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "PictureGroup",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          436
+        ],
+        [
+          "Line",
+          112
+        ],
+        [
+          "ListItem",
+          16
+        ],
+        [
+          "Reference",
+          16
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          238
+        ],
+        [
+          "Line",
+          66
+        ],
+        [
+          "ListItem",
+          24
+        ],
+        [
+          "Reference",
+          24
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/1612.03144"
+}

@@ -1,0 +1,1295 @@
+{
+  "table_of_contents": [
+    {
+      "title": "CE-GPPO: Coordinating Entropy via Gradient-Preserving Clipping Policy\nOptimization in Reinforcement Learning",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          69.84375,
+          78.85003662109375
+        ],
+        [
+          524.98779296875,
+          78.85003662109375
+        ],
+        [
+          524.98779296875,
+          109.13623046875
+        ],
+        [
+          69.84375,
+          109.13623046875
+        ]
+      ]
+    },
+    {
+      "title": "Abstract",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          156.857421875,
+          221.8001708984375
+        ],
+        [
+          202.24327087402344,
+          221.8001708984375
+        ],
+        [
+          202.24327087402344,
+          233.75537109375
+        ],
+        [
+          156.857421875,
+          233.75537109375
+        ]
+      ]
+    },
+    {
+      "title": "1 Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          70.42578125,
+          593.5151519775391
+        ],
+        [
+          154.23828125,
+          593.5151519775391
+        ],
+        [
+          154.23828125,
+          605.4703521728516
+        ],
+        [
+          70.42578125,
+          605.4703521728516
+        ]
+      ]
+    },
+    {
+      "title": "2 Preliminary",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          71.58984375,
+          123.71326803205699
+        ],
+        [
+          150.8765743073048,
+          123.71326803205699
+        ],
+        [
+          150.8765743073048,
+          135.2626953125
+        ],
+        [
+          71.58984375,
+          135.2626953125
+        ]
+      ]
+    },
+    {
+      "title": "2.1 Policy Optimization Algorithms",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          69.84375,
+          145.9521484375
+        ],
+        [
+          244.70528967254407,
+          145.9521484375
+        ],
+        [
+          244.70528967254407,
+          156.7034728406055
+        ],
+        [
+          69.84375,
+          156.7034728406055
+        ]
+      ]
+    },
+    {
+      "title": "2.2 Policy Entropy in Reinforcement Learning",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          307.89453125,
+          311.9073909171861
+        ],
+        [
+          526.191435768262,
+          311.9073909171861
+        ],
+        [
+          526.191435768262,
+          322.7392578125
+        ],
+        [
+          307.89453125,
+          322.7392578125
+        ]
+      ]
+    },
+    {
+      "title": "3 Method",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          70.42578125,
+          137.318359375
+        ],
+        [
+          128.64547729492188,
+          137.318359375
+        ],
+        [
+          128.64547729492188,
+          149.44927978515625
+        ],
+        [
+          70.42578125,
+          149.44927978515625
+        ]
+      ]
+    },
+    {
+      "title": "3.1 Impact of Clipped-Token Gradients on\nEntropy Dynamics",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          69.26171875,
+          159.1083984375
+        ],
+        [
+          276.1316223144531,
+          159.1083984375
+        ],
+        [
+          276.1316223144531,
+          183.8970947265625
+        ],
+        [
+          69.26171875,
+          183.8970947265625
+        ]
+      ]
+    },
+    {
+      "title": "3.2 Gradient-Preserving Clipping Policy\nOptimization",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          304.984375,
+          254.080078125
+        ],
+        [
+          501.0767517089844,
+          254.080078125
+        ],
+        [
+          501.0767517089844,
+          279.26513671875
+        ],
+        [
+          304.984375,
+          279.26513671875
+        ]
+      ]
+    },
+    {
+      "title": "3.3 Ensuring Stable Optimization in CE-GPPO",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          68.09765625,
+          150.0634765625
+        ],
+        [
+          247.70780856423173,
+          150.0634765625
+        ],
+        [
+          247.70780856423173,
+          173.19857524487978
+        ],
+        [
+          68.09765625,
+          173.19857524487978
+        ]
+      ]
+    },
+    {
+      "title": "4 Experiment",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          70.42578125,
+          643.3089937666963
+        ],
+        [
+          150.8765743073048,
+          643.3089937666963
+        ],
+        [
+          150.8765743073048,
+          653.8058771148709
+        ],
+        [
+          70.42578125,
+          653.8058771148709
+        ]
+      ]
+    },
+    {
+      "title": "4.1 Experimental Setup",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          70.716796875,
+          665.8023152270703
+        ],
+        [
+          189.1586901763224,
+          665.8023152270703
+        ],
+        [
+          189.1586901763224,
+          675.5494211932324
+        ],
+        [
+          70.716796875,
+          675.5494211932324
+        ]
+      ]
+    },
+    {
+      "title": "4.2 Main Results",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          304.7556675062972,
+          584.0765805877114
+        ],
+        [
+          393.3299748110831,
+          584.0765805877114
+        ],
+        [
+          393.3299748110831,
+          593.2646484375
+        ],
+        [
+          304.7556675062972,
+          593.2646484375
+        ]
+      ]
+    },
+    {
+      "title": "5 Analysis",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          69.84375,
+          629.8130008904719
+        ],
+        [
+          132.86146095717885,
+          629.8130008904719
+        ],
+        [
+          132.86146095717885,
+          640.3098842386464
+        ],
+        [
+          69.84375,
+          640.3098842386464
+        ]
+      ]
+    },
+    {
+      "title": "5.1 Impact of Different \\beta Hyperparameters on Entropy Dynamics",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          69.05793450881612,
+          651.5565449688335
+        ],
+        [
+          282.2367758186398,
+          651.5565449688335
+        ],
+        [
+          282.2367758186398,
+          676.724609375
+        ],
+        [
+          69.05793450881612,
+          676.724609375
+        ]
+      ]
+    },
+    {
+      "title": "5.2 Entropy-Guided Training Dynamics",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          306.1484375,
+          719.0365093499554
+        ],
+        [
+          500.67002518891684,
+          719.0365093499554
+        ],
+        [
+          500.67002518891684,
+          728.7836153161176
+        ],
+        [
+          306.1484375,
+          728.7836153161176
+        ]
+      ]
+    },
+    {
+      "title": "5.3 Training Stability Analysis of CE-GPPO",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          68.3073047858942,
+          651.5565449688335
+        ],
+        [
+          285.23929471032744,
+          651.5565449688335
+        ],
+        [
+          285.23929471032744,
+          662.3349609375
+        ],
+        [
+          68.3073047858942,
+          662.3349609375
+        ]
+      ]
+    },
+    {
+      "title": "5.4 Comparison with Other RL Algorithms",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          304.984375,
+          399.2099609375
+        ],
+        [
+          516.433249370277,
+          399.2099609375
+        ],
+        [
+          516.433249370277,
+          410.87800534283167
+        ],
+        [
+          304.984375,
+          410.87800534283167
+        ]
+      ]
+    },
+    {
+      "title": "5.5 Comparison with Existing Entropy Collapse Mitigation Methods",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          307.3125,
+          182.1318359375
+        ],
+        [
+          494.6649874055415,
+          182.1318359375
+        ],
+        [
+          494.6649874055415,
+          206.93855743544077
+        ],
+        [
+          307.3125,
+          206.93855743544077
+        ]
+      ]
+    },
+    {
+      "title": "6 Conclusion",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          304.693359375,
+          659.8681640625
+        ],
+        [
+          382.0705289672544,
+          659.8681640625
+        ],
+        [
+          382.0705289672544,
+          670.3009795191451
+        ],
+        [
+          304.693359375,
+          670.3009795191451
+        ]
+      ]
+    },
+    {
+      "title": "Limitations",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          69.84375,
+          205.9775390625
+        ],
+        [
+          129.98446655273438,
+          205.9775390625
+        ],
+        [
+          129.98446655273438,
+          218.95440673828125
+        ],
+        [
+          69.84375,
+          218.95440673828125
+        ]
+      ]
+    },
+    {
+      "title": "References",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          69.26171875,
+          403.30816650390625
+        ],
+        [
+          126.40985870361328,
+          403.30816650390625
+        ],
+        [
+          126.40985870361328,
+          415.26336669921875
+        ],
+        [
+          69.26171875,
+          415.26336669921875
+        ]
+      ]
+    },
+    {
+      "title": "A Appendix",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          69.26171875,
+          254.4912109375
+        ],
+        [
+          141.86901763224182,
+          254.4912109375
+        ],
+        [
+          141.86901763224182,
+          266.17097061442564
+        ],
+        [
+          69.26171875,
+          266.17097061442564
+        ]
+      ]
+    },
+    {
+      "title": "A.1 The Role of Entropy at Different Stages of Training",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          69.26171875,
+          278.91718610863757
+        ],
+        [
+          282.9874055415617,
+          278.91718610863757
+        ],
+        [
+          282.9874055415617,
+          305.060546875
+        ],
+        [
+          69.26171875,
+          305.060546875
+        ]
+      ]
+    },
+    {
+      "title": "A.2 Experimental Setup for Other Baseline RL Methods",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          69.05793450881612,
+          583.326803205699
+        ],
+        [
+          279.98488664987406,
+          583.326803205699
+        ],
+        [
+          279.98488664987406,
+          607.2431640625
+        ],
+        [
+          69.05793450881612,
+          607.2431640625
+        ]
+      ]
+    },
+    {
+      "title": "A.3 Proof of the Formula for Policy Entropy\nChange",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          304.7556675062972,
+          258.67319679430096
+        ],
+        [
+          520.9370277078085,
+          258.67319679430096
+        ],
+        [
+          520.9370277078085,
+          283.2705078125
+        ],
+        [
+          304.7556675062972,
+          283.2705078125
+        ]
+      ]
+    },
+    {
+      "title": "A.3.1 Problem Setup and Assumptions",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          304.40234375,
+          291.08203125
+        ],
+        [
+          494.6649874055415,
+          291.08203125
+        ],
+        [
+          494.6649874055415,
+          302.16028495102404
+        ],
+        [
+          304.40234375,
+          302.16028495102404
+        ]
+      ]
+    },
+    {
+      "title": "A.3.2\nDerivation",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          69.552734375,
+          72.359375
+        ],
+        [
+          155.38035264483625,
+          72.359375
+        ],
+        [
+          155.38035264483625,
+          82.47551202137133
+        ],
+        [
+          69.552734375,
+          82.47551202137133
+        ]
+      ]
+    },
+    {
+      "title": "A.4\nProof of the Gradient of CE-GPPO\nObjective",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          304.40234375,
+          576.8193359375
+        ],
+        [
+          497.6675062972292,
+          576.8193359375
+        ],
+        [
+          497.6675062972292,
+          601.3214603739982
+        ],
+        [
+          304.40234375,
+          601.3214603739982
+        ]
+      ]
+    },
+    {
+      "title": "Case 3: Otherwise.",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          70.86598205566406,
+          600.6650390625
+        ],
+        [
+          159.07696533203125,
+          600.6650390625
+        ],
+        [
+          159.07696533203125,
+          613.3161468505859
+        ],
+        [
+          70.86598205566406,
+          613.3161468505859
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          227
+        ],
+        [
+          "Line",
+          89
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Footnote",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          251
+        ],
+        [
+          "Line",
+          92
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          93
+        ],
+        [
+          "Span",
+          53
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "Equation",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          547
+        ],
+        [
+          "Line",
+          143
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Equation",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          102
+        ],
+        [
+          "Span",
+          33
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Equation",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          91
+        ],
+        [
+          "TableCell",
+          77
+        ],
+        [
+          "Span",
+          53
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          109
+        ],
+        [
+          "Span",
+          42
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          90
+        ],
+        [
+          "Span",
+          45
+        ],
+        [
+          "TableCell",
+          35
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          360
+        ],
+        [
+          "Line",
+          108
+        ],
+        [
+          "ListItem",
+          13
+        ],
+        [
+          "Reference",
+          12
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          256
+        ],
+        [
+          "Line",
+          69
+        ],
+        [
+          "ListItem",
+          11
+        ],
+        [
+          "Reference",
+          11
+        ],
+        [
+          "ListGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          104
+        ],
+        [
+          "Span",
+          87
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "Equation",
+          4
+        ],
+        [
+          "Reference",
+          4
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          67
+        ],
+        [
+          "Span",
+          45
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "Equation",
+          10
+        ],
+        [
+          "Reference",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          764
+        ],
+        [
+          "Line",
+          101
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "Equation",
+          11
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/2509.20712"
+}

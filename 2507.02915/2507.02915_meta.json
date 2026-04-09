@@ -1,0 +1,804 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Audio-JEPA: Joint-Embedding Predictive\nArchitecture for Audio Representation Learning",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          71.0040054321289,
+          52.17486572265625
+        ],
+        [
+          540.9960327148438,
+          52.17486572265625
+        ],
+        [
+          540.9960327148438,
+          97.0628662109375
+        ],
+        [
+          71.0040054321289,
+          97.0628662109375
+        ]
+      ]
+    },
+    {
+      "title": "I. Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          134.47265625,
+          397.93359375
+        ],
+        [
+          213.9634246826172,
+          397.93359375
+        ],
+        [
+          213.9634246826172,
+          410.09710693359375
+        ],
+        [
+          134.47265625,
+          410.09710693359375
+        ]
+      ]
+    },
+    {
+      "title": "II. Related Work",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          390.8671875,
+          574.27734375
+        ],
+        [
+          481.3050537109375,
+          574.27734375
+        ],
+        [
+          481.3050537109375,
+          585.9411163330078
+        ],
+        [
+          390.8671875,
+          585.9411163330078
+        ]
+      ]
+    },
+    {
+      "title": "A. Self-Supervised Audio Representation Learning",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          311.9765625,
+          595.8841400146484
+        ],
+        [
+          521.4299926757812,
+          595.8841400146484
+        ],
+        [
+          521.4299926757812,
+          605.8841400146484
+        ],
+        [
+          311.9765625,
+          605.8841400146484
+        ]
+      ]
+    },
+    {
+      "title": "B. Masked Prediction with Dual Networks",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          49.60546875,
+          456.71484375
+        ],
+        [
+          226.61685180664062,
+          456.71484375
+        ],
+        [
+          226.61685180664062,
+          466.9817810058594
+        ],
+        [
+          49.60546875,
+          466.9817810058594
+        ]
+      ]
+    },
+    {
+      "title": "C. Joint-Embedding Predictive Architectures",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          311.9765625,
+          265.67578125
+        ],
+        [
+          497.4300537109375,
+          265.67578125
+        ],
+        [
+          497.4300537109375,
+          276.06182861328125
+        ],
+        [
+          311.9765625,
+          276.06182861328125
+        ]
+      ]
+    },
+    {
+      "title": "III. Proposed Method: JEPA for Audio",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          341.2765808105469,
+          606.4208221435547
+        ],
+        [
+          533.109375,
+          606.4208221435547
+        ],
+        [
+          533.109375,
+          617.4208221435547
+        ],
+        [
+          341.2765808105469,
+          617.4208221435547
+        ]
+      ]
+    },
+    {
+      "title": "A. Overall architecture",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          47.8125,
+          53.25
+        ],
+        [
+          147.0,
+          53.25
+        ],
+        [
+          147.0,
+          61.5
+        ],
+        [
+          47.8125,
+          61.5
+        ]
+      ]
+    },
+    {
+      "title": "B. Training objective",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          48.0,
+          353.07421875
+        ],
+        [
+          140.25,
+          353.07421875
+        ],
+        [
+          140.25,
+          363.0
+        ],
+        [
+          48.0,
+          363.0
+        ]
+      ]
+    },
+    {
+      "title": "C. Evaluation",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          48.75,
+          583.55859375
+        ],
+        [
+          110.25,
+          583.55859375
+        ],
+        [
+          110.25,
+          593.25
+        ],
+        [
+          48.75,
+          593.25
+        ]
+      ]
+    },
+    {
+      "title": "IV. IMPLEMENTATION DETAILS",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          366.75,
+          248.2734375
+        ],
+        [
+          506.25,
+          248.2734375
+        ],
+        [
+          506.25,
+          258.0
+        ],
+        [
+          366.75,
+          258.0
+        ]
+      ]
+    },
+    {
+      "title": "A. Data processing",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          310.18359375,
+          321.75
+        ],
+        [
+          393.75,
+          321.75
+        ],
+        [
+          393.75,
+          330.64453125
+        ],
+        [
+          310.18359375,
+          330.64453125
+        ]
+      ]
+    },
+    {
+      "title": "B. Model Architecture",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          311.25,
+          457.5
+        ],
+        [
+          406.5,
+          459.0
+        ],
+        [
+          405.75,
+          468.31640625
+        ],
+        [
+          311.25,
+          468.31640625
+        ]
+      ]
+    },
+    {
+      "title": "C. Optimization and Scheduling",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          310.482421875,
+          642.33984375
+        ],
+        [
+          447.0,
+          642.33984375
+        ],
+        [
+          447.0,
+          652.5
+        ],
+        [
+          310.482421875,
+          652.5
+        ]
+      ]
+    },
+    {
+      "title": "V. Experimental Setup",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          117.140625,
+          224.391845703125
+        ],
+        [
+          232.0804443359375,
+          224.391845703125
+        ],
+        [
+          232.0804443359375,
+          235.391845703125
+        ],
+        [
+          117.140625,
+          235.391845703125
+        ]
+      ]
+    },
+    {
+      "title": "VI. Results",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          144.931640625,
+          348.38385009765625
+        ],
+        [
+          204.52542114257812,
+          348.38385009765625
+        ],
+        [
+          204.52542114257812,
+          359.38385009765625
+        ],
+        [
+          144.931640625,
+          359.38385009765625
+        ]
+      ]
+    },
+    {
+      "title": "A. Linear-probe (MLP) performance",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          47.8125,
+          369.3268127441406
+        ],
+        [
+          203.02685546875,
+          369.3268127441406
+        ],
+        [
+          203.02685546875,
+          379.3268127441406
+        ],
+        [
+          47.8125,
+          379.3268127441406
+        ]
+      ]
+    },
+    {
+      "title": "B. kNN performance",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          48.708984375,
+          540.24609375
+        ],
+        [
+          138.06686401367188,
+          540.24609375
+        ],
+        [
+          138.06686401367188,
+          551.9168548583984
+        ],
+        [
+          48.708984375,
+          551.9168548583984
+        ]
+      ]
+    },
+    {
+      "title": "TABLE II",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          420.2795715332031,
+          54.11090087890625
+        ],
+        [
+          454.517578125,
+          54.11090087890625
+        ],
+        [
+          454.517578125,
+          62.11090087890625
+        ],
+        [
+          420.2795715332031,
+          62.11090087890625
+        ]
+      ]
+    },
+    {
+      "title": "C. Closing summary",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          312.0,
+          486.662841796875
+        ],
+        [
+          400.130859375,
+          486.662841796875
+        ],
+        [
+          400.130859375,
+          496.662841796875
+        ],
+        [
+          312.0,
+          496.662841796875
+        ]
+      ]
+    },
+    {
+      "title": "VII. Conclusion",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          133.576171875,
+          425.119873046875
+        ],
+        [
+          215.57493591308594,
+          425.119873046875
+        ],
+        [
+          215.57493591308594,
+          436.119873046875
+        ],
+        [
+          133.576171875,
+          436.119873046875
+        ]
+      ]
+    },
+    {
+      "title": "Acknowledgement",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          393.556640625,
+          133.08880615234375
+        ],
+        [
+          478.0815734863281,
+          133.08880615234375
+        ],
+        [
+          478.0815734863281,
+          143.08880615234375
+        ],
+        [
+          393.556640625,
+          143.08880615234375
+        ]
+      ]
+    },
+    {
+      "title": "References",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          410.291015625,
+          221.558837890625
+        ],
+        [
+          461.8865661621094,
+          221.558837890625
+        ],
+        [
+          461.8865661621094,
+          231.558837890625
+        ],
+        [
+          410.291015625,
+          231.558837890625
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          237
+        ],
+        [
+          "Line",
+          102
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "Reference",
+          10
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Footnote",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          176
+        ],
+        [
+          "Line",
+          75
+        ],
+        [
+          "Reference",
+          7
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          130
+        ],
+        [
+          "Span",
+          66
+        ],
+        [
+          "Text",
+          15
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "Reference",
+          7
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "Equation",
+          3
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          403
+        ],
+        [
+          "TableCell",
+          105
+        ],
+        [
+          "Line",
+          102
+        ],
+        [
+          "Reference",
+          17
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          424
+        ],
+        [
+          "Line",
+          120
+        ],
+        [
+          "TableCell",
+          68
+        ],
+        [
+          "ListItem",
+          19
+        ],
+        [
+          "Reference",
+          18
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          250
+        ],
+        [
+          "Line",
+          84
+        ],
+        [
+          "ListItem",
+          25
+        ],
+        [
+          "Reference",
+          25
+        ],
+        [
+          "ListGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/2507.02915"
+}
