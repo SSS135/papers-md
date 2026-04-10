@@ -291,6 +291,8 @@
 | ❌ | ProlificDreamer: High-Fidelity and Diverse Text-to-3D Generation with Variational Score Distillation | Wang et al. (Tsinghua) | 2023 | [2305.16213](https://arxiv.org/abs/2305.16213) |  |
 | ❌ | 3D Gaussian Splatting for Real-Time Radiance Field Rendering | Kerbl et al. (Inria) | 2023 | [2308.14737](https://arxiv.org/abs/2308.14737) | 33 |
 | ❌ | Shap-E: Generating Conditional 3D Implicit Functions | Jun, Nichol (OpenAI) | 2023 | [2305.02463](https://arxiv.org/abs/2305.02463) | 440 |
+| ❌ | Instant3D: Fast Text-to-3D with Sparse-View Generation and Large Reconstruction Model | Jiahao Li, Hao Tan, Kai Zhang, Zexiang Xu, Fujun Luan, Yinghao Xu, Yicong Hong, Kalyan Sunkavalli, Greg Shakhnarovich, Sai Bi | 2023 | [2311.06214](https://arxiv.org/abs/2311.06214) | 398 |
+| ❌ | Wonder3D: Single Image to 3D Using Cross-Domain Diffusion | Xiaoxiao Long, Yuanchen Guo, Cheng Lin, Yuan Liu, Zhiyang Dou, Lingjie Liu, Yuexin Ma, Song-Hai Zhang, Marc Habermann, Christian Theobalt, Wenping Wang | 2023 | [2310.15008](https://arxiv.org/abs/2310.15008) | 719 |
 
 ## Graph Neural Networks
 
@@ -659,6 +661,9 @@
 | ❌ | Structure and Content-Guided Video Synthesis with Diffusion Models (Gen-1) | Esser et al. (Runway) | 2023 | [2302.03011](https://arxiv.org/abs/2302.03011) |  |
 | ❌ | Emu Video: Factorizing Text-to-Video Generation by Explicit Image Conditioning | Girdhar et al. (Meta) | 2023 | [2311.10709](https://arxiv.org/abs/2311.10709) |  |
 | ❌ | Video generation models as world simulators (Sora technical report) | OpenAI | 2024 | [2402.17177](https://arxiv.org/abs/2402.17177) | 579 |
+| ❌ | Photorealistic Video Generation with Diffusion Models | Agrim Gupta, Lijun Yu, Kihyuk Sohn, Xiuye Gu, Meera Hahn, Fei-Fei Li, Irfan Essa, Lu Jiang, José Lezama | 2023 | [2312.06662](https://arxiv.org/abs/2312.06662) | 301 |
+| ❌ | Phenaki: Variable Length Video Generation From Open Domain Textual Description | Ruben Villegas, Mohammad Babaeizadeh, Pieter-Jan Kindermans, Hernan Moraldo, Han Zhang, Mohammad Taghi Saffar, Santiago Castro, Julius Kunze, Dumitru Erhan | 2022 | [2210.02399](https://arxiv.org/abs/2210.02399) | 532 |
+| ❌ | Tune-A-Video: One-Shot Tuning of Image Diffusion Models for Text-to-Video Generation | Jay Zhangjie Wu, Yixiao Ge, Xintao Wang, Weixian Lei, Yuchao Gu, Wynne Hsu, Ying Shan, Xiaohu Qie, Mike Zheng Shou | 2022 | [2212.11565](https://arxiv.org/abs/2212.11565) | 1,090 |
 
 ## Image Generation Advances
 
@@ -688,6 +693,25 @@
 | ❌ | Imagic: Text-Based Real Image Editing with Diffusion Models | Kawar et al. (Google) | 2023 | [2210.09276](https://arxiv.org/abs/2210.09276) | 1,431 |
 | ❌ | DragDiffusion: Harnessing Diffusion Models for Interactive Point-based Image Editing | Shi et al. | 2023 | [2306.14435](https://arxiv.org/abs/2306.14435) | 338 |
 
+## Audio & Music Generation
+
+| Status | Paper | Authors | Year | arXiv | Cites |
+|--------|-------|---------|------|-------|------:|
+| ❌ | AudioLDM: Text-to-Audio Generation with Latent Diffusion Models | Haohe Liu, Zehua Chen, Yi Yuan, Xinhao Mei, Xubo Liu, Danilo Mandic, Wenwu Wang, Mark D. Plumbley | 2023 | [2301.12503](https://arxiv.org/abs/2301.12503) | 743 |
+| ❌ | Neural Codec Language Models are Zero-Shot Text to Speech Synthesizers | Chengyi Wang, Sanyuan Chen, Yu Wu, Ziqiang Zhang, Long Zhou, Shujie Liu, Zhuo Chen, Yanqing Liu, Huaming Wang, Jinyu Li, Lei He, Sheng Zhao, Furu Wei | 2023 | [2301.02111](https://arxiv.org/abs/2301.02111) | 1,127 |
+| ❌ | NaturalSpeech 2: Latent Diffusion Models are Natural and Zero-Shot Speech and Singing Synthesizers | Kai Shen, Zeqian Ju, Xu Tan, Yanqing Liu, Yichong Leng, Lei He, Tao Qin, Sheng Zhao, Jiang Bian | 2023 | [2304.09116](https://arxiv.org/abs/2304.09116) | 355 |
+| ❌ | NaturalSpeech 3: Zero-Shot Speech Synthesis with Factorized Codec and Diffusion Models | Zeqian Ju, Yuancheng Wang, Kai Shen, Xu Tan, Detai Xin, Dongchao Yang, Yanqing Liu, Yichong Leng, Kaitao Song, Siliang Tang, Zhizheng Wu, Tao Qin, Xiang-Yang Li, Wei Ye, Shikun Zhang, Jiang Bian, Lei He, Jinyu Li, Sheng Zhao | 2024 | [2403.03100](https://arxiv.org/abs/2403.03100) | 325 |
+
+## Multimodal Generation
+
+| Status | Paper | Authors | Year | arXiv | Cites |
+|--------|-------|---------|------|-------|------:|
+| ❌ | Generative Pretraining in Multimodality | Quan Sun, Qiying Yu, Yufeng Cui, Fan Zhang, Xiaosong Zhang, Yueze Wang, Hongcheng Gao, Jingjing Liu, Tiejun Huang, Xinlong Wang | 2023 | [2307.05222](https://arxiv.org/abs/2307.05222) | 160 |
+| ❌ | Scaling Autoregressive Multi-Modal Models: Pretraining and Instruction Tuning | Lili Yu, Bowen Shi, Ramakanth Pasunuru, Benjamin Muller, Olga Golovneva, Tianlu Wang, Arun Babu, Binh Tang, Brian Karrer, Shelly Sheynin, Candace Ross, Adam Polyak, Russell Howes, Vasu Sharma, et al. | 2023 | [2309.02591](https://arxiv.org/abs/2309.02591) | 170 |
+| ❌ | Chameleon: Mixed-Modal Early-Fusion Foundation Models | Chameleon Team | 2024 | [2405.09818](https://arxiv.org/abs/2405.09818) | 768 |
+| ❌ | Show-o: One Single Transformer to Unify Multimodal Understanding and Generation | Jinheng Xie, Weijia Mao, Zechen Bai, David Junhao Zhang, Weihao Wang, Kevin Qinghong Lin, Yuchao Gu, Zhijie Chen, Zhenheng Yang, Mike Zheng Shou | 2024 | [2408.12528](https://arxiv.org/abs/2408.12528) | 573 |
+| ❌ | Unified-IO 2: Scaling Autoregressive Multimodal Models with Vision, Language, Audio, and Action | Jiasen Lu, Christopher Clark, Sangho Lee, Zichen Zhang, Savya Khosla, Ryan Marten, Derek Hoiem, Aniruddha Kembhavi | 2023 | [2312.17172](https://arxiv.org/abs/2312.17172) | 309 |
+
 ---
 
-**Totals:** 497 papers | 310 converted | 187 suggested
+**Totals:** 510 papers | 310 converted | 200 suggested
