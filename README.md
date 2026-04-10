@@ -712,6 +712,64 @@
 | ❌ | Show-o: One Single Transformer to Unify Multimodal Understanding and Generation | Jinheng Xie, Weijia Mao, Zechen Bai, David Junhao Zhang, Weihao Wang, Kevin Qinghong Lin, Yuchao Gu, Zhijie Chen, Zhenheng Yang, Mike Zheng Shou | 2024 | [2408.12528](https://arxiv.org/abs/2408.12528) | 573 |
 | ❌ | Unified-IO 2: Scaling Autoregressive Multimodal Models with Vision, Language, Audio, and Action | Jiasen Lu, Christopher Clark, Sangho Lee, Zichen Zhang, Savya Khosla, Ryan Marten, Derek Hoiem, Aniruddha Kembhavi | 2023 | [2312.17172](https://arxiv.org/abs/2312.17172) | 309 |
 
+## Generative Adversarial Networks
+
+| Status | Paper | Authors | Year | arXiv | Cites |
+|--------|-------|---------|------|-------|------:|
+| ❌ | Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks | Radford et al. | 2015 | [1511.06434](https://arxiv.org/abs/1511.06434) | 14,977 |
+| ❌ | Conditional Generative Adversarial Nets | Mirza et al. | 2014 | [1411.1784](https://arxiv.org/abs/1411.1784) | 11,465 |
+| ❌ | Wasserstein GAN | Arjovsky et al. | 2017 | [1701.07875](https://arxiv.org/abs/1701.07875) | 5,110 |
+| ❌ | Improved Training of Wasserstein GANs | Gulrajani et al. | 2017 | [1704.00028](https://arxiv.org/abs/1704.00028) | 10,690 |
+| ❌ | Progressive Growing of GANs for Improved Quality, Stability, and Variation | Karras et al. | 2017 | [1710.10196](https://arxiv.org/abs/1710.10196) | 8,374 |
+| ❌ | Large Scale GAN Training for High Fidelity Natural Image Synthesis | Brock et al. | 2018 | [1809.11096](https://arxiv.org/abs/1809.11096) | 6,050 |
+| ❌ | Image-to-Image Translation with Conditional Adversarial Networks | Isola et al. | 2016 | [1611.07004](https://arxiv.org/abs/1611.07004) | 21,995 |
+| ❌ | Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks | Zhu et al. | 2017 | [1703.10593](https://arxiv.org/abs/1703.10593) | 5,634 |
+| ❌ | StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation | Choi et al. | 2017 | [1711.09020](https://arxiv.org/abs/1711.09020) | 3,847 |
+| ❌ | Semantic Image Synthesis with Spatially-Adaptive Normalization | Park et al. | 2019 | [1903.07291](https://arxiv.org/abs/1903.07291) | 3,079 |
+| ❌ | InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets | Chen et al. | 2016 | [1606.03657](https://arxiv.org/abs/1606.03657) | 4,481 |
+| ❌ | Adversarial Feature Learning | Donahue et al. | 2016 | [1605.09782](https://arxiv.org/abs/1605.09782) | 1,899 |
+| ❌ | GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium | Heusel et al. | 2017 | [1706.08500](https://arxiv.org/abs/1706.08500) | 495 |
+| ❌ | Alias-Free Generative Adversarial Networks | Karras et al. | 2021 | [2106.12423](https://arxiv.org/abs/2106.12423) | 1,961 |
+| ❌ | StyleGAN-XL: Scaling StyleGAN to Large Diverse Datasets | Sauer et al. | 2022 | [2202.00273](https://arxiv.org/abs/2202.00273) | 656 |
+| ❌ | Scaling up GANs for Text-to-Image Synthesis | Kang et al. | 2023 | [2303.05511](https://arxiv.org/abs/2303.05511) | 654 |
+
+## VAE Variants
+
+| Status | Paper | Authors | Year | arXiv | Cites |
+|--------|-------|---------|------|-------|------:|
+| ❌ | beta-VAE: Learning Basic Visual Concepts with a Constrained Variational Framework | Higgins et al. | 2017 | [1804.03599](https://arxiv.org/abs/1804.03599) | 926 |
+| ❌ | Neural Discrete Representation Learning | van den Oord et al. | 2017 | [1711.00937](https://arxiv.org/abs/1711.00937) | 6,939 |
+| ❌ | Generating Diverse High-Fidelity Images with VQ-VAE-2 | Razavi et al. | 2019 | [1906.00446](https://arxiv.org/abs/1906.00446) | 2,259 |
+| ❌ | NVAE: A Deep Hierarchical Variational Autoencoder | Vahdat et al. | 2020 | [2007.03898](https://arxiv.org/abs/2007.03898) | 1,081 |
+| ❌ | Very Deep VAEs Generalize Autoregressive Models and Can Outperform Them on Images | Child | 2020 | [2011.10650](https://arxiv.org/abs/2011.10650) | 394 |
+| ❌ | Learning Structured Output Representation using Deep Conditional Generative Models | Sohn et al. | 2015 | [1502.04623](https://arxiv.org/abs/1502.04623) | 2,004 |
+| ❌ | Discrete Variational Autoencoders | Rolfe | 2016 | [1609.02200](https://arxiv.org/abs/1609.02200) | 283 |
+
+## Autoregressive Models
+
+| Status | Paper | Authors | Year | arXiv | Cites |
+|--------|-------|---------|------|-------|------:|
+| ❌ | Pixel Recurrent Neural Networks | van den Oord et al. | 2016 | [1601.06759](https://arxiv.org/abs/1601.06759) | 2,798 |
+| ❌ | Conditional Image Generation with PixelCNN Decoders | van den Oord et al. | 2016 | [1606.05328](https://arxiv.org/abs/1606.05328) | 2,731 |
+| ❌ | PixelCNN++: Improving the PixelCNN with Discretized Logistic Mixture Likelihood and Other Modifications | Salimans et al. | 2017 | [1701.05517](https://arxiv.org/abs/1701.05517) | 1,018 |
+| ❌ | Taming Transformers for High-Resolution Image Synthesis | Esser et al. | 2020 | [2012.09841](https://arxiv.org/abs/2012.09841) | 4,114 |
+
+## Normalizing Flows
+
+| Status | Paper | Authors | Year | arXiv | Cites |
+|--------|-------|---------|------|-------|------:|
+| ❌ | NICE: Non-linear Independent Components Estimation | Dinh et al. | 2014 | [1410.8516](https://arxiv.org/abs/1410.8516) | 2,554 |
+| ❌ | Density estimation using Real-NVP | Dinh et al. | 2016 | [1605.08803](https://arxiv.org/abs/1605.08803) | 4,280 |
+| ❌ | Glow: Generative Flow with Invertible 1x1 Convolutions | Kingma et al. | 2018 | [1807.03039](https://arxiv.org/abs/1807.03039) | 3,508 |
+| ❌ | Variational Inference with Normalizing Flows | Rezende et al. | 2015 | [1505.05770](https://arxiv.org/abs/1505.05770) | 4,800 |
+
+## Energy-Based Models
+
+| Status | Paper | Authors | Year | arXiv | Cites |
+|--------|-------|---------|------|-------|------:|
+| ❌ | Your Classifier is Secretly an Energy-Based Model and You Should Treat it Like One | Grathwohl et al. | 2019 | [1912.03263](https://arxiv.org/abs/1912.03263) | 636 |
+| ❌ | Implicit Generation and Modeling with Energy-Based Models | Du et al. | 2019 | [1903.08689](https://arxiv.org/abs/1903.08689) | 41 |
+
 ---
 
-**Totals:** 510 papers | 310 converted | 200 suggested
+**Totals:** 543 papers | 310 converted | 233 suggested
