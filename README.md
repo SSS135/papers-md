@@ -1,7 +1,5 @@
 # Deep Learning & RL Paper Collection
 
-Master list of essential papers. Status: [md](link) = converted to MD, ❌ = needs conversion.
-
 ---
 
 ## Deep RL — Foundations
