@@ -7,7 +7,7 @@
 | Status | Paper | Authors | Year | arXiv | Cites |
 |--------|-------|---------|------|-------|------:|
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1312.5602/1312.5602.md) | Playing Atari with Deep Reinforcement Learning (DQN) | Mnih et al. | 2013 | [1312.5602](https://arxiv.org/abs/1312.5602) | 13,543 |
-| [md](https://github.com/SSS135/papers-md/blob/master/papers/1509.06461/1509.06461.md) | Human-level Control through Deep RL (DQN Nature) | Mnih et al. | 2015 | [1509.06461](https://arxiv.org/abs/1509.06461) | 8,879 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1509.06461/1509.06461.md) | Human-level Control through Deep RL (DQN Nature) | Mnih et al. | 2015 | [1509.06440](https://arxiv.org/abs/1509.06440) | 8,879 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1509.06461/1509.06461.md) | Deep RL with Double Q-Learning (Double DQN) | van Hasselt et al. | 2015 | [1509.06461](https://arxiv.org/abs/1509.06461) | 8,879 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1511.05952/1511.05952.md) | Prioritized Experience Replay | Schaul et al. | 2015 | [1511.05952](https://arxiv.org/abs/1511.05952) | 4,318 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1511.06581/1511.06581.md) | Dueling Network Architectures for Deep RL | Wang et al. | 2015 | [1511.06581](https://arxiv.org/abs/1511.06581) | 4,315 |
@@ -79,7 +79,6 @@
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2601.22801/2601.22801.md) | Clipping-Free Policy Optimization (CFPO) | — | 2026 | [2601.22801](https://arxiv.org/abs/2601.22801) | 0 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2509.20712/2509.20712.md) | CE-GPPO: Coordinating Entropy via Gradient-Preserving Clipping Policy Optimization | — | 2025 | [2509.20712](https://arxiv.org/abs/2509.20712) | 14 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2602.04417/2602.04417.md) | EMA Policy Gradient: Taming RL for LLMs with EMA Anchor and Top-k KL | Zhang & Ba | 2026 | [2602.04417](https://arxiv.org/abs/2602.04417) | 2 |
-| ❌ | V-MPO: On-Policy Maximum a Posteriori Policy Optimization for Discrete and Continuous Control | Song et al. | 2019 | [1909.12238](https://arxiv.org/abs/1909.12238) | 137 |
 | ❌ | Advantage-Weighted Regression: Simple and Scalable Off-Policy Reinforcement Learning | Peng et al. | 2019 | [1910.00177](https://arxiv.org/abs/1910.00177) | 764 |
 
 ## Deep RL — Model-based
@@ -284,12 +283,11 @@
 | ❌ | Point-E: A System for Generating 3D Point Clouds from Complex Prompts | Alex Nichol, Heewoo Jun, Prafulla Dhariwal, Pamela Mishkin, Mark Chen | 2022 | [2212.08751](https://arxiv.org/abs/2212.08751) | 157 |
 | ❌ | Score Jacobian Chaining: Lifting Pretrained 2D Diffusion Models for 3D Generation | Haochen Wang, Xiaodan Du, Jiahao Li, Raymond A. Yeh, Greg Shakhnarovich | 2022 | [2212.00774](https://arxiv.org/abs/2212.00774) | 5 |
 | ❌ | Zero-1-to-3: Zero-shot One Image to 3D Object | Liu et al. (Columbia) | 2023 | [2303.11328](https://arxiv.org/abs/2303.11328) | 1,626 |
-| ❌ | MVDream: Multi-view Diffusion for 3D Generation | Shi et al. (ByteDance) | 2023 | [2308.16512](https://arxiv.org/abs/2308.16512) |  |
-| ❌ | InstantMesh: Efficient 3D Mesh Generation from a Single Image with Sparse-view Large Reconstruction Models | Xu et al. (Tsinghua) | 2024 | [2404.07191](https://arxiv.org/abs/2404.07191) |  |
+| ❌ | MVDream: Multi-view Diffusion for 3D Generation | Shi et al. (ByteDance) | 2023 | [2308.16512](https://arxiv.org/abs/2308.16512) |  |  |
+| ❌ | InstantMesh: Efficient 3D Mesh Generation from a Single Image with Sparse-view Large Reconstruction Models | Xu et al. (Tsinghua) | 2024 | [2404.07191](https://arxiv.org/abs/2404.07191) |  |  |
 | ❌ | SV3D: Novel Multi-view Synthesis and 3D Generation from a Single Image using Latent Video Diffusion | Voleti et al. (Stability AI) | 2024 | [2403.12008](https://arxiv.org/abs/2403.12008) | 354 |
-| ❌ | Magic3D: High-Resolution Text-to-3D Content Creation | Lin et al. (NVIDIA) | 2023 | [2211.10440](https://arxiv.org/abs/2211.10440) |  |
-| ❌ | ProlificDreamer: High-Fidelity and Diverse Text-to-3D Generation with Variational Score Distillation | Wang et al. (Tsinghua) | 2023 | [2305.16213](https://arxiv.org/abs/2305.16213) |  |
-| ❌ | 3D Gaussian Splatting for Real-Time Radiance Field Rendering | Kerbl et al. (Inria) | 2023 | [2308.14737](https://arxiv.org/abs/2308.14737) | 33 |
+| ❌ | Magic3D: High-Resolution Text-to-3D Content Creation | Lin et al. (NVIDIA) | 2023 | [2211.10440](https://arxiv.org/abs/2211.10440) |  |  |
+| ❌ | ProlificDreamer: High-Fidelity and Diverse Text-to-3D Generation with Variational Score Distillation | Wang et al. (Tsinghua) | 2023 | [2305.16213](https://arxiv.org/abs/2305.16213) |  |  |
 | ❌ | Shap-E: Generating Conditional 3D Implicit Functions | Jun, Nichol (OpenAI) | 2023 | [2305.02463](https://arxiv.org/abs/2305.02463) | 440 |
 | ❌ | Instant3D: Fast Text-to-3D with Sparse-View Generation and Large Reconstruction Model | Jiahao Li, Hao Tan, Kai Zhang, Zexiang Xu, Fujun Luan, Yinghao Xu, Yicong Hong, Kalyan Sunkavalli, Greg Shakhnarovich, Sai Bi | 2023 | [2311.06214](https://arxiv.org/abs/2311.06214) | 398 |
 | ❌ | Wonder3D: Single Image to 3D Using Cross-Domain Diffusion | Xiaoxiao Long, Yuanchen Guo, Cheng Lin, Yuan Liu, Zhiyang Dou, Lingjie Liu, Yuexin Ma, Song-Hai Zhang, Marc Habermann, Christian Theobalt, Wenping Wang | 2023 | [2310.15008](https://arxiv.org/abs/2310.15008) | 719 |
@@ -432,7 +430,7 @@
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1207.4708/1207.4708.md) | The Arcade Learning Environment: An Evaluation Platform for General Agents (ALE) | Bellemare et al. | 2013 | [1207.4708](https://arxiv.org/abs/1207.4708) | 3,270 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1606.01540/1606.01540.md) | OpenAI Gym | Brockman et al. | 2016 | [1606.01540](https://arxiv.org/abs/1606.01540) | 5,499 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2407.17032/2407.17032.md) | Gymnasium: A Standard Interface for RL Environments | Towers et al. | 2024 | [2407.17032](https://arxiv.org/abs/2407.17032) | 605 |
-| [md](https://github.com/SSS135/papers-md/blob/master/papers/mujoco/mujoco.md) | MuJoCo: A Physics Engine for Model-Based Control | Todorov et al. | 2012 | [pdf](https://roboti.us/lab/papers/TodorovIROS12.pdf) |  |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/mujoco/mujoco.md) | MuJoCo: A Physics Engine for Model-Based Control | Todorov et al. | 2012 | [pdf](https://roboti.us/lab/papers/TodorovIROS12.pdf) |  |  |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1612.03801/1612.03801.md) | DeepMind Lab | Beattie et al. | 2016 | [1612.03801](https://arxiv.org/abs/1612.03801) | 263 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1801.00690/1801.00690.md) | DeepMind Control Suite | Tassa et al. | 2018 | [1801.00690](https://arxiv.org/abs/1801.00690) | 1,345 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1912.01588/1912.01588.md) | Leveraging Procedural Generation to Benchmark RL (Procgen) | Cobbe et al. | 2020 | [1912.01588](https://arxiv.org/abs/1912.01588) | 679 |
@@ -636,7 +634,7 @@
 | ❌ | Improved Denoising Diffusion Probabilistic Models | Nichol & Dhariwal | 2021 | [2102.09672](https://arxiv.org/abs/2102.09672) | 5,102 |
 | ❌ | Diffusion Models Beat GANs on Image Synthesis | Dhariwal & Nichol | 2021 | [2105.05233](https://arxiv.org/abs/2105.05233) | 11,310 |
 | ❌ | Elucidating the Design Space of Diffusion-Based Generative Models (EDM) | Karras et al. | 2022 | [2206.00364](https://arxiv.org/abs/2206.00364) | 3,141 |
-| ❌ | Progressive Distillation for Fast Sampling of Diffusion Models | Salimans & Ho | 2022 | [2202.00512](https://arxiv.org/abs/2202.00512) |  |
+| ❌ | Progressive Distillation for Fast Sampling of Diffusion Models | Salimans & Ho | 2022 | [2202.00512](https://arxiv.org/abs/2202.00512) |  |  |
 | ❌ | Analyzing and Improving the Training Dynamics of Diffusion Models (EDM2) | Karras et al. | 2024 | [2312.02696](https://arxiv.org/abs/2312.02696) | 379 |
 | ❌ | Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow | Liu et al. | 2023 | [2209.03003](https://arxiv.org/abs/2209.03003) | 2,613 |
 | ❌ | InstaFlow: One Step is Enough for High-Quality Diffusion-Based Text-to-Image Generation | Liu et al. | 2023 | [2309.06380](https://arxiv.org/abs/2309.06380) | 346 |
@@ -658,8 +656,8 @@
 | ❌ | Open-Sora: Democratizing Efficient Video Production for All | Zheng et al. | 2024 | [2412.00131](https://arxiv.org/abs/2412.00131) | 245 |
 | ❌ | Movie Gen: A Cast of Media Foundation Models | Polyak et al. | 2024 | [2410.13720](https://arxiv.org/abs/2410.13720) | 474 |
 | ❌ | AnimateDiff: Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning | Guo et al. (CUHK, ByteDance) | 2023 | [2307.04725](https://arxiv.org/abs/2307.04725) | 1,436 |
-| ❌ | Structure and Content-Guided Video Synthesis with Diffusion Models (Gen-1) | Esser et al. (Runway) | 2023 | [2302.03011](https://arxiv.org/abs/2302.03011) |  |
-| ❌ | Emu Video: Factorizing Text-to-Video Generation by Explicit Image Conditioning | Girdhar et al. (Meta) | 2023 | [2311.10709](https://arxiv.org/abs/2311.10709) |  |
+| ❌ | Structure and Content-Guided Video Synthesis with Diffusion Models (Gen-1) | Esser et al. (Runway) | 2023 | [2302.03011](https://arxiv.org/abs/2302.03011) |  |  |
+| ❌ | Emu Video: Factorizing Text-to-Video Generation by Explicit Image Conditioning | Girdhar et al. (Meta) | 2023 | [2311.10709](https://arxiv.org/abs/2311.10709) |  |  |
 | ❌ | Video generation models as world simulators (Sora technical report) | OpenAI | 2024 | [2402.17177](https://arxiv.org/abs/2402.17177) | 579 |
 | ❌ | Photorealistic Video Generation with Diffusion Models | Agrim Gupta, Lijun Yu, Kihyuk Sohn, Xiuye Gu, Meera Hahn, Fei-Fei Li, Irfan Essa, Lu Jiang, José Lezama | 2023 | [2312.06662](https://arxiv.org/abs/2312.06662) | 301 |
 | ❌ | Phenaki: Variable Length Video Generation From Open Domain Textual Description | Ruben Villegas, Mohammad Babaeizadeh, Pieter-Jan Kindermans, Hernan Moraldo, Han Zhang, Mohammad Taghi Saffar, Santiago Castro, Julius Kunze, Dumitru Erhan | 2022 | [2210.02399](https://arxiv.org/abs/2210.02399) | 532 |
@@ -677,9 +675,9 @@
 | ❌ | Playground v2.5: Three Insights towards Enhancing Aesthetic Quality in Text-to-Image Generation | Li et al. | 2024 | [2402.17245](https://arxiv.org/abs/2402.17245) | 227 |
 | ❌ | Wuerstchen: An Efficient Architecture for Large-Scale Text-to-Image Diffusion Models | Pernias et al. | 2024 | [2306.00637](https://arxiv.org/abs/2306.00637) | 48 |
 | ❌ | Simple Diffusion: End-to-End Diffusion for High Resolution Images | Hoogeboom et al. | 2023 | [2301.11093](https://arxiv.org/abs/2301.11093) | 392 |
-| ❌ | GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models | Nichol et al. (OpenAI) | 2022 | [2112.10741](https://arxiv.org/abs/2112.10741) |  |
-| ❌ | eDiff-I: Text-to-Image Diffusion Models with an Ensemble of Expert Denoisers | Balaji et al. (NVIDIA) | 2022 | [2211.01324](https://arxiv.org/abs/2211.01324) |  |
-| ❌ | RAPHAEL: Text-to-Image Generation via Large Mixture of Diffusion Paths | Xue et al. (MSRA) | 2023 | [2305.18295](https://arxiv.org/abs/2305.18295) |  |
+| ❌ | GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models | Nichol et al. (OpenAI) | 2022 | [2112.10741](https://arxiv.org/abs/2112.10741) |  |  |
+| ❌ | eDiff-I: Text-to-Image Diffusion Models with an Ensemble of Expert Denoisers | Balaji et al. (NVIDIA) | 2022 | [2211.01324](https://arxiv.org/abs/2211.01324) |  |  |
+| ❌ | RAPHAEL: Text-to-Image Generation via Large Mixture of Diffusion Paths | Xue et al. (MSRA) | 2023 | [2305.18295](https://arxiv.org/abs/2305.18295) |  |  |
 
 ## Image Editing & Control
 
@@ -772,4 +770,4 @@
 
 ---
 
-**Totals:** 543 papers | 310 converted | 233 suggested
+**Totals:** 541 papers | 310 converted | 231 suggested
