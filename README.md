@@ -282,15 +282,15 @@
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2209.14988/2209.14988.md) | DreamFusion: Text-to-3D using 2D Diffusion | Ben Poole, Ajay Jain, Jonathan T. Barron, Ben Mildenhall | 2022 | [2209.14988](https://arxiv.org/abs/2209.14988) | 460 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2212.08751/2212.08751.md) | Point-E: A System for Generating 3D Point Clouds from Complex Prompts | Alex Nichol, Heewoo Jun, Prafulla Dhariwal, Pamela Mishkin, Mark Chen | 2022 | [2212.08751](https://arxiv.org/abs/2212.08751) | 157 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2212.00774/2212.00774.md) | Score Jacobian Chaining: Lifting Pretrained 2D Diffusion Models for 3D Generation | Haochen Wang, Xiaodan Du, Jiahao Li, Raymond A. Yeh, Greg Shakhnarovich | 2022 | [2212.00774](https://arxiv.org/abs/2212.00774) | 5 |
-| ❌ | Zero-1-to-3: Zero-shot One Image to 3D Object | Liu et al. (Columbia) | 2023 | [2303.11328](https://arxiv.org/abs/2303.11328) | 1,626 |
-| ❌ | MVDream: Multi-view Diffusion for 3D Generation | Shi et al. (ByteDance) | 2023 | [2308.16512](https://arxiv.org/abs/2308.16512) |  |  |
-| ❌ | InstantMesh: Efficient 3D Mesh Generation from a Single Image with Sparse-view Large Reconstruction Models | Xu et al. (Tsinghua) | 2024 | [2404.07191](https://arxiv.org/abs/2404.07191) |  |  |
-| ❌ | SV3D: Novel Multi-view Synthesis and 3D Generation from a Single Image using Latent Video Diffusion | Voleti et al. (Stability AI) | 2024 | [2403.12008](https://arxiv.org/abs/2403.12008) | 354 |
-| ❌ | Magic3D: High-Resolution Text-to-3D Content Creation | Lin et al. (NVIDIA) | 2023 | [2211.10440](https://arxiv.org/abs/2211.10440) |  |  |
-| ❌ | ProlificDreamer: High-Fidelity and Diverse Text-to-3D Generation with Variational Score Distillation | Wang et al. (Tsinghua) | 2023 | [2305.16213](https://arxiv.org/abs/2305.16213) |  |  |
-| ❌ | Shap-E: Generating Conditional 3D Implicit Functions | Jun, Nichol (OpenAI) | 2023 | [2305.02463](https://arxiv.org/abs/2305.02463) | 440 |
-| ❌ | Instant3D: Fast Text-to-3D with Sparse-View Generation and Large Reconstruction Model | Jiahao Li, Hao Tan, Kai Zhang, Zexiang Xu, Fujun Luan, Yinghao Xu, Yicong Hong, Kalyan Sunkavalli, Greg Shakhnarovich, Sai Bi | 2023 | [2311.06214](https://arxiv.org/abs/2311.06214) | 398 |
-| ❌ | Wonder3D: Single Image to 3D Using Cross-Domain Diffusion | Xiaoxiao Long, Yuanchen Guo, Cheng Lin, Yuan Liu, Zhiyang Dou, Lingjie Liu, Yuexin Ma, Song-Hai Zhang, Marc Habermann, Christian Theobalt, Wenping Wang | 2023 | [2310.15008](https://arxiv.org/abs/2310.15008) | 719 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2303.11328/2303.11328.md) | Zero-1-to-3: Zero-shot One Image to 3D Object | Liu et al. (Columbia) | 2023 | [2303.11328](https://arxiv.org/abs/2303.11328) | 1,626 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2308.16512/2308.16512.md) | MVDream: Multi-view Diffusion for 3D Generation | Shi et al. (ByteDance) | 2023 | [2308.16512](https://arxiv.org/abs/2308.16512) |  |  |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2404.07191/2404.07191.md) | InstantMesh: Efficient 3D Mesh Generation from a Single Image with Sparse-view Large Reconstruction Models | Xu et al. (Tsinghua) | 2024 | [2404.07191](https://arxiv.org/abs/2404.07191) |  |  |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2403.12008/2403.12008.md) | SV3D: Novel Multi-view Synthesis and 3D Generation from a Single Image using Latent Video Diffusion | Voleti et al. (Stability AI) | 2024 | [2403.12008](https://arxiv.org/abs/2403.12008) | 354 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2211.10440/2211.10440.md) | Magic3D: High-Resolution Text-to-3D Content Creation | Lin et al. (NVIDIA) | 2023 | [2211.10440](https://arxiv.org/abs/2211.10440) |  |  |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2305.16213/2305.16213.md) | ProlificDreamer: High-Fidelity and Diverse Text-to-3D Generation with Variational Score Distillation | Wang et al. (Tsinghua) | 2023 | [2305.16213](https://arxiv.org/abs/2305.16213) |  |  |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2305.02463/2305.02463.md) | Shap-E: Generating Conditional 3D Implicit Functions | Jun, Nichol (OpenAI) | 2023 | [2305.02463](https://arxiv.org/abs/2305.02463) | 440 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2311.06214/2311.06214.md) | Instant3D: Fast Text-to-3D with Sparse-View Generation and Large Reconstruction Model | Jiahao Li, Hao Tan, Kai Zhang, Zexiang Xu, Fujun Luan, Yinghao Xu, Yicong Hong, Kalyan Sunkavalli, Greg Shakhnarovich, Sai Bi | 2023 | [2311.06214](https://arxiv.org/abs/2311.06214) | 398 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2310.15008/2310.15008.md) | Wonder3D: Single Image to 3D Using Cross-Domain Diffusion | Xiaoxiao Long, Yuanchen Guo, Cheng Lin, Yuan Liu, Zhiyang Dou, Lingjie Liu, Yuexin Ma, Song-Hai Zhang, Marc Habermann, Christian Theobalt, Wenping Wang | 2023 | [2310.15008](https://arxiv.org/abs/2310.15008) | 719 |
 
 ## Graph Neural Networks
 
@@ -587,7 +587,7 @@
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2107.06857/2107.06857.md) | Scalable Evaluation of MARL with Melting Pot | Leibo et al. | 2021 | [2107.06857](https://arxiv.org/abs/2107.06857) | 135 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2212.07489/2212.07489.md) | SMACv2: An Improved Benchmark for Cooperative MARL | Ellis et al. | 2022 | [2212.07489](https://arxiv.org/abs/2212.07489) | 153 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2109.11251/2109.11251.md) | HAPPO: Trust Region Policy Optimisation in Multi-Agent Reinforcement Learning | Kuba et al. | 2021 | [2109.11251](https://arxiv.org/abs/2109.11251) | 361 |
-| ❌ | EPyMARL: Extended Python Multi-Agent Reinforcement Learning framework | Papoudakis et al. | 2020 | [2006.07869](https://arxiv.org/abs/2006.07869) | 328 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2006.07869/2006.07869.md) | EPyMARL: Extended Python Multi-Agent Reinforcement Learning framework | Papoudakis et al. | 2020 | [2006.07869](https://arxiv.org/abs/2006.07869) | 328 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2011.09533/2011.09533.md) | Is Independent Learning All You Need in the StarCraft Multi-Agent Challenge? (Independent PPO analysis) | de Witt et al. | 2020 | [2011.09533](https://arxiv.org/abs/2011.09533) | 515 |
 
 ## Adversarial Training & Robustness
@@ -624,150 +624,150 @@
 
 | Status | Paper | Authors | Year | arXiv | Cites |
 |--------|-------|---------|------|-------|------:|
-| ❌ | Generative Modeling by Estimating Gradients of the Data Distribution | Song & Ermon | 2019 | [1907.05600](https://arxiv.org/abs/1907.05600) | 5,261 |
-| ❌ | Improved Techniques for Training Score-Based Generative Models | Song & Ermon | 2020 | [2006.09011](https://arxiv.org/abs/2006.09011) | 1,426 |
-| ❌ | Score-Based Generative Modeling through Stochastic Differential Equations | Song et al. | 2021 | [2011.13456](https://arxiv.org/abs/2011.13456) | 9,957 |
-| ❌ | Classifier-Free Diffusion Guidance | Ho & Salimans | 2022 | [2207.12598](https://arxiv.org/abs/2207.12598) | 5,940 |
-| ❌ | FFJORD: Free-form Continuous Dynamics for Scalable Reversible Generative Models | Grathwohl et al. | 2019 | [1810.01367](https://arxiv.org/abs/1810.01367) | 1,021 |
-| ❌ | How to Train Your Neural ODE: the World of Jacobian and Kinetic Regularization | Finlay et al. | 2020 | [2002.02798](https://arxiv.org/abs/2002.02798) | 348 |
-| ❌ | Denoising Diffusion Implicit Models (DDIM) | Song et al. | 2021 | [2010.02502](https://arxiv.org/abs/2010.02502) | 11,382 |
-| ❌ | Improved Denoising Diffusion Probabilistic Models | Nichol & Dhariwal | 2021 | [2102.09672](https://arxiv.org/abs/2102.09672) | 5,102 |
-| ❌ | Diffusion Models Beat GANs on Image Synthesis | Dhariwal & Nichol | 2021 | [2105.05233](https://arxiv.org/abs/2105.05233) | 11,310 |
-| ❌ | Elucidating the Design Space of Diffusion-Based Generative Models (EDM) | Karras et al. | 2022 | [2206.00364](https://arxiv.org/abs/2206.00364) | 3,141 |
-| ❌ | Progressive Distillation for Fast Sampling of Diffusion Models | Salimans & Ho | 2022 | [2202.00512](https://arxiv.org/abs/2202.00512) |  |  |
-| ❌ | Analyzing and Improving the Training Dynamics of Diffusion Models (EDM2) | Karras et al. | 2024 | [2312.02696](https://arxiv.org/abs/2312.02696) | 379 |
-| ❌ | Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow | Liu et al. | 2023 | [2209.03003](https://arxiv.org/abs/2209.03003) | 2,613 |
-| ❌ | InstaFlow: One Step is Enough for High-Quality Diffusion-Based Text-to-Image Generation | Liu et al. | 2023 | [2309.06380](https://arxiv.org/abs/2309.06380) | 346 |
-| ❌ | Improving the Training of Rectified Flows | Lee et al. | 2024 | [2405.20320](https://arxiv.org/abs/2405.20320) | 89 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1907.05600/1907.05600.md) | Generative Modeling by Estimating Gradients of the Data Distribution | Song & Ermon | 2019 | [1907.05600](https://arxiv.org/abs/1907.05600) | 5,261 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2006.09011/2006.09011.md) | Improved Techniques for Training Score-Based Generative Models | Song & Ermon | 2020 | [2006.09011](https://arxiv.org/abs/2006.09011) | 1,426 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2011.13456/2011.13456.md) | Score-Based Generative Modeling through Stochastic Differential Equations | Song et al. | 2021 | [2011.13456](https://arxiv.org/abs/2011.13456) | 9,957 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2207.12598/2207.12598.md) | Classifier-Free Diffusion Guidance | Ho & Salimans | 2022 | [2207.12598](https://arxiv.org/abs/2207.12598) | 5,940 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1810.01367/1810.01367.md) | FFJORD: Free-form Continuous Dynamics for Scalable Reversible Generative Models | Grathwohl et al. | 2019 | [1810.01367](https://arxiv.org/abs/1810.01367) | 1,021 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2002.02798/2002.02798.md) | How to Train Your Neural ODE: the World of Jacobian and Kinetic Regularization | Finlay et al. | 2020 | [2002.02798](https://arxiv.org/abs/2002.02798) | 348 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2010.02502/2010.02502.md) | Denoising Diffusion Implicit Models (DDIM) | Song et al. | 2021 | [2010.02502](https://arxiv.org/abs/2010.02502) | 11,382 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2102.09672/2102.09672.md) | Improved Denoising Diffusion Probabilistic Models | Nichol & Dhariwal | 2021 | [2102.09672](https://arxiv.org/abs/2102.09672) | 5,102 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2105.05233/2105.05233.md) | Diffusion Models Beat GANs on Image Synthesis | Dhariwal & Nichol | 2021 | [2105.05233](https://arxiv.org/abs/2105.05233) | 11,310 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2206.00364/2206.00364.md) | Elucidating the Design Space of Diffusion-Based Generative Models (EDM) | Karras et al. | 2022 | [2206.00364](https://arxiv.org/abs/2206.00364) | 3,141 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2202.00512/2202.00512.md) | Progressive Distillation for Fast Sampling of Diffusion Models | Salimans & Ho | 2022 | [2202.00512](https://arxiv.org/abs/2202.00512) |  |  |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2312.02696/2312.02696.md) | Analyzing and Improving the Training Dynamics of Diffusion Models (EDM2) | Karras et al. | 2024 | [2312.02696](https://arxiv.org/abs/2312.02696) | 379 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2209.03003/2209.03003.md) | Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow | Liu et al. | 2023 | [2209.03003](https://arxiv.org/abs/2209.03003) | 2,613 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2309.06380/2309.06380.md) | InstaFlow: One Step is Enough for High-Quality Diffusion-Based Text-to-Image Generation | Liu et al. | 2023 | [2309.06380](https://arxiv.org/abs/2309.06380) | 346 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2405.20320/2405.20320.md) | Improving the Training of Rectified Flows | Lee et al. | 2024 | [2405.20320](https://arxiv.org/abs/2405.20320) | 89 |
 
 ## Video Generation
 
 | Status | Paper | Authors | Year | arXiv | Cites |
 |--------|-------|---------|------|-------|------:|
-| ❌ | Video Diffusion Models | Ho et al. | 2022 | [2204.03458](https://arxiv.org/abs/2204.03458) | 2,447 |
-| ❌ | Make-A-Video: Text-to-Video Generation without Text-Video Data | Singer et al. | 2022 | [2209.14792](https://arxiv.org/abs/2209.14792) | 1,947 |
-| ❌ | Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models (VideoLDM) | Blattmann et al. | 2023 | [2304.08818](https://arxiv.org/abs/2304.08818) | 1,580 |
-| ❌ | VideoPoet: A Large Language Model for Zero-Shot Video Generation | Kondratyuk et al. | 2024 | [2312.14125](https://arxiv.org/abs/2312.14125) | 449 |
-| ❌ | Stable Video Diffusion: Scaling Latent Video Diffusion Models to Large Datasets | Blattmann et al. | 2023 | [2311.15127](https://arxiv.org/abs/2311.15127) | 2,295 |
-| ❌ | CogVideo: Large-scale Pretraining for Text-to-Video Generation via Transformers | Hong et al. | 2022 | [2205.15868](https://arxiv.org/abs/2205.15868) | 1,016 |
-| ❌ | CogVideoX: Text-to-Video Diffusion Models with An Expert Transformer | Yang et al. | 2024 | [2408.06072](https://arxiv.org/abs/2408.06072) | 1,663 |
-| ❌ | Lumiere: A Space-Time Diffusion Model for Video Generation | Bar-Tal et al. | 2024 | [2401.12945](https://arxiv.org/abs/2401.12945) | 443 |
-| ❌ | Latte: Latent Diffusion Transformer for Video Generation | Ma et al. | 2024 | [2401.03048](https://arxiv.org/abs/2401.03048) | 492 |
-| ❌ | Open-Sora: Democratizing Efficient Video Production for All | Zheng et al. | 2024 | [2412.00131](https://arxiv.org/abs/2412.00131) | 245 |
-| ❌ | Movie Gen: A Cast of Media Foundation Models | Polyak et al. | 2024 | [2410.13720](https://arxiv.org/abs/2410.13720) | 474 |
-| ❌ | AnimateDiff: Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning | Guo et al. (CUHK, ByteDance) | 2023 | [2307.04725](https://arxiv.org/abs/2307.04725) | 1,436 |
-| ❌ | Structure and Content-Guided Video Synthesis with Diffusion Models (Gen-1) | Esser et al. (Runway) | 2023 | [2302.03011](https://arxiv.org/abs/2302.03011) |  |  |
-| ❌ | Emu Video: Factorizing Text-to-Video Generation by Explicit Image Conditioning | Girdhar et al. (Meta) | 2023 | [2311.10709](https://arxiv.org/abs/2311.10709) |  |  |
-| ❌ | Video generation models as world simulators (Sora technical report) | OpenAI | 2024 | [2402.17177](https://arxiv.org/abs/2402.17177) | 579 |
-| ❌ | Photorealistic Video Generation with Diffusion Models | Agrim Gupta, Lijun Yu, Kihyuk Sohn, Xiuye Gu, Meera Hahn, Fei-Fei Li, Irfan Essa, Lu Jiang, José Lezama | 2023 | [2312.06662](https://arxiv.org/abs/2312.06662) | 301 |
-| ❌ | Phenaki: Variable Length Video Generation From Open Domain Textual Description | Ruben Villegas, Mohammad Babaeizadeh, Pieter-Jan Kindermans, Hernan Moraldo, Han Zhang, Mohammad Taghi Saffar, Santiago Castro, Julius Kunze, Dumitru Erhan | 2022 | [2210.02399](https://arxiv.org/abs/2210.02399) | 532 |
-| ❌ | Tune-A-Video: One-Shot Tuning of Image Diffusion Models for Text-to-Video Generation | Jay Zhangjie Wu, Yixiao Ge, Xintao Wang, Weixian Lei, Yuchao Gu, Wynne Hsu, Ying Shan, Xiaohu Qie, Mike Zheng Shou | 2022 | [2212.11565](https://arxiv.org/abs/2212.11565) | 1,090 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2204.03458/2204.03458.md) | Video Diffusion Models | Ho et al. | 2022 | [2204.03458](https://arxiv.org/abs/2204.03458) | 2,447 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2209.14792/2209.14792.md) | Make-A-Video: Text-to-Video Generation without Text-Video Data | Singer et al. | 2022 | [2209.14792](https://arxiv.org/abs/2209.14792) | 1,947 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2304.08818/2304.08818.md) | Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models (VideoLDM) | Blattmann et al. | 2023 | [2304.08818](https://arxiv.org/abs/2304.08818) | 1,580 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2312.14125/2312.14125.md) | VideoPoet: A Large Language Model for Zero-Shot Video Generation | Kondratyuk et al. | 2024 | [2312.14125](https://arxiv.org/abs/2312.14125) | 449 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2311.15127/2311.15127.md) | Stable Video Diffusion: Scaling Latent Video Diffusion Models to Large Datasets | Blattmann et al. | 2023 | [2311.15127](https://arxiv.org/abs/2311.15127) | 2,295 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2205.15868/2205.15868.md) | CogVideo: Large-scale Pretraining for Text-to-Video Generation via Transformers | Hong et al. | 2022 | [2205.15868](https://arxiv.org/abs/2205.15868) | 1,016 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2408.06072/2408.06072.md) | CogVideoX: Text-to-Video Diffusion Models with An Expert Transformer | Yang et al. | 2024 | [2408.06072](https://arxiv.org/abs/2408.06072) | 1,663 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2401.12945/2401.12945.md) | Lumiere: A Space-Time Diffusion Model for Video Generation | Bar-Tal et al. | 2024 | [2401.12945](https://arxiv.org/abs/2401.12945) | 443 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2401.03048/2401.03048.md) | Latte: Latent Diffusion Transformer for Video Generation | Ma et al. | 2024 | [2401.03048](https://arxiv.org/abs/2401.03048) | 492 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2412.00131/2412.00131.md) | Open-Sora: Democratizing Efficient Video Production for All | Zheng et al. | 2024 | [2412.00131](https://arxiv.org/abs/2412.00131) | 245 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2410.13720/2410.13720.md) | Movie Gen: A Cast of Media Foundation Models | Polyak et al. | 2024 | [2410.13720](https://arxiv.org/abs/2410.13720) | 474 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2307.04725/2307.04725.md) | AnimateDiff: Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning | Guo et al. (CUHK, ByteDance) | 2023 | [2307.04725](https://arxiv.org/abs/2307.04725) | 1,436 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2302.03011/2302.03011.md) | Structure and Content-Guided Video Synthesis with Diffusion Models (Gen-1) | Esser et al. (Runway) | 2023 | [2302.03011](https://arxiv.org/abs/2302.03011) |  |  |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2311.10709/2311.10709.md) | Emu Video: Factorizing Text-to-Video Generation by Explicit Image Conditioning | Girdhar et al. (Meta) | 2023 | [2311.10709](https://arxiv.org/abs/2311.10709) |  |  |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2402.17177/2402.17177.md) | Video generation models as world simulators (Sora technical report) | OpenAI | 2024 | [2402.17177](https://arxiv.org/abs/2402.17177) | 579 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2312.06662/2312.06662.md) | Photorealistic Video Generation with Diffusion Models | Agrim Gupta, Lijun Yu, Kihyuk Sohn, Xiuye Gu, Meera Hahn, Fei-Fei Li, Irfan Essa, Lu Jiang, José Lezama | 2023 | [2312.06662](https://arxiv.org/abs/2312.06662) | 301 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2210.02399/2210.02399.md) | Phenaki: Variable Length Video Generation From Open Domain Textual Description | Ruben Villegas, Mohammad Babaeizadeh, Pieter-Jan Kindermans, Hernan Moraldo, Han Zhang, Mohammad Taghi Saffar, Santiago Castro, Julius Kunze, Dumitru Erhan | 2022 | [2210.02399](https://arxiv.org/abs/2210.02399) | 532 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2212.11565/2212.11565.md) | Tune-A-Video: One-Shot Tuning of Image Diffusion Models for Text-to-Video Generation | Jay Zhangjie Wu, Yixiao Ge, Xintao Wang, Weixian Lei, Yuchao Gu, Wynne Hsu, Ying Shan, Xiaohu Qie, Mike Zheng Shou | 2022 | [2212.11565](https://arxiv.org/abs/2212.11565) | 1,090 |
 
 ## Image Generation Advances
 
 | Status | Paper | Authors | Year | arXiv | Cites |
 |--------|-------|---------|------|-------|------:|
-| ❌ | Scalable Diffusion Models with Transformers (DiT) | Peebles & Xie | 2023 | [2212.09748](https://arxiv.org/abs/2212.09748) | 5,278 |
-| ❌ | Scalable Interpolant Transformers (SiT) | Ma et al. | 2024 | [2401.08740](https://arxiv.org/abs/2401.08740) | 518 |
-| ❌ | PixArt-alpha: Fast Training of Diffusion Transformer for Photorealistic Text-to-Image Synthesis | Chen et al. | 2024 | [2310.00426](https://arxiv.org/abs/2310.00426) | 807 |
-| ❌ | PixArt-Sigma: Weak-to-Strong Training of Diffusion Transformer for 4K Text-to-Image Generation | Chen et al. | 2024 | [2403.04692](https://arxiv.org/abs/2403.04692) | 273 |
-| ❌ | SDXL: Improving Latent Diffusion Models for High-Resolution Image Synthesis | Podell et al. | 2023 | [2307.01952](https://arxiv.org/abs/2307.01952) | 4,401 |
-| ❌ | Playground v2.5: Three Insights towards Enhancing Aesthetic Quality in Text-to-Image Generation | Li et al. | 2024 | [2402.17245](https://arxiv.org/abs/2402.17245) | 227 |
-| ❌ | Wuerstchen: An Efficient Architecture for Large-Scale Text-to-Image Diffusion Models | Pernias et al. | 2024 | [2306.00637](https://arxiv.org/abs/2306.00637) | 48 |
-| ❌ | Simple Diffusion: End-to-End Diffusion for High Resolution Images | Hoogeboom et al. | 2023 | [2301.11093](https://arxiv.org/abs/2301.11093) | 392 |
-| ❌ | GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models | Nichol et al. (OpenAI) | 2022 | [2112.10741](https://arxiv.org/abs/2112.10741) |  |  |
-| ❌ | eDiff-I: Text-to-Image Diffusion Models with an Ensemble of Expert Denoisers | Balaji et al. (NVIDIA) | 2022 | [2211.01324](https://arxiv.org/abs/2211.01324) |  |  |
-| ❌ | RAPHAEL: Text-to-Image Generation via Large Mixture of Diffusion Paths | Xue et al. (MSRA) | 2023 | [2305.18295](https://arxiv.org/abs/2305.18295) |  |  |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2212.09748/2212.09748.md) | Scalable Diffusion Models with Transformers (DiT) | Peebles & Xie | 2023 | [2212.09748](https://arxiv.org/abs/2212.09748) | 5,278 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2401.08740/2401.08740.md) | Scalable Interpolant Transformers (SiT) | Ma et al. | 2024 | [2401.08740](https://arxiv.org/abs/2401.08740) | 518 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2310.00426/2310.00426.md) | PixArt-alpha: Fast Training of Diffusion Transformer for Photorealistic Text-to-Image Synthesis | Chen et al. | 2024 | [2310.00426](https://arxiv.org/abs/2310.00426) | 807 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2403.04692/2403.04692.md) | PixArt-Sigma: Weak-to-Strong Training of Diffusion Transformer for 4K Text-to-Image Generation | Chen et al. | 2024 | [2403.04692](https://arxiv.org/abs/2403.04692) | 273 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2307.01952/2307.01952.md) | SDXL: Improving Latent Diffusion Models for High-Resolution Image Synthesis | Podell et al. | 2023 | [2307.01952](https://arxiv.org/abs/2307.01952) | 4,401 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2402.17245/2402.17245.md) | Playground v2.5: Three Insights towards Enhancing Aesthetic Quality in Text-to-Image Generation | Li et al. | 2024 | [2402.17245](https://arxiv.org/abs/2402.17245) | 227 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2306.00637/2306.00637.md) | Wuerstchen: An Efficient Architecture for Large-Scale Text-to-Image Diffusion Models | Pernias et al. | 2024 | [2306.00637](https://arxiv.org/abs/2306.00637) | 48 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2301.11093/2301.11093.md) | Simple Diffusion: End-to-End Diffusion for High Resolution Images | Hoogeboom et al. | 2023 | [2301.11093](https://arxiv.org/abs/2301.11093) | 392 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2112.10741/2112.10741.md) | GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models | Nichol et al. (OpenAI) | 2022 | [2112.10741](https://arxiv.org/abs/2112.10741) |  |  |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2211.01324/2211.01324.md) | eDiff-I: Text-to-Image Diffusion Models with an Ensemble of Expert Denoisers | Balaji et al. (NVIDIA) | 2022 | [2211.01324](https://arxiv.org/abs/2211.01324) |  |  |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2305.18295/2305.18295.md) | RAPHAEL: Text-to-Image Generation via Large Mixture of Diffusion Paths | Xue et al. (MSRA) | 2023 | [2305.18295](https://arxiv.org/abs/2305.18295) |  |  |
 
 ## Image Editing & Control
 
 | Status | Paper | Authors | Year | arXiv | Cites |
 |--------|-------|---------|------|-------|------:|
-| ❌ | InstructPix2Pix: Learning to Follow Image Editing Instructions | Brooks, Holynski, Efros (UC Berkeley) | 2023 | [2211.09800](https://arxiv.org/abs/2211.09800) | 2,821 |
-| ❌ | Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold | Pan et al. (MPI) | 2023 | [2305.10973](https://arxiv.org/abs/2305.10973) | 350 |
-| ❌ | IP-Adapter: Text Compatible Image Prompt Adapter for Text-to-Image Diffusion Models | Ye et al. (Tencent) | 2023 | [2308.06721](https://arxiv.org/abs/2308.06721) | 1,468 |
-| ❌ | Adding Conditional Control to Text-to-Image Diffusion Models (ControlNet) | Zhang, Rao, Agrawala (Stanford) | 2023 | [2302.05543](https://arxiv.org/abs/2302.05543) | 6,584 |
-| ❌ | T2I-Adapter: Learning Adapters to Dig out More Controllable Ability for Text-to-Image Diffusion Models | Mou et al. (Tencent) | 2023 | [2302.08453](https://arxiv.org/abs/2302.08453) | 1,588 |
-| ❌ | Imagic: Text-Based Real Image Editing with Diffusion Models | Kawar et al. (Google) | 2023 | [2210.09276](https://arxiv.org/abs/2210.09276) | 1,431 |
-| ❌ | DragDiffusion: Harnessing Diffusion Models for Interactive Point-based Image Editing | Shi et al. | 2023 | [2306.14435](https://arxiv.org/abs/2306.14435) | 338 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2211.09800/2211.09800.md) | InstructPix2Pix: Learning to Follow Image Editing Instructions | Brooks, Holynski, Efros (UC Berkeley) | 2023 | [2211.09800](https://arxiv.org/abs/2211.09800) | 2,821 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2305.10973/2305.10973.md) | Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold | Pan et al. (MPI) | 2023 | [2305.10973](https://arxiv.org/abs/2305.10973) | 350 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2308.06721/2308.06721.md) | IP-Adapter: Text Compatible Image Prompt Adapter for Text-to-Image Diffusion Models | Ye et al. (Tencent) | 2023 | [2308.06721](https://arxiv.org/abs/2308.06721) | 1,468 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2302.05543/2302.05543.md) | Adding Conditional Control to Text-to-Image Diffusion Models (ControlNet) | Zhang, Rao, Agrawala (Stanford) | 2023 | [2302.05543](https://arxiv.org/abs/2302.05543) | 6,584 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2302.08453/2302.08453.md) | T2I-Adapter: Learning Adapters to Dig out More Controllable Ability for Text-to-Image Diffusion Models | Mou et al. (Tencent) | 2023 | [2302.08453](https://arxiv.org/abs/2302.08453) | 1,588 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2210.09276/2210.09276.md) | Imagic: Text-Based Real Image Editing with Diffusion Models | Kawar et al. (Google) | 2023 | [2210.09276](https://arxiv.org/abs/2210.09276) | 1,431 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2306.14435/2306.14435.md) | DragDiffusion: Harnessing Diffusion Models for Interactive Point-based Image Editing | Shi et al. | 2023 | [2306.14435](https://arxiv.org/abs/2306.14435) | 338 |
 
 ## Audio & Music Generation
 
 | Status | Paper | Authors | Year | arXiv | Cites |
 |--------|-------|---------|------|-------|------:|
-| ❌ | AudioLDM: Text-to-Audio Generation with Latent Diffusion Models | Haohe Liu, Zehua Chen, Yi Yuan, Xinhao Mei, Xubo Liu, Danilo Mandic, Wenwu Wang, Mark D. Plumbley | 2023 | [2301.12503](https://arxiv.org/abs/2301.12503) | 743 |
-| ❌ | Neural Codec Language Models are Zero-Shot Text to Speech Synthesizers | Chengyi Wang, Sanyuan Chen, Yu Wu, Ziqiang Zhang, Long Zhou, Shujie Liu, Zhuo Chen, Yanqing Liu, Huaming Wang, Jinyu Li, Lei He, Sheng Zhao, Furu Wei | 2023 | [2301.02111](https://arxiv.org/abs/2301.02111) | 1,127 |
-| ❌ | NaturalSpeech 2: Latent Diffusion Models are Natural and Zero-Shot Speech and Singing Synthesizers | Kai Shen, Zeqian Ju, Xu Tan, Yanqing Liu, Yichong Leng, Lei He, Tao Qin, Sheng Zhao, Jiang Bian | 2023 | [2304.09116](https://arxiv.org/abs/2304.09116) | 355 |
-| ❌ | NaturalSpeech 3: Zero-Shot Speech Synthesis with Factorized Codec and Diffusion Models | Zeqian Ju, Yuancheng Wang, Kai Shen, Xu Tan, Detai Xin, Dongchao Yang, Yanqing Liu, Yichong Leng, Kaitao Song, Siliang Tang, Zhizheng Wu, Tao Qin, Xiang-Yang Li, Wei Ye, Shikun Zhang, Jiang Bian, Lei He, Jinyu Li, Sheng Zhao | 2024 | [2403.03100](https://arxiv.org/abs/2403.03100) | 325 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2301.12503/2301.12503.md) | AudioLDM: Text-to-Audio Generation with Latent Diffusion Models | Haohe Liu, Zehua Chen, Yi Yuan, Xinhao Mei, Xubo Liu, Danilo Mandic, Wenwu Wang, Mark D. Plumbley | 2023 | [2301.12503](https://arxiv.org/abs/2301.12503) | 743 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2301.02111/2301.02111.md) | Neural Codec Language Models are Zero-Shot Text to Speech Synthesizers | Chengyi Wang, Sanyuan Chen, Yu Wu, Ziqiang Zhang, Long Zhou, Shujie Liu, Zhuo Chen, Yanqing Liu, Huaming Wang, Jinyu Li, Lei He, Sheng Zhao, Furu Wei | 2023 | [2301.02111](https://arxiv.org/abs/2301.02111) | 1,127 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2304.09116/2304.09116.md) | NaturalSpeech 2: Latent Diffusion Models are Natural and Zero-Shot Speech and Singing Synthesizers | Kai Shen, Zeqian Ju, Xu Tan, Yanqing Liu, Yichong Leng, Lei He, Tao Qin, Sheng Zhao, Jiang Bian | 2023 | [2304.09116](https://arxiv.org/abs/2304.09116) | 355 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2403.03100/2403.03100.md) | NaturalSpeech 3: Zero-Shot Speech Synthesis with Factorized Codec and Diffusion Models | Zeqian Ju, Yuancheng Wang, Kai Shen, Xu Tan, Detai Xin, Dongchao Yang, Yanqing Liu, Yichong Leng, Kaitao Song, Siliang Tang, Zhizheng Wu, Tao Qin, Xiang-Yang Li, Wei Ye, Shikun Zhang, Jiang Bian, Lei He, Jinyu Li, Sheng Zhao | 2024 | [2403.03100](https://arxiv.org/abs/2403.03100) | 325 |
 
 ## Multimodal Generation
 
 | Status | Paper | Authors | Year | arXiv | Cites |
 |--------|-------|---------|------|-------|------:|
-| ❌ | Generative Pretraining in Multimodality | Quan Sun, Qiying Yu, Yufeng Cui, Fan Zhang, Xiaosong Zhang, Yueze Wang, Hongcheng Gao, Jingjing Liu, Tiejun Huang, Xinlong Wang | 2023 | [2307.05222](https://arxiv.org/abs/2307.05222) | 160 |
-| ❌ | Scaling Autoregressive Multi-Modal Models: Pretraining and Instruction Tuning | Lili Yu, Bowen Shi, Ramakanth Pasunuru, Benjamin Muller, Olga Golovneva, Tianlu Wang, Arun Babu, Binh Tang, Brian Karrer, Shelly Sheynin, Candace Ross, Adam Polyak, Russell Howes, Vasu Sharma, et al. | 2023 | [2309.02591](https://arxiv.org/abs/2309.02591) | 170 |
-| ❌ | Chameleon: Mixed-Modal Early-Fusion Foundation Models | Chameleon Team | 2024 | [2405.09818](https://arxiv.org/abs/2405.09818) | 768 |
-| ❌ | Show-o: One Single Transformer to Unify Multimodal Understanding and Generation | Jinheng Xie, Weijia Mao, Zechen Bai, David Junhao Zhang, Weihao Wang, Kevin Qinghong Lin, Yuchao Gu, Zhijie Chen, Zhenheng Yang, Mike Zheng Shou | 2024 | [2408.12528](https://arxiv.org/abs/2408.12528) | 573 |
-| ❌ | Unified-IO 2: Scaling Autoregressive Multimodal Models with Vision, Language, Audio, and Action | Jiasen Lu, Christopher Clark, Sangho Lee, Zichen Zhang, Savya Khosla, Ryan Marten, Derek Hoiem, Aniruddha Kembhavi | 2023 | [2312.17172](https://arxiv.org/abs/2312.17172) | 309 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2307.05222/2307.05222.md) | Generative Pretraining in Multimodality | Quan Sun, Qiying Yu, Yufeng Cui, Fan Zhang, Xiaosong Zhang, Yueze Wang, Hongcheng Gao, Jingjing Liu, Tiejun Huang, Xinlong Wang | 2023 | [2307.05222](https://arxiv.org/abs/2307.05222) | 160 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2309.02591/2309.02591.md) | Scaling Autoregressive Multi-Modal Models: Pretraining and Instruction Tuning | Lili Yu, Bowen Shi, Ramakanth Pasunuru, Benjamin Muller, Olga Golovneva, Tianlu Wang, Arun Babu, Binh Tang, Brian Karrer, Shelly Sheynin, Candace Ross, Adam Polyak, Russell Howes, Vasu Sharma, et al. | 2023 | [2309.02591](https://arxiv.org/abs/2309.02591) | 170 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2405.09818/2405.09818.md) | Chameleon: Mixed-Modal Early-Fusion Foundation Models | Chameleon Team | 2024 | [2405.09818](https://arxiv.org/abs/2405.09818) | 768 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2408.12528/2408.12528.md) | Show-o: One Single Transformer to Unify Multimodal Understanding and Generation | Jinheng Xie, Weijia Mao, Zechen Bai, David Junhao Zhang, Weihao Wang, Kevin Qinghong Lin, Yuchao Gu, Zhijie Chen, Zhenheng Yang, Mike Zheng Shou | 2024 | [2408.12528](https://arxiv.org/abs/2408.12528) | 573 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2312.17172/2312.17172.md) | Unified-IO 2: Scaling Autoregressive Multimodal Models with Vision, Language, Audio, and Action | Jiasen Lu, Christopher Clark, Sangho Lee, Zichen Zhang, Savya Khosla, Ryan Marten, Derek Hoiem, Aniruddha Kembhavi | 2023 | [2312.17172](https://arxiv.org/abs/2312.17172) | 309 |
 
 ## Generative Adversarial Networks
 
 | Status | Paper | Authors | Year | arXiv | Cites |
 |--------|-------|---------|------|-------|------:|
-| ❌ | Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks | Radford et al. | 2015 | [1511.06434](https://arxiv.org/abs/1511.06434) | 14,977 |
-| ❌ | Conditional Generative Adversarial Nets | Mirza et al. | 2014 | [1411.1784](https://arxiv.org/abs/1411.1784) | 11,465 |
-| ❌ | Wasserstein GAN | Arjovsky et al. | 2017 | [1701.07875](https://arxiv.org/abs/1701.07875) | 5,110 |
-| ❌ | Improved Training of Wasserstein GANs | Gulrajani et al. | 2017 | [1704.00028](https://arxiv.org/abs/1704.00028) | 10,690 |
-| ❌ | Progressive Growing of GANs for Improved Quality, Stability, and Variation | Karras et al. | 2017 | [1710.10196](https://arxiv.org/abs/1710.10196) | 8,374 |
-| ❌ | Large Scale GAN Training for High Fidelity Natural Image Synthesis | Brock et al. | 2018 | [1809.11096](https://arxiv.org/abs/1809.11096) | 6,050 |
-| ❌ | Image-to-Image Translation with Conditional Adversarial Networks | Isola et al. | 2016 | [1611.07004](https://arxiv.org/abs/1611.07004) | 21,995 |
-| ❌ | Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks | Zhu et al. | 2017 | [1703.10593](https://arxiv.org/abs/1703.10593) | 5,634 |
-| ❌ | StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation | Choi et al. | 2017 | [1711.09020](https://arxiv.org/abs/1711.09020) | 3,847 |
-| ❌ | Semantic Image Synthesis with Spatially-Adaptive Normalization | Park et al. | 2019 | [1903.07291](https://arxiv.org/abs/1903.07291) | 3,079 |
-| ❌ | InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets | Chen et al. | 2016 | [1606.03657](https://arxiv.org/abs/1606.03657) | 4,481 |
-| ❌ | Adversarial Feature Learning | Donahue et al. | 2016 | [1605.09782](https://arxiv.org/abs/1605.09782) | 1,899 |
-| ❌ | GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium | Heusel et al. | 2017 | [1706.08500](https://arxiv.org/abs/1706.08500) | 495 |
-| ❌ | Alias-Free Generative Adversarial Networks | Karras et al. | 2021 | [2106.12423](https://arxiv.org/abs/2106.12423) | 1,961 |
-| ❌ | StyleGAN-XL: Scaling StyleGAN to Large Diverse Datasets | Sauer et al. | 2022 | [2202.00273](https://arxiv.org/abs/2202.00273) | 656 |
-| ❌ | Scaling up GANs for Text-to-Image Synthesis | Kang et al. | 2023 | [2303.05511](https://arxiv.org/abs/2303.05511) | 654 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1511.06434/1511.06434.md) | Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks | Radford et al. | 2015 | [1511.06434](https://arxiv.org/abs/1511.06434) | 14,977 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1411.1784/1411.1784.md) | Conditional Generative Adversarial Nets | Mirza et al. | 2014 | [1411.1784](https://arxiv.org/abs/1411.1784) | 11,465 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1701.07875/1701.07875.md) | Wasserstein GAN | Arjovsky et al. | 2017 | [1701.07875](https://arxiv.org/abs/1701.07875) | 5,110 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1704.00028/1704.00028.md) | Improved Training of Wasserstein GANs | Gulrajani et al. | 2017 | [1704.00028](https://arxiv.org/abs/1704.00028) | 10,690 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1710.10196/1710.10196.md) | Progressive Growing of GANs for Improved Quality, Stability, and Variation | Karras et al. | 2017 | [1710.10196](https://arxiv.org/abs/1710.10196) | 8,374 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1809.11096/1809.11096.md) | Large Scale GAN Training for High Fidelity Natural Image Synthesis | Brock et al. | 2018 | [1809.11096](https://arxiv.org/abs/1809.11096) | 6,050 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1611.07004/1611.07004.md) | Image-to-Image Translation with Conditional Adversarial Networks | Isola et al. | 2016 | [1611.07004](https://arxiv.org/abs/1611.07004) | 21,995 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1703.10593/1703.10593.md) | Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks | Zhu et al. | 2017 | [1703.10593](https://arxiv.org/abs/1703.10593) | 5,634 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1711.09020/1711.09020.md) | StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation | Choi et al. | 2017 | [1711.09020](https://arxiv.org/abs/1711.09020) | 3,847 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1903.07291/1903.07291.md) | Semantic Image Synthesis with Spatially-Adaptive Normalization | Park et al. | 2019 | [1903.07291](https://arxiv.org/abs/1903.07291) | 3,079 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1606.03657/1606.03657.md) | InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets | Chen et al. | 2016 | [1606.03657](https://arxiv.org/abs/1606.03657) | 4,481 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1605.09782/1605.09782.md) | Adversarial Feature Learning | Donahue et al. | 2016 | [1605.09782](https://arxiv.org/abs/1605.09782) | 1,899 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1706.08500/1706.08500.md) | GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium | Heusel et al. | 2017 | [1706.08500](https://arxiv.org/abs/1706.08500) | 495 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2106.12423/2106.12423.md) | Alias-Free Generative Adversarial Networks | Karras et al. | 2021 | [2106.12423](https://arxiv.org/abs/2106.12423) | 1,961 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2202.00273/2202.00273.md) | StyleGAN-XL: Scaling StyleGAN to Large Diverse Datasets | Sauer et al. | 2022 | [2202.00273](https://arxiv.org/abs/2202.00273) | 656 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2303.05511/2303.05511.md) | Scaling up GANs for Text-to-Image Synthesis | Kang et al. | 2023 | [2303.05511](https://arxiv.org/abs/2303.05511) | 654 |
 
 ## VAE Variants
 
 | Status | Paper | Authors | Year | arXiv | Cites |
 |--------|-------|---------|------|-------|------:|
-| ❌ | beta-VAE: Learning Basic Visual Concepts with a Constrained Variational Framework | Higgins et al. | 2017 | [1804.03599](https://arxiv.org/abs/1804.03599) | 926 |
-| ❌ | Neural Discrete Representation Learning | van den Oord et al. | 2017 | [1711.00937](https://arxiv.org/abs/1711.00937) | 6,939 |
-| ❌ | Generating Diverse High-Fidelity Images with VQ-VAE-2 | Razavi et al. | 2019 | [1906.00446](https://arxiv.org/abs/1906.00446) | 2,259 |
-| ❌ | NVAE: A Deep Hierarchical Variational Autoencoder | Vahdat et al. | 2020 | [2007.03898](https://arxiv.org/abs/2007.03898) | 1,081 |
-| ❌ | Very Deep VAEs Generalize Autoregressive Models and Can Outperform Them on Images | Child | 2020 | [2011.10650](https://arxiv.org/abs/2011.10650) | 394 |
-| ❌ | Learning Structured Output Representation using Deep Conditional Generative Models | Sohn et al. | 2015 | [1502.04623](https://arxiv.org/abs/1502.04623) | 2,004 |
-| ❌ | Discrete Variational Autoencoders | Rolfe | 2016 | [1609.02200](https://arxiv.org/abs/1609.02200) | 283 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1804.03599/1804.03599.md) | beta-VAE: Learning Basic Visual Concepts with a Constrained Variational Framework | Higgins et al. | 2017 | [1804.03599](https://arxiv.org/abs/1804.03599) | 926 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1711.00937/1711.00937.md) | Neural Discrete Representation Learning | van den Oord et al. | 2017 | [1711.00937](https://arxiv.org/abs/1711.00937) | 6,939 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1906.00446/1906.00446.md) | Generating Diverse High-Fidelity Images with VQ-VAE-2 | Razavi et al. | 2019 | [1906.00446](https://arxiv.org/abs/1906.00446) | 2,259 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2007.03898/2007.03898.md) | NVAE: A Deep Hierarchical Variational Autoencoder | Vahdat et al. | 2020 | [2007.03898](https://arxiv.org/abs/2007.03898) | 1,081 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2011.10650/2011.10650.md) | Very Deep VAEs Generalize Autoregressive Models and Can Outperform Them on Images | Child | 2020 | [2011.10650](https://arxiv.org/abs/2011.10650) | 394 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1502.04623/1502.04623.md) | Learning Structured Output Representation using Deep Conditional Generative Models | Sohn et al. | 2015 | [1502.04623](https://arxiv.org/abs/1502.04623) | 2,004 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1609.02200/1609.02200.md) | Discrete Variational Autoencoders | Rolfe | 2016 | [1609.02200](https://arxiv.org/abs/1609.02200) | 283 |
 
 ## Autoregressive Models
 
 | Status | Paper | Authors | Year | arXiv | Cites |
 |--------|-------|---------|------|-------|------:|
-| ❌ | Pixel Recurrent Neural Networks | van den Oord et al. | 2016 | [1601.06759](https://arxiv.org/abs/1601.06759) | 2,798 |
-| ❌ | Conditional Image Generation with PixelCNN Decoders | van den Oord et al. | 2016 | [1606.05328](https://arxiv.org/abs/1606.05328) | 2,731 |
-| ❌ | PixelCNN++: Improving the PixelCNN with Discretized Logistic Mixture Likelihood and Other Modifications | Salimans et al. | 2017 | [1701.05517](https://arxiv.org/abs/1701.05517) | 1,018 |
-| ❌ | Taming Transformers for High-Resolution Image Synthesis | Esser et al. | 2020 | [2012.09841](https://arxiv.org/abs/2012.09841) | 4,114 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1601.06759/1601.06759.md) | Pixel Recurrent Neural Networks | van den Oord et al. | 2016 | [1601.06759](https://arxiv.org/abs/1601.06759) | 2,798 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1606.05328/1606.05328.md) | Conditional Image Generation with PixelCNN Decoders | van den Oord et al. | 2016 | [1606.05328](https://arxiv.org/abs/1606.05328) | 2,731 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1701.05517/1701.05517.md) | PixelCNN++: Improving the PixelCNN with Discretized Logistic Mixture Likelihood and Other Modifications | Salimans et al. | 2017 | [1701.05517](https://arxiv.org/abs/1701.05517) | 1,018 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2012.09841/2012.09841.md) | Taming Transformers for High-Resolution Image Synthesis | Esser et al. | 2020 | [2012.09841](https://arxiv.org/abs/2012.09841) | 4,114 |
 
 ## Normalizing Flows
 
 | Status | Paper | Authors | Year | arXiv | Cites |
 |--------|-------|---------|------|-------|------:|
-| ❌ | NICE: Non-linear Independent Components Estimation | Dinh et al. | 2014 | [1410.8516](https://arxiv.org/abs/1410.8516) | 2,554 |
-| ❌ | Density estimation using Real-NVP | Dinh et al. | 2016 | [1605.08803](https://arxiv.org/abs/1605.08803) | 4,280 |
-| ❌ | Glow: Generative Flow with Invertible 1x1 Convolutions | Kingma et al. | 2018 | [1807.03039](https://arxiv.org/abs/1807.03039) | 3,508 |
-| ❌ | Variational Inference with Normalizing Flows | Rezende et al. | 2015 | [1505.05770](https://arxiv.org/abs/1505.05770) | 4,800 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1410.8516/1410.8516.md) | NICE: Non-linear Independent Components Estimation | Dinh et al. | 2014 | [1410.8516](https://arxiv.org/abs/1410.8516) | 2,554 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1605.08803/1605.08803.md) | Density estimation using Real-NVP | Dinh et al. | 2016 | [1605.08803](https://arxiv.org/abs/1605.08803) | 4,280 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1807.03039/1807.03039.md) | Glow: Generative Flow with Invertible 1x1 Convolutions | Kingma et al. | 2018 | [1807.03039](https://arxiv.org/abs/1807.03039) | 3,508 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1505.05770/1505.05770.md) | Variational Inference with Normalizing Flows | Rezende et al. | 2015 | [1505.05770](https://arxiv.org/abs/1505.05770) | 4,800 |
 
 ## Energy-Based Models
 
 | Status | Paper | Authors | Year | arXiv | Cites |
 |--------|-------|---------|------|-------|------:|
-| ❌ | Your Classifier is Secretly an Energy-Based Model and You Should Treat it Like One | Grathwohl et al. | 2019 | [1912.03263](https://arxiv.org/abs/1912.03263) | 636 |
-| ❌ | Implicit Generation and Modeling with Energy-Based Models | Du et al. | 2019 | [1903.08689](https://arxiv.org/abs/1903.08689) | 41 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1912.03263/1912.03263.md) | Your Classifier is Secretly an Energy-Based Model and You Should Treat it Like One | Grathwohl et al. | 2019 | [1912.03263](https://arxiv.org/abs/1912.03263) | 636 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1903.08689/1903.08689.md) | Implicit Generation and Modeling with Energy-Based Models | Du et al. | 2019 | [1903.08689](https://arxiv.org/abs/1903.08689) | 41 |
 
 ---
 
-**Totals:** 541 papers | 438 converted | 103 pending
+**Totals:** 541 papers | all 541 converted to markdown
