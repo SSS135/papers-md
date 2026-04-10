@@ -283,6 +283,14 @@
 | ❌ | DreamFusion: Text-to-3D using 2D Diffusion | Ben Poole, Ajay Jain, Jonathan T. Barron, Ben Mildenhall | 2022 | [2209.14988](https://arxiv.org/abs/2209.14988) | 460 |
 | ❌ | Point-E: A System for Generating 3D Point Clouds from Complex Prompts | Alex Nichol, Heewoo Jun, Prafulla Dhariwal, Pamela Mishkin, Mark Chen | 2022 | [2212.08751](https://arxiv.org/abs/2212.08751) | 157 |
 | ❌ | Score Jacobian Chaining: Lifting Pretrained 2D Diffusion Models for 3D Generation | Haochen Wang, Xiaodan Du, Jiahao Li, Raymond A. Yeh, Greg Shakhnarovich | 2022 | [2212.00774](https://arxiv.org/abs/2212.00774) | 5 |
+| ❌ | Zero-1-to-3: Zero-shot One Image to 3D Object | Liu et al. (Columbia) | 2023 | [2303.11328](https://arxiv.org/abs/2303.11328) | 1,626 |
+| ❌ | MVDream: Multi-view Diffusion for 3D Generation | Shi et al. (ByteDance) | 2023 | [2308.16512](https://arxiv.org/abs/2308.16512) |  |
+| ❌ | InstantMesh: Efficient 3D Mesh Generation from a Single Image with Sparse-view Large Reconstruction Models | Xu et al. (Tsinghua) | 2024 | [2404.07191](https://arxiv.org/abs/2404.07191) |  |
+| ❌ | SV3D: Novel Multi-view Synthesis and 3D Generation from a Single Image using Latent Video Diffusion | Voleti et al. (Stability AI) | 2024 | [2403.12008](https://arxiv.org/abs/2403.12008) | 354 |
+| ❌ | Magic3D: High-Resolution Text-to-3D Content Creation | Lin et al. (NVIDIA) | 2023 | [2211.10440](https://arxiv.org/abs/2211.10440) |  |
+| ❌ | ProlificDreamer: High-Fidelity and Diverse Text-to-3D Generation with Variational Score Distillation | Wang et al. (Tsinghua) | 2023 | [2305.16213](https://arxiv.org/abs/2305.16213) |  |
+| ❌ | 3D Gaussian Splatting for Real-Time Radiance Field Rendering | Kerbl et al. (Inria) | 2023 | [2308.14737](https://arxiv.org/abs/2308.14737) | 33 |
+| ❌ | Shap-E: Generating Conditional 3D Implicit Functions | Jun, Nichol (OpenAI) | 2023 | [2305.02463](https://arxiv.org/abs/2305.02463) | 440 |
 
 ## Graph Neural Networks
 
@@ -552,7 +560,7 @@
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1802.06070/1802.06070.md) | Diversity is All You Need: Learning Skills without a Reward Function (DIAYN) | Eysenbach et al. | 2018 | [1802.06070](https://arxiv.org/abs/1802.06070) | 1,251 |
 | ❌ | Soft Q-Learning: Reinforcement Learning with Deep Energy-Based Policies | Haarnoja et al. | 2017 | [1702.08165](https://arxiv.org/abs/1702.08165) | 1,552 |
 | ❌ | Multi-task Learning with PopArt Normalization | Hessel et al. | 2018 | [1809.04474](https://arxiv.org/abs/1809.04474) | 351 |
-| ❌ | CleanRL: High-quality Single-file Implementations of Deep RL Algorithms | Huang et al. | 2022 | [2208.01626](https://arxiv.org/abs/2208.01626) | 2,545 |
+
 
 ## Multi-Agent RL & Self-Play
 
@@ -647,6 +655,10 @@
 | ❌ | Latte: Latent Diffusion Transformer for Video Generation | Ma et al. | 2024 | [2401.03048](https://arxiv.org/abs/2401.03048) | 492 |
 | ❌ | Open-Sora: Democratizing Efficient Video Production for All | Zheng et al. | 2024 | [2412.00131](https://arxiv.org/abs/2412.00131) | 245 |
 | ❌ | Movie Gen: A Cast of Media Foundation Models | Polyak et al. | 2024 | [2410.13720](https://arxiv.org/abs/2410.13720) | 474 |
+| ❌ | AnimateDiff: Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning | Guo et al. (CUHK, ByteDance) | 2023 | [2307.04725](https://arxiv.org/abs/2307.04725) | 1,436 |
+| ❌ | Structure and Content-Guided Video Synthesis with Diffusion Models (Gen-1) | Esser et al. (Runway) | 2023 | [2302.03011](https://arxiv.org/abs/2302.03011) |  |
+| ❌ | Emu Video: Factorizing Text-to-Video Generation by Explicit Image Conditioning | Girdhar et al. (Meta) | 2023 | [2311.10709](https://arxiv.org/abs/2311.10709) |  |
+| ❌ | Video generation models as world simulators (Sora technical report) | OpenAI | 2024 | [2402.17177](https://arxiv.org/abs/2402.17177) | 579 |
 
 ## Image Generation Advances
 
@@ -660,6 +672,9 @@
 | ❌ | Playground v2.5: Three Insights towards Enhancing Aesthetic Quality in Text-to-Image Generation | Li et al. | 2024 | [2402.17245](https://arxiv.org/abs/2402.17245) | 227 |
 | ❌ | Wuerstchen: An Efficient Architecture for Large-Scale Text-to-Image Diffusion Models | Pernias et al. | 2024 | [2306.00637](https://arxiv.org/abs/2306.00637) | 48 |
 | ❌ | Simple Diffusion: End-to-End Diffusion for High Resolution Images | Hoogeboom et al. | 2023 | [2301.11093](https://arxiv.org/abs/2301.11093) | 392 |
+| ❌ | GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models | Nichol et al. (OpenAI) | 2022 | [2112.10741](https://arxiv.org/abs/2112.10741) |  |
+| ❌ | eDiff-I: Text-to-Image Diffusion Models with an Ensemble of Expert Denoisers | Balaji et al. (NVIDIA) | 2022 | [2211.01324](https://arxiv.org/abs/2211.01324) |  |
+| ❌ | RAPHAEL: Text-to-Image Generation via Large Mixture of Diffusion Paths | Xue et al. (MSRA) | 2023 | [2305.18295](https://arxiv.org/abs/2305.18295) |  |
 
 ## Image Editing & Control
 
@@ -675,4 +690,4 @@
 
 ---
 
-**Totals:** 482 papers | 310 converted | 172 suggested
+**Totals:** 497 papers | 310 converted | 187 suggested
