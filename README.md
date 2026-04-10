@@ -661,6 +661,18 @@
 | ❌ | Wuerstchen: An Efficient Architecture for Large-Scale Text-to-Image Diffusion Models | Pernias et al. | 2024 | [2306.00637](https://arxiv.org/abs/2306.00637) | 48 |
 | ❌ | Simple Diffusion: End-to-End Diffusion for High Resolution Images | Hoogeboom et al. | 2023 | [2301.11093](https://arxiv.org/abs/2301.11093) | 392 |
 
+## Image Editing & Control
+
+| Status | Paper | Authors | Year | arXiv | Cites |
+|--------|-------|---------|------|-------|------:|
+| ❌ | InstructPix2Pix: Learning to Follow Image Editing Instructions | Brooks, Holynski, Efros (UC Berkeley) | 2023 | [2211.09800](https://arxiv.org/abs/2211.09800) | 2,821 |
+| ❌ | Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold | Pan et al. (MPI) | 2023 | [2305.10973](https://arxiv.org/abs/2305.10973) | 350 |
+| ❌ | IP-Adapter: Text Compatible Image Prompt Adapter for Text-to-Image Diffusion Models | Ye et al. (Tencent) | 2023 | [2308.06721](https://arxiv.org/abs/2308.06721) | 1,468 |
+| ❌ | Adding Conditional Control to Text-to-Image Diffusion Models (ControlNet) | Zhang, Rao, Agrawala (Stanford) | 2023 | [2302.05543](https://arxiv.org/abs/2302.05543) | 6,584 |
+| ❌ | T2I-Adapter: Learning Adapters to Dig out More Controllable Ability for Text-to-Image Diffusion Models | Mou et al. (Tencent) | 2023 | [2302.08453](https://arxiv.org/abs/2302.08453) | 1,588 |
+| ❌ | Imagic: Text-Based Real Image Editing with Diffusion Models | Kawar et al. (Google) | 2023 | [2210.09276](https://arxiv.org/abs/2210.09276) | 1,431 |
+| ❌ | DragDiffusion: Harnessing Diffusion Models for Interactive Point-based Image Editing | Shi et al. | 2023 | [2306.14435](https://arxiv.org/abs/2306.14435) | 338 |
+
 ---
 
-**Totals:** 475 papers | 310 converted | 165 suggested
+**Totals:** 482 papers | 310 converted | 172 suggested
