@@ -612,6 +612,55 @@
 | ❌ | FlexMatch: Boosting Semi-Supervised Learning with Curriculum Pseudo Labeling | Zhang et al. | 2021 | [2110.08263](https://arxiv.org/abs/2110.08263) | 1,223 |
 | ❌ | FreeMatch: Self-adaptive Thresholding for Semi-supervised Learning | Wang et al. | 2023 | [2205.07246](https://arxiv.org/abs/2205.07246) | 430 |
 
+## Diffusion, Flow Matching & Score-Based Models
+
+| Status | Paper | Authors | Year | arXiv | Cites |
+|--------|-------|---------|------|-------|------:|
+| ❌ | Generative Modeling by Estimating Gradients of the Data Distribution | Song & Ermon | 2019 | [1907.05600](https://arxiv.org/abs/1907.05600) | 5,261 |
+| ❌ | Improved Techniques for Training Score-Based Generative Models | Song & Ermon | 2020 | [2006.09011](https://arxiv.org/abs/2006.09011) | 1,426 |
+| ❌ | Score-Based Generative Modeling through Stochastic Differential Equations | Song et al. | 2021 | [2011.13456](https://arxiv.org/abs/2011.13456) | 9,957 |
+| ❌ | Classifier-Free Diffusion Guidance | Ho & Salimans | 2022 | [2207.12598](https://arxiv.org/abs/2207.12598) | 5,940 |
+| ❌ | FFJORD: Free-form Continuous Dynamics for Scalable Reversible Generative Models | Grathwohl et al. | 2019 | [1810.01367](https://arxiv.org/abs/1810.01367) | 1,021 |
+| ❌ | How to Train Your Neural ODE: the World of Jacobian and Kinetic Regularization | Finlay et al. | 2020 | [2002.02798](https://arxiv.org/abs/2002.02798) | 348 |
+| ❌ | Denoising Diffusion Implicit Models (DDIM) | Song et al. | 2021 | [2010.02502](https://arxiv.org/abs/2010.02502) | 11,382 |
+| ❌ | Improved Denoising Diffusion Probabilistic Models | Nichol & Dhariwal | 2021 | [2102.09672](https://arxiv.org/abs/2102.09672) | 5,102 |
+| ❌ | Diffusion Models Beat GANs on Image Synthesis | Dhariwal & Nichol | 2021 | [2105.05233](https://arxiv.org/abs/2105.05233) | 11,310 |
+| ❌ | Elucidating the Design Space of Diffusion-Based Generative Models (EDM) | Karras et al. | 2022 | [2206.00364](https://arxiv.org/abs/2206.00364) | 3,141 |
+| ❌ | Progressive Distillation for Fast Sampling of Diffusion Models | Salimans & Ho | 2022 | [2202.00512](https://arxiv.org/abs/2202.00512) |  |
+| ❌ | Analyzing and Improving the Training Dynamics of Diffusion Models (EDM2) | Karras et al. | 2024 | [2312.02696](https://arxiv.org/abs/2312.02696) | 379 |
+| ❌ | Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow | Liu et al. | 2023 | [2209.03003](https://arxiv.org/abs/2209.03003) | 2,613 |
+| ❌ | InstaFlow: One Step is Enough for High-Quality Diffusion-Based Text-to-Image Generation | Liu et al. | 2023 | [2309.06380](https://arxiv.org/abs/2309.06380) | 346 |
+| ❌ | Improving the Training of Rectified Flows | Lee et al. | 2024 | [2405.20320](https://arxiv.org/abs/2405.20320) | 89 |
+
+## Video Generation
+
+| Status | Paper | Authors | Year | arXiv | Cites |
+|--------|-------|---------|------|-------|------:|
+| ❌ | Video Diffusion Models | Ho et al. | 2022 | [2204.03458](https://arxiv.org/abs/2204.03458) | 2,447 |
+| ❌ | Make-A-Video: Text-to-Video Generation without Text-Video Data | Singer et al. | 2022 | [2209.14792](https://arxiv.org/abs/2209.14792) | 1,947 |
+| ❌ | Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models (VideoLDM) | Blattmann et al. | 2023 | [2304.08818](https://arxiv.org/abs/2304.08818) | 1,580 |
+| ❌ | VideoPoet: A Large Language Model for Zero-Shot Video Generation | Kondratyuk et al. | 2024 | [2312.14125](https://arxiv.org/abs/2312.14125) | 449 |
+| ❌ | Stable Video Diffusion: Scaling Latent Video Diffusion Models to Large Datasets | Blattmann et al. | 2023 | [2311.15127](https://arxiv.org/abs/2311.15127) | 2,295 |
+| ❌ | CogVideo: Large-scale Pretraining for Text-to-Video Generation via Transformers | Hong et al. | 2022 | [2205.15868](https://arxiv.org/abs/2205.15868) | 1,016 |
+| ❌ | CogVideoX: Text-to-Video Diffusion Models with An Expert Transformer | Yang et al. | 2024 | [2408.06072](https://arxiv.org/abs/2408.06072) | 1,663 |
+| ❌ | Lumiere: A Space-Time Diffusion Model for Video Generation | Bar-Tal et al. | 2024 | [2401.12945](https://arxiv.org/abs/2401.12945) | 443 |
+| ❌ | Latte: Latent Diffusion Transformer for Video Generation | Ma et al. | 2024 | [2401.03048](https://arxiv.org/abs/2401.03048) | 492 |
+| ❌ | Open-Sora: Democratizing Efficient Video Production for All | Zheng et al. | 2024 | [2412.00131](https://arxiv.org/abs/2412.00131) | 245 |
+| ❌ | Movie Gen: A Cast of Media Foundation Models | Polyak et al. | 2024 | [2410.13720](https://arxiv.org/abs/2410.13720) | 474 |
+
+## Image Generation Advances
+
+| Status | Paper | Authors | Year | arXiv | Cites |
+|--------|-------|---------|------|-------|------:|
+| ❌ | Scalable Diffusion Models with Transformers (DiT) | Peebles & Xie | 2023 | [2212.09748](https://arxiv.org/abs/2212.09748) | 5,278 |
+| ❌ | Scalable Interpolant Transformers (SiT) | Ma et al. | 2024 | [2401.08740](https://arxiv.org/abs/2401.08740) | 518 |
+| ❌ | PixArt-alpha: Fast Training of Diffusion Transformer for Photorealistic Text-to-Image Synthesis | Chen et al. | 2024 | [2310.00426](https://arxiv.org/abs/2310.00426) | 807 |
+| ❌ | PixArt-Sigma: Weak-to-Strong Training of Diffusion Transformer for 4K Text-to-Image Generation | Chen et al. | 2024 | [2403.04692](https://arxiv.org/abs/2403.04692) | 273 |
+| ❌ | SDXL: Improving Latent Diffusion Models for High-Resolution Image Synthesis | Podell et al. | 2023 | [2307.01952](https://arxiv.org/abs/2307.01952) | 4,401 |
+| ❌ | Playground v2.5: Three Insights towards Enhancing Aesthetic Quality in Text-to-Image Generation | Li et al. | 2024 | [2402.17245](https://arxiv.org/abs/2402.17245) | 227 |
+| ❌ | Wuerstchen: An Efficient Architecture for Large-Scale Text-to-Image Diffusion Models | Pernias et al. | 2024 | [2306.00637](https://arxiv.org/abs/2306.00637) | 48 |
+| ❌ | Simple Diffusion: End-to-End Diffusion for High Resolution Images | Hoogeboom et al. | 2023 | [2301.11093](https://arxiv.org/abs/2301.11093) | 392 |
+
 ---
 
-**Totals:** 441 papers | 310 converted | 131 suggested
+**Totals:** 475 papers | 310 converted | 165 suggested
