@@ -168,9 +168,9 @@
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1812.07626/1812.07626.md) | Universal Successor Features Approximators (USFA)| Borsa, Barreto, Quan, Mankowitz, Munos, van Hasselt, Silver & Schaul| 2018 | [1812.07626](https://arxiv.org/abs/1812.07626) | 136 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1903.03698/1903.03698.md) | Skew-Fit: State-Covering Self-Supervised RL| Pong, Dalal, Lin, Nair, Bahl & Levine| 2019 | [1903.03698](https://arxiv.org/abs/1903.03698) | 302 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1911.08453/1911.08453.md) | Planning with Goal-Conditioned Policies (LEAP)| Nasiriany, Pong, Lin & Levine| 2019 | [1911.08453](https://arxiv.org/abs/1911.08453) | 245 |
-| ❌ | Generating Adjacency-Constrained Subgoals in HRL (HRAC) | Zhang, Guo, Tan, Hu & Chen | 2020 | [2006.11485](https://arxiv.org/abs/2006.11485) | 103 |
-| ❌ | Goal-Conditioned RL with Imagined Subgoals (RIS) | Chane-Sane, Schmid & Laptev | 2021 | [2107.00541](https://arxiv.org/abs/2107.00541) | 178 |
-| ❌ | Landmark-Guided Subgoal Generation in HRL (HIGL) | Kim, Seo & Shin | 2021 | [2110.13625](https://arxiv.org/abs/2110.13625) | 77 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2006.11485/2006.11485.md) | Generating Adjacency-Constrained Subgoals in HRL (HRAC)| Zhang, Guo, Tan, Hu & Chen| 2020 | [2006.11485](https://arxiv.org/abs/2006.11485) | 103 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2107.00541/2107.00541.md) | Goal-Conditioned RL with Imagined Subgoals (RIS)| Chane-Sane, Schmid & Laptev| 2021 | [2107.00541](https://arxiv.org/abs/2107.00541) | 178 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2110.13625/2110.13625.md) | Landmark-Guided Subgoal Generation in HRL (HIGL)| Kim, Seo & Shin| 2021 | [2110.13625](https://arxiv.org/abs/2110.13625) | 77 |
 | ❌ | Optimal Goal-Reaching RL via Quasimetric Learning (QRL) | Wang, Torralba, Isola & Zhang | 2023 | [2304.01203](https://arxiv.org/abs/2304.01203) | 83 |
 
 ## Hierarchical RL — Skill Discovery & Pre-Training
@@ -184,11 +184,11 @@
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1906.05274/1906.05274.md) | Efficient Exploration via State Marginal Matching (SMM)| Lee, Eysenbach, Parisotto, Xing, Salakhutdinov & Levine| 2019 | [1906.05274](https://arxiv.org/abs/1906.05274) | 282 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1907.01657/1907.01657.md) | Dynamics-Aware Unsupervised Discovery of Skills (DADS)| Sharma, Gu, Levine, Kumar & Hausman| 2019 | [1907.01657](https://arxiv.org/abs/1907.01657) | 471 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1910.11956/1910.11956.md) | Relay Policy Learning: Solving Long-Horizon Tasks via Imitation and RL| Gupta, Kumar, Lynch, Levine & Hausman| 2019 | [1910.11956](https://arxiv.org/abs/1910.11956) | 531 |
-| ❌ | Accelerating RL with Learned Skill Priors (SPiRL) | Pertsch, Lee & Lim | 2020 | [2010.11944](https://arxiv.org/abs/2010.11944) | 288 |
-| ❌ | Behavior From the Void: Unsupervised Active Pre-Training (APT) | Liu & Abbeel | 2021 | [2103.04551](https://arxiv.org/abs/2103.04551) | 243 |
-| ❌ | APS: Active Pretraining with Successor Features | Liu & Abbeel | 2021 | [2108.13956](https://arxiv.org/abs/2108.13956) | 146 |
-| ❌ | CIC: Contrastive Intrinsic Control for Unsupervised Skill Discovery | Laskin, Liu, Peng, Lee & Abbeel | 2022 | [2202.00161](https://arxiv.org/abs/2202.00161) | 81 |
-| ❌ | Lipschitz-constrained Unsupervised Skill Discovery (LSD) | Park, Choi, Kim, Lee & Kim | 2022 | [2202.00914](https://arxiv.org/abs/2202.00914) | 70 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2010.11944/2010.11944.md) | Accelerating RL with Learned Skill Priors (SPiRL)| Pertsch, Lee & Lim| 2020 | [2010.11944](https://arxiv.org/abs/2010.11944) | 288 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2103.04551/2103.04551.md) | Behavior From the Void: Unsupervised Active Pre-Training (APT)| Liu & Abbeel| 2021 | [2103.04551](https://arxiv.org/abs/2103.04551) | 243 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2108.13956/2108.13956.md) | APS: Active Pretraining with Successor Features| Liu & Abbeel| 2021 | [2108.13956](https://arxiv.org/abs/2108.13956) | 146 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2202.00161/2202.00161.md) | CIC: Contrastive Intrinsic Control for Unsupervised Skill Discovery| Laskin, Liu, Peng, Lee & Abbeel| 2022 | [2202.00161](https://arxiv.org/abs/2202.00161) | 81 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2202.00914/2202.00914.md) | Lipschitz-constrained Unsupervised Skill Discovery (LSD)| Park, Choi, Kim, Lee & Kim| 2022 | [2202.00914](https://arxiv.org/abs/2202.00914) | 70 |
 | ❌ | Controllability-Aware Unsupervised Skill Discovery (CSD) | Park, Lee, Lee & Abbeel | 2023 | [2302.05103](https://arxiv.org/abs/2302.05103) | 61 |
 | ❌ | METRA: Scalable Unsupervised RL with Metric-Aware Abstraction | Park, Rybkin & Levine | 2024 | [2310.08887](https://arxiv.org/abs/2310.08887) | 82 |
 
@@ -196,9 +196,9 @@
 
 | Status | Paper | Authors | Year | arXiv | Cites |
 |--------|-------|---------|------|-------|------:|
-| ❌ | OPAL: Offline Primitive Discovery for Accelerating Offline RL | Ajay, Kumar, Agrawal, Levine & Nachum | 2020 | [2010.13611](https://arxiv.org/abs/2010.13611) | 187 |
-| ❌ | PARROT: Data-Driven Behavioral Priors for Reinforcement Learning | Singh, Liu, Zhou, Yu, Rhinehart & Levine | 2020 | [2011.10024](https://arxiv.org/abs/2011.10024) | 161 |
-| ❌ | Discovering and Achieving Goals via World Models (LEXA) | Mendonca, Rybkin, Daniilidis, Hafner & Pathak | 2021 | [2110.09514](https://arxiv.org/abs/2110.09514) | 163 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2010.13611/2010.13611.md) | OPAL: Offline Primitive Discovery for Accelerating Offline RL| Ajay, Kumar, Agrawal, Levine & Nachum| 2020 | [2010.13611](https://arxiv.org/abs/2010.13611) | 187 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2011.10024/2011.10024.md) | PARROT: Data-Driven Behavioral Priors for Reinforcement Learning| Singh, Liu, Zhou, Yu, Rhinehart & Levine| 2020 | [2011.10024](https://arxiv.org/abs/2011.10024) | 161 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2110.09514/2110.09514.md) | Discovering and Achieving Goals via World Models (LEXA)| Mendonca, Rybkin, Daniilidis, Hafner & Pathak| 2021 | [2110.09514](https://arxiv.org/abs/2110.09514) | 163 |
 | ❌ | Deep Hierarchical Planning from Pixels (Director) | Hafner, Lee, Fischer & Abbeel | 2022 | [2206.04114](https://arxiv.org/abs/2206.04114) | 127 |
 | ❌ | GoFAR: Offline Goal-Conditioned RL via f-Advantage Regression | Ma, Yan, Jayaraman & Bastani | 2022 | [2206.03023](https://arxiv.org/abs/2206.03023) | 78 |
 | ❌ | A Policy-Guided Imitation Approach for Offline RL (POR) | Xu, Jiang, Li & Zhan | 2022 | [2210.08323](https://arxiv.org/abs/2210.08323) | 77 |
@@ -222,7 +222,7 @@
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1804.02717/1804.02717.md) | DeepMimic: Example-Guided Deep RL of Physics-Based Character Skills| Peng, Abbeel, Levine & van de Panne| 2018 | [1804.02717](https://arxiv.org/abs/1804.02717) | 569 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1811.11711/1811.11711.md) | Neural Probabilistic Motor Primitives for Humanoid Control (NPMP)| Merel, Hasenclever, Galashov, Ahuja, Pham, Wayne, Teh & Heess| 2018 | [1811.11711](https://arxiv.org/abs/1811.11711) | 182 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1905.09808/1905.09808.md) | MCP: Learning Composable Hierarchical Control with Multiplicative Compositional Policies| Peng, Chang, Zhang, Abbeel & Levine| 2019 | [1905.09808](https://arxiv.org/abs/1905.09808) | 223 |
-| ❌ | AMP: Adversarial Motion Priors for Stylized Physics-Based Character Control | Peng, Ma, Abbeel, Levine & Kanazawa | 2021 | [2104.02180](https://arxiv.org/abs/2104.02180) | 332 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2104.02180/2104.02180.md) | AMP: Adversarial Motion Priors for Stylized Physics-Based Character Control| Peng, Ma, Abbeel, Levine & Kanazawa| 2021 | [2104.02180](https://arxiv.org/abs/2104.02180) | 332 |
 | ❌ | ASE: Large-Scale Reusable Adversarial Skill Embeddings for Physically Simulated Characters | Peng, Guo, Halper, Levine & Fidler | 2022 | [2205.01906](https://arxiv.org/abs/2205.01906) | 189 |
 
 ## Hierarchical RL — Robotic Navigation & Manipulation
@@ -233,7 +233,7 @@
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1910.07113/1910.07113.md) | Solving Rubik's Cube with a Robot Hand | OpenAI: Akkaya et al. | 2019 | [1910.07113](https://arxiv.org/abs/1910.07113) | 1,427 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2004.05155/2004.05155.md) | Learning to Explore using Active Neural SLAM (ANS)| Chaplot, Gandhi, Gupta & Salakhutdinov| 2020 | [2004.05155](https://arxiv.org/abs/2004.05155) | 599 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2005.12256/2005.12256.md) | Neural Topological SLAM for Visual Navigation| Chaplot, Salakhutdinov, Gupta & Gupta| 2020 | [2005.12256](https://arxiv.org/abs/2005.12256) | 365 |
-| ❌ | Object Goal Navigation using Goal-Oriented Semantic Exploration (SemExp) | Chaplot, Gandhi, Gupta & Salakhutdinov | 2020 | [2007.00643](https://arxiv.org/abs/2007.00643) | 705 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2007.00643/2007.00643.md) | Object Goal Navigation using Goal-Oriented Semantic Exploration (SemExp)| Chaplot, Gandhi, Gupta & Salakhutdinov| 2020 | [2007.00643](https://arxiv.org/abs/2007.00643) | 705 |
 | ❌ | MimicGen: Scalable Robot Learning using Human Demonstrations | Mandlekar, Nasiriany, Wen, Akinola, Narang, Fan, Zhu & Fox | 2023 | [2310.17596](https://arxiv.org/abs/2310.17596) | 291 |
 | ❌ | Plan-Seq-Learn: Language Model Guided RL for Long Horizon Robotics | Dalal, Chiruvolu, Chaplot & Salakhutdinov | 2024 | [2405.01534](https://arxiv.org/abs/2405.01534) | 82 |
 
