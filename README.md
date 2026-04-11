@@ -171,7 +171,7 @@
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2006.11485/2006.11485.md) | Generating Adjacency-Constrained Subgoals in HRL (HRAC)| Zhang, Guo, Tan, Hu & Chen| 2020 | [2006.11485](https://arxiv.org/abs/2006.11485) | 103 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2107.00541/2107.00541.md) | Goal-Conditioned RL with Imagined Subgoals (RIS)| Chane-Sane, Schmid & Laptev| 2021 | [2107.00541](https://arxiv.org/abs/2107.00541) | 178 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2110.13625/2110.13625.md) | Landmark-Guided Subgoal Generation in HRL (HIGL)| Kim, Seo & Shin| 2021 | [2110.13625](https://arxiv.org/abs/2110.13625) | 77 |
-| ❌ | Optimal Goal-Reaching RL via Quasimetric Learning (QRL) | Wang, Torralba, Isola & Zhang | 2023 | [2304.01203](https://arxiv.org/abs/2304.01203) | 83 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2304.01203/2304.01203.md) | Optimal Goal-Reaching RL via Quasimetric Learning (QRL)| Wang, Torralba, Isola & Zhang| 2023 | [2304.01203](https://arxiv.org/abs/2304.01203) | 83 |
 
 ## Hierarchical RL — Skill Discovery & Pre-Training
 
@@ -189,8 +189,8 @@
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2108.13956/2108.13956.md) | APS: Active Pretraining with Successor Features| Liu & Abbeel| 2021 | [2108.13956](https://arxiv.org/abs/2108.13956) | 146 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2202.00161/2202.00161.md) | CIC: Contrastive Intrinsic Control for Unsupervised Skill Discovery| Laskin, Liu, Peng, Lee & Abbeel| 2022 | [2202.00161](https://arxiv.org/abs/2202.00161) | 81 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2202.00914/2202.00914.md) | Lipschitz-constrained Unsupervised Skill Discovery (LSD)| Park, Choi, Kim, Lee & Kim| 2022 | [2202.00914](https://arxiv.org/abs/2202.00914) | 70 |
-| ❌ | Controllability-Aware Unsupervised Skill Discovery (CSD) | Park, Lee, Lee & Abbeel | 2023 | [2302.05103](https://arxiv.org/abs/2302.05103) | 61 |
-| ❌ | METRA: Scalable Unsupervised RL with Metric-Aware Abstraction | Park, Rybkin & Levine | 2024 | [2310.08887](https://arxiv.org/abs/2310.08887) | 82 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2302.05103/2302.05103.md) | Controllability-Aware Unsupervised Skill Discovery (CSD)| Park, Lee, Lee & Abbeel| 2023 | [2302.05103](https://arxiv.org/abs/2302.05103) | 61 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2310.08887/2310.08887.md) | METRA: Scalable Unsupervised RL with Metric-Aware Abstraction| Park, Rybkin & Levine| 2024 | [2310.08887](https://arxiv.org/abs/2310.08887) | 82 |
 
 ## Hierarchical RL — Offline, Model-Based & Diffusion
 
@@ -199,10 +199,10 @@
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2010.13611/2010.13611.md) | OPAL: Offline Primitive Discovery for Accelerating Offline RL| Ajay, Kumar, Agrawal, Levine & Nachum| 2020 | [2010.13611](https://arxiv.org/abs/2010.13611) | 187 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2011.10024/2011.10024.md) | PARROT: Data-Driven Behavioral Priors for Reinforcement Learning| Singh, Liu, Zhou, Yu, Rhinehart & Levine| 2020 | [2011.10024](https://arxiv.org/abs/2011.10024) | 161 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2110.09514/2110.09514.md) | Discovering and Achieving Goals via World Models (LEXA)| Mendonca, Rybkin, Daniilidis, Hafner & Pathak| 2021 | [2110.09514](https://arxiv.org/abs/2110.09514) | 163 |
-| ❌ | Deep Hierarchical Planning from Pixels (Director) | Hafner, Lee, Fischer & Abbeel | 2022 | [2206.04114](https://arxiv.org/abs/2206.04114) | 127 |
-| ❌ | GoFAR: Offline Goal-Conditioned RL via f-Advantage Regression | Ma, Yan, Jayaraman & Bastani | 2022 | [2206.03023](https://arxiv.org/abs/2206.03023) | 78 |
-| ❌ | A Policy-Guided Imitation Approach for Offline RL (POR) | Xu, Jiang, Li & Zhan | 2022 | [2210.08323](https://arxiv.org/abs/2210.08323) | 77 |
-| ❌ | HIQL: Offline Goal-Conditioned RL with Latent States as Actions | Park, Ghosh, Eysenbach & Levine | 2023 | [2307.11949](https://arxiv.org/abs/2307.11949) | 113 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2206.04114/2206.04114.md) | Deep Hierarchical Planning from Pixels (Director)| Hafner, Lee, Fischer & Abbeel| 2022 | [2206.04114](https://arxiv.org/abs/2206.04114) | 127 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2206.03023/2206.03023.md) | GoFAR: Offline Goal-Conditioned RL via f-Advantage Regression| Ma, Yan, Jayaraman & Bastani| 2022 | [2206.03023](https://arxiv.org/abs/2206.03023) | 78 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2210.08323/2210.08323.md) | A Policy-Guided Imitation Approach for Offline RL (POR)| Xu, Jiang, Li & Zhan| 2022 | [2210.08323](https://arxiv.org/abs/2210.08323) | 77 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2307.11949/2307.11949.md) | HIQL: Offline Goal-Conditioned RL with Latent States as Actions| Park, Ghosh, Eysenbach & Levine| 2023 | [2307.11949](https://arxiv.org/abs/2307.11949) | 113 |
 | ❌ | Foundation Policies with Hilbert Representations (HILP) | Park, Kreiman & Levine | 2024 | [2402.15567](https://arxiv.org/abs/2402.15567) | 68 |
 | ❌ | Hierarchical Diffusion Policy for Kinematics-Aware Multi-Task Manipulation (HDP) | Ma, Patidar, Haughton & James | 2024 | [2403.03890](https://arxiv.org/abs/2403.03890) | 131 |
 | ❌ | Puppeteer: Hierarchical World Models as Visual Whole-Body Humanoid Controllers | Hansen, Jyothir S V, Sobal, LeCun, Wang & Su | 2024 | [2405.18418](https://arxiv.org/abs/2405.18418) | 28 |
@@ -223,7 +223,7 @@
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1811.11711/1811.11711.md) | Neural Probabilistic Motor Primitives for Humanoid Control (NPMP)| Merel, Hasenclever, Galashov, Ahuja, Pham, Wayne, Teh & Heess| 2018 | [1811.11711](https://arxiv.org/abs/1811.11711) | 182 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1905.09808/1905.09808.md) | MCP: Learning Composable Hierarchical Control with Multiplicative Compositional Policies| Peng, Chang, Zhang, Abbeel & Levine| 2019 | [1905.09808](https://arxiv.org/abs/1905.09808) | 223 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2104.02180/2104.02180.md) | AMP: Adversarial Motion Priors for Stylized Physics-Based Character Control| Peng, Ma, Abbeel, Levine & Kanazawa| 2021 | [2104.02180](https://arxiv.org/abs/2104.02180) | 332 |
-| ❌ | ASE: Large-Scale Reusable Adversarial Skill Embeddings for Physically Simulated Characters | Peng, Guo, Halper, Levine & Fidler | 2022 | [2205.01906](https://arxiv.org/abs/2205.01906) | 189 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2205.01906/2205.01906.md) | ASE: Large-Scale Reusable Adversarial Skill Embeddings for Physically Simulated Characters| Peng, Guo, Halper, Levine & Fidler| 2022 | [2205.01906](https://arxiv.org/abs/2205.01906) | 189 |
 
 ## Hierarchical RL — Robotic Navigation & Manipulation
 
@@ -234,7 +234,7 @@
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2004.05155/2004.05155.md) | Learning to Explore using Active Neural SLAM (ANS)| Chaplot, Gandhi, Gupta & Salakhutdinov| 2020 | [2004.05155](https://arxiv.org/abs/2004.05155) | 599 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2005.12256/2005.12256.md) | Neural Topological SLAM for Visual Navigation| Chaplot, Salakhutdinov, Gupta & Gupta| 2020 | [2005.12256](https://arxiv.org/abs/2005.12256) | 365 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2007.00643/2007.00643.md) | Object Goal Navigation using Goal-Oriented Semantic Exploration (SemExp)| Chaplot, Gandhi, Gupta & Salakhutdinov| 2020 | [2007.00643](https://arxiv.org/abs/2007.00643) | 705 |
-| ❌ | MimicGen: Scalable Robot Learning using Human Demonstrations | Mandlekar, Nasiriany, Wen, Akinola, Narang, Fan, Zhu & Fox | 2023 | [2310.17596](https://arxiv.org/abs/2310.17596) | 291 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2310.17596/2310.17596.md) | MimicGen: Scalable Robot Learning using Human Demonstrations| Mandlekar, Nasiriany, Wen, Akinola, Narang, Fan, Zhu & Fox| 2023 | [2310.17596](https://arxiv.org/abs/2310.17596) | 291 |
 | ❌ | Plan-Seq-Learn: Language Model Guided RL for Long Horizon Robotics | Dalal, Chiruvolu, Chaplot & Salakhutdinov | 2024 | [2405.01534](https://arxiv.org/abs/2405.01534) | 82 |
 
 ## Hierarchical RL — LLM-Based Hierarchies
@@ -244,10 +244,10 @@
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2204.01691/2204.01691.md) | Do As I Can, Not As I Say: Grounding Language in Robotic Affordances (SayCan) | Ahn et al. | 2022 | [2204.01691](https://arxiv.org/abs/2204.01691) | 2,928 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2207.05608/2207.05608.md) | Inner Monologue: Embodied Reasoning through Planning with Language Models | Huang et al. | 2022 | [2207.05608](https://arxiv.org/abs/2207.05608) | 1,278 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2209.07753/2209.07753.md) | Code as Policies: Language Model Programs for Embodied Control | Liang et al. | 2022 | [2209.07753](https://arxiv.org/abs/2209.07753) | 1,442 |
-| ❌ | PaLM-E: An Embodied Multimodal Language Model | Driess et al. | 2023 | [2303.03378](https://arxiv.org/abs/2303.03378) | 2,513 |
-| ❌ | Reflexion: Language Agents with Verbal Reinforcement Learning | Shinn, Cassano, Berman, Gopinath, Narasimhan & Yao | 2023 | [2303.11366](https://arxiv.org/abs/2303.11366) | 3,003 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2303.03378/2303.03378.md) | PaLM-E: An Embodied Multimodal Language Model| Driess et al.| 2023 | [2303.03378](https://arxiv.org/abs/2303.03378) | 2,513 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2303.11366/2303.11366.md) | Reflexion: Language Agents with Verbal Reinforcement Learning| Shinn, Cassano, Berman, Gopinath, Narasimhan & Yao| 2023 | [2303.11366](https://arxiv.org/abs/2303.11366) | 3,003 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2305.16291/2305.16291.md) | Voyager: An Open-Ended Embodied Agent with Large Language Models | Wang, Xie, Jiang, Mandlekar, Xiao, Zhu, Fan & Anandkumar | 2023 | [2305.16291](https://arxiv.org/abs/2305.16291) | 1,444 |
-| ❌ | AdaPlanner: Adaptive Planning from Feedback with Language Models | Sun, Zhang, Xu & Yu | 2023 | [2305.16653](https://arxiv.org/abs/2305.16653) | 202 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2305.16653/2305.16653.md) | AdaPlanner: Adaptive Planning from Feedback with Language Models| Sun, Zhang, Xu & Yu| 2023 | [2305.16653](https://arxiv.org/abs/2305.16653) | 202 |
 | ❌ | Large Language Models as Generalizable Policies for Embodied Tasks (LLaRP) | Szot, Schwarzer, Agrawal et al. | 2023 | [2310.17722](https://arxiv.org/abs/2310.17722) | 112 |
 | ❌ | RT-H: Action Hierarchies Using Language | Belkhale, Ding, Xiao, Sermanet, Vuong, Tompson, Chebotar, Dwibedi & Sadigh | 2024 | [2403.01823](https://arxiv.org/abs/2403.01823) | 186 |
 | ❌ | Hi Robot: Open-Ended Instruction Following with Hierarchical Vision-Language-Action Models | Physical Intelligence | 2025 | [2502.19417](https://arxiv.org/abs/2502.19417) | 159 |
