@@ -152,8 +152,8 @@
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1704.03012/1704.03012.md) | Stochastic Neural Networks for Hierarchical RL (SNN4HRL)| Florensa, Duan & Abbeel| 2017 | [1704.03012](https://arxiv.org/abs/1704.03012) | 377 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1709.04571/1709.04571.md) | When Waiting is not an Option: Learning Options with a Deliberation Cost| Harb, Bacon, Klissarov & Precup| 2017 | [1709.04571](https://arxiv.org/abs/1709.04571) | 164 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1710.09767/1710.09767.md) | Meta Learning Shared Hierarchies (MLSH)| Frans, Ho, Chen, Abbeel & Schulman| 2017 | [1710.09767](https://arxiv.org/abs/1710.09767) | 374 |
-| ❌ | DAC: The Double Actor-Critic Architecture for Learning Options | Zhang & Whiteson | 2019 | [1904.12691](https://arxiv.org/abs/1904.12691) | 86 |
-| ❌ | Options of Interest: Temporal Abstraction with Interest Functions (IOC) | Khetarpal, Klissarov, Chevalier-Boisvert, Bacon & Precup | 2020 | [2001.00271](https://arxiv.org/abs/2001.00271) | 51 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1904.12691/1904.12691.md) | DAC: The Double Actor-Critic Architecture for Learning Options| Zhang & Whiteson| 2019 | [1904.12691](https://arxiv.org/abs/1904.12691) | 86 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2001.00271/2001.00271.md) | Options of Interest: Temporal Abstraction with Interest Functions (IOC)| Khetarpal, Klissarov, Chevalier-Boisvert, Bacon & Precup| 2020 | [2001.00271](https://arxiv.org/abs/2001.00271) | 51 |
 
 ## Hierarchical RL — Goal-Conditioned & Manager-Worker
 
@@ -165,9 +165,9 @@
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1804.02808/1804.02808.md) | Latent Space Policies for Hierarchical Reinforcement Learning| Haarnoja, Hartikainen, Abbeel & Levine| 2018 | [1804.02808](https://arxiv.org/abs/1804.02808) | 205 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1807.04742/1807.04742.md) | Visual Reinforcement Learning with Imagined Goals (RIG)| Nair, Pong, Dalal, Bahl, Lin & Levine| 2018 | [1807.04742](https://arxiv.org/abs/1807.04742) | 587 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1805.08296/1805.08296.md) | Data-Efficient Hierarchical Reinforcement Learning (HIRO)| Nachum, Gu, Lee & Levine| 2018 | [1805.08296](https://arxiv.org/abs/1805.08296) | 958 |
-| ❌ | Universal Successor Features Approximators (USFA) | Borsa, Barreto, Quan, Mankowitz, Munos, van Hasselt, Silver & Schaul | 2018 | [1812.07626](https://arxiv.org/abs/1812.07626) | 136 |
-| ❌ | Skew-Fit: State-Covering Self-Supervised RL | Pong, Dalal, Lin, Nair, Bahl & Levine | 2019 | [1903.03698](https://arxiv.org/abs/1903.03698) | 302 |
-| ❌ | Planning with Goal-Conditioned Policies (LEAP) | Nasiriany, Pong, Lin & Levine | 2019 | [1911.08453](https://arxiv.org/abs/1911.08453) | 245 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1812.07626/1812.07626.md) | Universal Successor Features Approximators (USFA)| Borsa, Barreto, Quan, Mankowitz, Munos, van Hasselt, Silver & Schaul| 2018 | [1812.07626](https://arxiv.org/abs/1812.07626) | 136 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1903.03698/1903.03698.md) | Skew-Fit: State-Covering Self-Supervised RL| Pong, Dalal, Lin, Nair, Bahl & Levine| 2019 | [1903.03698](https://arxiv.org/abs/1903.03698) | 302 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1911.08453/1911.08453.md) | Planning with Goal-Conditioned Policies (LEAP)| Nasiriany, Pong, Lin & Levine| 2019 | [1911.08453](https://arxiv.org/abs/1911.08453) | 245 |
 | ❌ | Generating Adjacency-Constrained Subgoals in HRL (HRAC) | Zhang, Guo, Tan, Hu & Chen | 2020 | [2006.11485](https://arxiv.org/abs/2006.11485) | 103 |
 | ❌ | Goal-Conditioned RL with Imagined Subgoals (RIS) | Chane-Sane, Schmid & Laptev | 2021 | [2107.00541](https://arxiv.org/abs/2107.00541) | 178 |
 | ❌ | Landmark-Guided Subgoal Generation in HRL (HIGL) | Kim, Seo & Shin | 2021 | [2110.13625](https://arxiv.org/abs/2110.13625) | 77 |
@@ -180,10 +180,10 @@
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1611.07507/1611.07507.md) | Variational Intrinsic Control (VIC)| Gregor, Rezende & Wierstra| 2016 | [1611.07507](https://arxiv.org/abs/1611.07507) | 465 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1802.06070/1802.06070.md) | Diversity is All You Need (DIAYN) | Eysenbach, Gupta, Ibarz & Levine | 2018 | [1802.06070](https://arxiv.org/abs/1802.06070) | 1,252 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1807.10299/1807.10299.md) | Variational Option Discovery Algorithms (VALOR)| Achiam, Edwards, Amodei & Abbeel| 2018 | [1807.10299](https://arxiv.org/abs/1807.10299) | 200 |
-| ❌ | Learning Latent Plans from Play (Play-LMP) | Lynch, Khansari, Xiao, Kumar, Tompson, Levine & Sermanet | 2019 | [1903.01973](https://arxiv.org/abs/1903.01973) | 476 |
-| ❌ | Efficient Exploration via State Marginal Matching (SMM) | Lee, Eysenbach, Parisotto, Xing, Salakhutdinov & Levine | 2019 | [1906.05274](https://arxiv.org/abs/1906.05274) | 282 |
-| ❌ | Dynamics-Aware Unsupervised Discovery of Skills (DADS) | Sharma, Gu, Levine, Kumar & Hausman | 2019 | [1907.01657](https://arxiv.org/abs/1907.01657) | 471 |
-| ❌ | Relay Policy Learning: Solving Long-Horizon Tasks via Imitation and RL | Gupta, Kumar, Lynch, Levine & Hausman | 2019 | [1910.11956](https://arxiv.org/abs/1910.11956) | 531 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1903.01973/1903.01973.md) | Learning Latent Plans from Play (Play-LMP)| Lynch, Khansari, Xiao, Kumar, Tompson, Levine & Sermanet| 2019 | [1903.01973](https://arxiv.org/abs/1903.01973) | 476 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1906.05274/1906.05274.md) | Efficient Exploration via State Marginal Matching (SMM)| Lee, Eysenbach, Parisotto, Xing, Salakhutdinov & Levine| 2019 | [1906.05274](https://arxiv.org/abs/1906.05274) | 282 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1907.01657/1907.01657.md) | Dynamics-Aware Unsupervised Discovery of Skills (DADS)| Sharma, Gu, Levine, Kumar & Hausman| 2019 | [1907.01657](https://arxiv.org/abs/1907.01657) | 471 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1910.11956/1910.11956.md) | Relay Policy Learning: Solving Long-Horizon Tasks via Imitation and RL| Gupta, Kumar, Lynch, Levine & Hausman| 2019 | [1910.11956](https://arxiv.org/abs/1910.11956) | 531 |
 | ❌ | Accelerating RL with Learned Skill Priors (SPiRL) | Pertsch, Lee & Lim | 2020 | [2010.11944](https://arxiv.org/abs/2010.11944) | 288 |
 | ❌ | Behavior From the Void: Unsupervised Active Pre-Training (APT) | Liu & Abbeel | 2021 | [2103.04551](https://arxiv.org/abs/2103.04551) | 243 |
 | ❌ | APS: Active Pretraining with Successor Features | Liu & Abbeel | 2021 | [2108.13956](https://arxiv.org/abs/2108.13956) | 146 |
@@ -211,7 +211,7 @@
 
 | Status | Paper | Authors | Year | arXiv | Cites |
 |--------|-------|---------|------|-------|------:|
-| ❌ | First Return, Then Explore (Go-Explore) | Ecoffet, Huizinga, Lehman, Stanley & Clune | 2021 | [1901.10995](https://arxiv.org/abs/1901.10995) | 425 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1901.10995/1901.10995.md) | First Return, Then Explore (Go-Explore)| Ecoffet, Huizinga, Lehman, Stanley & Clune| 2021 | [1901.10995](https://arxiv.org/abs/1901.10995) | 425 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2002.06038/2002.06038.md) | Never Give Up: Learning Directed Exploration Strategies (NGU) | Badia et al. | 2020 | [2002.06038](https://arxiv.org/abs/2002.06038) | 348 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2003.13350/2003.13350.md) | Agent57: Outperforming the Atari Human Benchmark | Badia et al. | 2020 | [2003.13350](https://arxiv.org/abs/2003.13350) | 579 |
 
@@ -220,8 +220,8 @@
 | Status | Paper | Authors | Year | arXiv | Cites |
 |--------|-------|---------|------|-------|------:|
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1804.02717/1804.02717.md) | DeepMimic: Example-Guided Deep RL of Physics-Based Character Skills| Peng, Abbeel, Levine & van de Panne| 2018 | [1804.02717](https://arxiv.org/abs/1804.02717) | 569 |
-| ❌ | Neural Probabilistic Motor Primitives for Humanoid Control (NPMP) | Merel, Hasenclever, Galashov, Ahuja, Pham, Wayne, Teh & Heess | 2018 | [1811.11711](https://arxiv.org/abs/1811.11711) | 182 |
-| ❌ | MCP: Learning Composable Hierarchical Control with Multiplicative Compositional Policies | Peng, Chang, Zhang, Abbeel & Levine | 2019 | [1905.09808](https://arxiv.org/abs/1905.09808) | 223 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1811.11711/1811.11711.md) | Neural Probabilistic Motor Primitives for Humanoid Control (NPMP)| Merel, Hasenclever, Galashov, Ahuja, Pham, Wayne, Teh & Heess| 2018 | [1811.11711](https://arxiv.org/abs/1811.11711) | 182 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1905.09808/1905.09808.md) | MCP: Learning Composable Hierarchical Control with Multiplicative Compositional Policies| Peng, Chang, Zhang, Abbeel & Levine| 2019 | [1905.09808](https://arxiv.org/abs/1905.09808) | 223 |
 | ❌ | AMP: Adversarial Motion Priors for Stylized Physics-Based Character Control | Peng, Ma, Abbeel, Levine & Kanazawa | 2021 | [2104.02180](https://arxiv.org/abs/2104.02180) | 332 |
 | ❌ | ASE: Large-Scale Reusable Adversarial Skill Embeddings for Physically Simulated Characters | Peng, Guo, Halper, Levine & Fidler | 2022 | [2205.01906](https://arxiv.org/abs/2205.01906) | 189 |
 
@@ -229,10 +229,10 @@
 
 | Status | Paper | Authors | Year | arXiv | Cites |
 |--------|-------|---------|------|-------|------:|
-| ❌ | Learning Dexterous In-Hand Manipulation | OpenAI: Andrychowicz et al. | 2018 | [1808.00177](https://arxiv.org/abs/1808.00177) | 2,123 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1808.00177/1808.00177.md) | Learning Dexterous In-Hand Manipulation| OpenAI: Andrychowicz et al.| 2018 | [1808.00177](https://arxiv.org/abs/1808.00177) | 2,123 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1910.07113/1910.07113.md) | Solving Rubik's Cube with a Robot Hand | OpenAI: Akkaya et al. | 2019 | [1910.07113](https://arxiv.org/abs/1910.07113) | 1,427 |
-| ❌ | Learning to Explore using Active Neural SLAM (ANS) | Chaplot, Gandhi, Gupta & Salakhutdinov | 2020 | [2004.05155](https://arxiv.org/abs/2004.05155) | 599 |
-| ❌ | Neural Topological SLAM for Visual Navigation | Chaplot, Salakhutdinov, Gupta & Gupta | 2020 | [2005.12256](https://arxiv.org/abs/2005.12256) | 365 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2004.05155/2004.05155.md) | Learning to Explore using Active Neural SLAM (ANS)| Chaplot, Gandhi, Gupta & Salakhutdinov| 2020 | [2004.05155](https://arxiv.org/abs/2004.05155) | 599 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2005.12256/2005.12256.md) | Neural Topological SLAM for Visual Navigation| Chaplot, Salakhutdinov, Gupta & Gupta| 2020 | [2005.12256](https://arxiv.org/abs/2005.12256) | 365 |
 | ❌ | Object Goal Navigation using Goal-Oriented Semantic Exploration (SemExp) | Chaplot, Gandhi, Gupta & Salakhutdinov | 2020 | [2007.00643](https://arxiv.org/abs/2007.00643) | 705 |
 | ❌ | MimicGen: Scalable Robot Learning using Human Demonstrations | Mandlekar, Nasiriany, Wen, Akinola, Narang, Fan, Zhu & Fox | 2023 | [2310.17596](https://arxiv.org/abs/2310.17596) | 291 |
 | ❌ | Plan-Seq-Learn: Language Model Guided RL for Long Horizon Robotics | Dalal, Chiruvolu, Chaplot & Salakhutdinov | 2024 | [2405.01534](https://arxiv.org/abs/2405.01534) | 82 |
