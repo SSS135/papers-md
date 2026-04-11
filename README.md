@@ -145,13 +145,13 @@
 
 | Status | Paper | Authors | Year | arXiv | Cites |
 |--------|-------|---------|------|-------|------:|
-| ❌ | Hierarchical Deep RL: Integrating Temporal Abstraction and Intrinsic Motivation (h-DQN) | Kulkarni et al. | 2016 | [1604.06057](https://arxiv.org/abs/1604.06057) | 1,263 |
-| ❌ | Strategic Attentive Writer for Learning Macro-Actions (STRAW) | Vezhnevets et al. | 2016 | [1606.04695](https://arxiv.org/abs/1606.04695) | 173 |
-| ❌ | The Option-Critic Architecture | Bacon, Harb & Precup | 2017 | [1609.05140](https://arxiv.org/abs/1609.05140) | 1,237 |
-| ❌ | A Laplacian Framework for Option Discovery (Eigenoptions) | Machado, Bellemare & Bowling | 2017 | [1703.00956](https://arxiv.org/abs/1703.00956) | 282 |
-| ❌ | Stochastic Neural Networks for Hierarchical RL (SNN4HRL) | Florensa, Duan & Abbeel | 2017 | [1704.03012](https://arxiv.org/abs/1704.03012) | 377 |
-| ❌ | When Waiting is not an Option: Learning Options with a Deliberation Cost | Harb, Bacon, Klissarov & Precup | 2017 | [1709.04571](https://arxiv.org/abs/1709.04571) | 164 |
-| ❌ | Meta Learning Shared Hierarchies (MLSH) | Frans, Ho, Chen, Abbeel & Schulman | 2017 | [1710.09767](https://arxiv.org/abs/1710.09767) | 374 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1604.06057/1604.06057.md) | Hierarchical Deep RL: Integrating Temporal Abstraction and Intrinsic Motivation (h-DQN)| Kulkarni et al.| 2016 | [1604.06057](https://arxiv.org/abs/1604.06057) | 1,263 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1606.04695/1606.04695.md) | Strategic Attentive Writer for Learning Macro-Actions (STRAW)| Vezhnevets et al.| 2016 | [1606.04695](https://arxiv.org/abs/1606.04695) | 173 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1609.05140/1609.05140.md) | The Option-Critic Architecture| Bacon, Harb & Precup| 2017 | [1609.05140](https://arxiv.org/abs/1609.05140) | 1,237 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1703.00956/1703.00956.md) | A Laplacian Framework for Option Discovery (Eigenoptions)| Machado, Bellemare & Bowling| 2017 | [1703.00956](https://arxiv.org/abs/1703.00956) | 282 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1704.03012/1704.03012.md) | Stochastic Neural Networks for Hierarchical RL (SNN4HRL)| Florensa, Duan & Abbeel| 2017 | [1704.03012](https://arxiv.org/abs/1704.03012) | 377 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1709.04571/1709.04571.md) | When Waiting is not an Option: Learning Options with a Deliberation Cost| Harb, Bacon, Klissarov & Precup| 2017 | [1709.04571](https://arxiv.org/abs/1709.04571) | 164 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1710.09767/1710.09767.md) | Meta Learning Shared Hierarchies (MLSH)| Frans, Ho, Chen, Abbeel & Schulman| 2017 | [1710.09767](https://arxiv.org/abs/1710.09767) | 374 |
 | ❌ | DAC: The Double Actor-Critic Architecture for Learning Options | Zhang & Whiteson | 2019 | [1904.12691](https://arxiv.org/abs/1904.12691) | 86 |
 | ❌ | Options of Interest: Temporal Abstraction with Interest Functions (IOC) | Khetarpal, Klissarov, Chevalier-Boisvert, Bacon & Precup | 2020 | [2001.00271](https://arxiv.org/abs/2001.00271) | 51 |
 
@@ -159,12 +159,12 @@
 
 | Status | Paper | Authors | Year | arXiv | Cites |
 |--------|-------|---------|------|-------|------:|
-| ❌ | FeUdal Networks for Hierarchical Reinforcement Learning (FuN) | Vezhnevets et al. | 2017 | [1703.01161](https://arxiv.org/abs/1703.01161) | 1,023 |
-| ❌ | Learning Multi-Level Hierarchies with Hindsight (HAC) | Levy, Konidaris, Platt & Saenko | 2017 | [1712.00948](https://arxiv.org/abs/1712.00948) | 82 |
-| ❌ | Temporal Difference Models: Model-Free Deep RL for Model-Based Control (TDM) | Pong, Gu, Dalal & Levine | 2018 | [1802.09081](https://arxiv.org/abs/1802.09081) | 261 |
-| ❌ | Latent Space Policies for Hierarchical Reinforcement Learning | Haarnoja, Hartikainen, Abbeel & Levine | 2018 | [1804.02808](https://arxiv.org/abs/1804.02808) | 205 |
-| ❌ | Visual Reinforcement Learning with Imagined Goals (RIG) | Nair, Pong, Dalal, Bahl, Lin & Levine | 2018 | [1807.04742](https://arxiv.org/abs/1807.04742) | 587 |
-| ❌ | Data-Efficient Hierarchical Reinforcement Learning (HIRO) | Nachum, Gu, Lee & Levine | 2018 | [1805.08296](https://arxiv.org/abs/1805.08296) | 958 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1703.01161/1703.01161.md) | FeUdal Networks for Hierarchical Reinforcement Learning (FuN)| Vezhnevets et al.| 2017 | [1703.01161](https://arxiv.org/abs/1703.01161) | 1,023 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1712.00948/1712.00948.md) | Learning Multi-Level Hierarchies with Hindsight (HAC)| Levy, Konidaris, Platt & Saenko| 2017 | [1712.00948](https://arxiv.org/abs/1712.00948) | 82 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1802.09081/1802.09081.md) | Temporal Difference Models: Model-Free Deep RL for Model-Based Control (TDM)| Pong, Gu, Dalal & Levine| 2018 | [1802.09081](https://arxiv.org/abs/1802.09081) | 261 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1804.02808/1804.02808.md) | Latent Space Policies for Hierarchical Reinforcement Learning| Haarnoja, Hartikainen, Abbeel & Levine| 2018 | [1804.02808](https://arxiv.org/abs/1804.02808) | 205 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1807.04742/1807.04742.md) | Visual Reinforcement Learning with Imagined Goals (RIG)| Nair, Pong, Dalal, Bahl, Lin & Levine| 2018 | [1807.04742](https://arxiv.org/abs/1807.04742) | 587 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1805.08296/1805.08296.md) | Data-Efficient Hierarchical Reinforcement Learning (HIRO)| Nachum, Gu, Lee & Levine| 2018 | [1805.08296](https://arxiv.org/abs/1805.08296) | 958 |
 | ❌ | Universal Successor Features Approximators (USFA) | Borsa, Barreto, Quan, Mankowitz, Munos, van Hasselt, Silver & Schaul | 2018 | [1812.07626](https://arxiv.org/abs/1812.07626) | 136 |
 | ❌ | Skew-Fit: State-Covering Self-Supervised RL | Pong, Dalal, Lin, Nair, Bahl & Levine | 2019 | [1903.03698](https://arxiv.org/abs/1903.03698) | 302 |
 | ❌ | Planning with Goal-Conditioned Policies (LEAP) | Nasiriany, Pong, Lin & Levine | 2019 | [1911.08453](https://arxiv.org/abs/1911.08453) | 245 |
@@ -177,9 +177,9 @@
 
 | Status | Paper | Authors | Year | arXiv | Cites |
 |--------|-------|---------|------|-------|------:|
-| ❌ | Variational Intrinsic Control (VIC) | Gregor, Rezende & Wierstra | 2016 | [1611.07507](https://arxiv.org/abs/1611.07507) | 465 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1611.07507/1611.07507.md) | Variational Intrinsic Control (VIC)| Gregor, Rezende & Wierstra| 2016 | [1611.07507](https://arxiv.org/abs/1611.07507) | 465 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1802.06070/1802.06070.md) | Diversity is All You Need (DIAYN) | Eysenbach, Gupta, Ibarz & Levine | 2018 | [1802.06070](https://arxiv.org/abs/1802.06070) | 1,252 |
-| ❌ | Variational Option Discovery Algorithms (VALOR) | Achiam, Edwards, Amodei & Abbeel | 2018 | [1807.10299](https://arxiv.org/abs/1807.10299) | 200 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1807.10299/1807.10299.md) | Variational Option Discovery Algorithms (VALOR)| Achiam, Edwards, Amodei & Abbeel| 2018 | [1807.10299](https://arxiv.org/abs/1807.10299) | 200 |
 | ❌ | Learning Latent Plans from Play (Play-LMP) | Lynch, Khansari, Xiao, Kumar, Tompson, Levine & Sermanet | 2019 | [1903.01973](https://arxiv.org/abs/1903.01973) | 476 |
 | ❌ | Efficient Exploration via State Marginal Matching (SMM) | Lee, Eysenbach, Parisotto, Xing, Salakhutdinov & Levine | 2019 | [1906.05274](https://arxiv.org/abs/1906.05274) | 282 |
 | ❌ | Dynamics-Aware Unsupervised Discovery of Skills (DADS) | Sharma, Gu, Levine, Kumar & Hausman | 2019 | [1907.01657](https://arxiv.org/abs/1907.01657) | 471 |
@@ -219,7 +219,7 @@
 
 | Status | Paper | Authors | Year | arXiv | Cites |
 |--------|-------|---------|------|-------|------:|
-| ❌ | DeepMimic: Example-Guided Deep RL of Physics-Based Character Skills | Peng, Abbeel, Levine & van de Panne | 2018 | [1804.02717](https://arxiv.org/abs/1804.02717) | 569 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1804.02717/1804.02717.md) | DeepMimic: Example-Guided Deep RL of Physics-Based Character Skills| Peng, Abbeel, Levine & van de Panne| 2018 | [1804.02717](https://arxiv.org/abs/1804.02717) | 569 |
 | ❌ | Neural Probabilistic Motor Primitives for Humanoid Control (NPMP) | Merel, Hasenclever, Galashov, Ahuja, Pham, Wayne, Teh & Heess | 2018 | [1811.11711](https://arxiv.org/abs/1811.11711) | 182 |
 | ❌ | MCP: Learning Composable Hierarchical Control with Multiplicative Compositional Policies | Peng, Chang, Zhang, Abbeel & Levine | 2019 | [1905.09808](https://arxiv.org/abs/1905.09808) | 223 |
 | ❌ | AMP: Adversarial Motion Priors for Stylized Physics-Based Character Control | Peng, Ma, Abbeel, Levine & Kanazawa | 2021 | [2104.02180](https://arxiv.org/abs/2104.02180) | 332 |
