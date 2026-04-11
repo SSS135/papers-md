@@ -133,12 +133,12 @@
 
 | Status | Paper | Authors | Year | arXiv | Cites |
 |--------|-------|---------|------|-------|------:|
-| ❌ | Feudal Reinforcement Learning | Dayan & Hinton | 1993 | — (NIPS) | 502 |
-| ❌ | Between MDPs and Semi-MDPs: A Framework for Temporal Abstraction in RL | Sutton, Precup & Singh | 1999 | — (AIJ) | 3,087 |
-| ❌ | Hierarchical Reinforcement Learning with the MAXQ Value Function Decomposition | Dietterich | 2000 | [cs/9905014](https://arxiv.org/abs/cs/9905014) | 1,823 |
-| ❌ | Automatic Discovery of Subgoals in RL using Diverse Density | McGovern & Barto | 2001 | — (ICML) | 418 |
-| ❌ | Identifying Useful Subgoals in RL by Local Graph Partitioning | Şimşek, Wolfe & Barto | 2005 | — (ICML) | 242 |
-| ❌ | Universal Value Function Approximators (UVFA) | Schaul, Horgan, Gregor & Silver | 2015 | — (ICML) | 612 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/feudal/feudal.md) | Feudal Reinforcement Learning | Dayan & Hinton | 1993 | — (NIPS) | 502 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/sps-aij/sps-aij.md) | Between MDPs and Semi-MDPs: A Framework for Temporal Abstraction in RL | Sutton, Precup & Singh | 1999 | — (AIJ) | 3,087 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/maxq/maxq.md) | Hierarchical Reinforcement Learning with the MAXQ Value Function Decomposition | Dietterich | 2000 | [cs/9905014](https://arxiv.org/abs/cs/9905014) | 1,823 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/mcgovern/mcgovern.md) | Automatic Discovery of Subgoals in RL using Diverse Density | McGovern & Barto | 2001 | — (ICML) | 418 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/simsek/simsek.md) | Identifying Useful Subgoals in RL by Local Graph Partitioning | Şimşek, Wolfe & Barto | 2005 | — (ICML) | 242 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/uvfa/uvfa.md) | Universal Value Function Approximators (UVFA) | Schaul, Horgan, Gregor & Silver | 2015 | — (ICML) | 612 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1707.01495/1707.01495.md) | Hindsight Experience Replay (HER) | Andrychowicz et al. | 2017 | [1707.01495](https://arxiv.org/abs/1707.01495) | 2,645 |
 
 ## Hierarchical RL — Options Framework
