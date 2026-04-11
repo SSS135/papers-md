@@ -139,7 +139,7 @@
 | ❌ | Automatic Discovery of Subgoals in RL using Diverse Density | McGovern & Barto | 2001 | — (ICML) | 418 |
 | ❌ | Identifying Useful Subgoals in RL by Local Graph Partitioning | Şimşek, Wolfe & Barto | 2005 | — (ICML) | 242 |
 | ❌ | Universal Value Function Approximators (UVFA) | Schaul, Horgan, Gregor & Silver | 2015 | — (ICML) | 612 |
-| ❌ | Hindsight Experience Replay (HER) | Andrychowicz et al. | 2017 | [1707.01495](https://arxiv.org/abs/1707.01495) | 2,645 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1707.01495/1707.01495.md) | Hindsight Experience Replay (HER) | Andrychowicz et al. | 2017 | [1707.01495](https://arxiv.org/abs/1707.01495) | 2,645 |
 
 ## Hierarchical RL — Options Framework
 
@@ -178,7 +178,7 @@
 | Status | Paper | Authors | Year | arXiv | Cites |
 |--------|-------|---------|------|-------|------:|
 | ❌ | Variational Intrinsic Control (VIC) | Gregor, Rezende & Wierstra | 2016 | [1611.07507](https://arxiv.org/abs/1611.07507) | 465 |
-| ❌ | Diversity is All You Need (DIAYN) | Eysenbach, Gupta, Ibarz & Levine | 2018 | [1802.06070](https://arxiv.org/abs/1802.06070) | 1,252 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1802.06070/1802.06070.md) | Diversity is All You Need (DIAYN) | Eysenbach, Gupta, Ibarz & Levine | 2018 | [1802.06070](https://arxiv.org/abs/1802.06070) | 1,252 |
 | ❌ | Variational Option Discovery Algorithms (VALOR) | Achiam, Edwards, Amodei & Abbeel | 2018 | [1807.10299](https://arxiv.org/abs/1807.10299) | 200 |
 | ❌ | Learning Latent Plans from Play (Play-LMP) | Lynch, Khansari, Xiao, Kumar, Tompson, Levine & Sermanet | 2019 | [1903.01973](https://arxiv.org/abs/1903.01973) | 476 |
 | ❌ | Efficient Exploration via State Marginal Matching (SMM) | Lee, Eysenbach, Parisotto, Xing, Salakhutdinov & Levine | 2019 | [1906.05274](https://arxiv.org/abs/1906.05274) | 282 |
@@ -212,8 +212,8 @@
 | Status | Paper | Authors | Year | arXiv | Cites |
 |--------|-------|---------|------|-------|------:|
 | ❌ | First Return, Then Explore (Go-Explore) | Ecoffet, Huizinga, Lehman, Stanley & Clune | 2021 | [1901.10995](https://arxiv.org/abs/1901.10995) | 425 |
-| ❌ | Never Give Up: Learning Directed Exploration Strategies (NGU) | Badia et al. | 2020 | [2002.06038](https://arxiv.org/abs/2002.06038) | 348 |
-| ❌ | Agent57: Outperforming the Atari Human Benchmark | Badia et al. | 2020 | [2003.13350](https://arxiv.org/abs/2003.13350) | 579 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2002.06038/2002.06038.md) | Never Give Up: Learning Directed Exploration Strategies (NGU) | Badia et al. | 2020 | [2002.06038](https://arxiv.org/abs/2002.06038) | 348 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2003.13350/2003.13350.md) | Agent57: Outperforming the Atari Human Benchmark | Badia et al. | 2020 | [2003.13350](https://arxiv.org/abs/2003.13350) | 579 |
 
 ## Hierarchical RL — Character Animation & Motor Primitives
 
@@ -230,7 +230,7 @@
 | Status | Paper | Authors | Year | arXiv | Cites |
 |--------|-------|---------|------|-------|------:|
 | ❌ | Learning Dexterous In-Hand Manipulation | OpenAI: Andrychowicz et al. | 2018 | [1808.00177](https://arxiv.org/abs/1808.00177) | 2,123 |
-| ❌ | Solving Rubik's Cube with a Robot Hand | OpenAI: Akkaya et al. | 2019 | [1910.07113](https://arxiv.org/abs/1910.07113) | 1,427 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1910.07113/1910.07113.md) | Solving Rubik's Cube with a Robot Hand | OpenAI: Akkaya et al. | 2019 | [1910.07113](https://arxiv.org/abs/1910.07113) | 1,427 |
 | ❌ | Learning to Explore using Active Neural SLAM (ANS) | Chaplot, Gandhi, Gupta & Salakhutdinov | 2020 | [2004.05155](https://arxiv.org/abs/2004.05155) | 599 |
 | ❌ | Neural Topological SLAM for Visual Navigation | Chaplot, Salakhutdinov, Gupta & Gupta | 2020 | [2005.12256](https://arxiv.org/abs/2005.12256) | 365 |
 | ❌ | Object Goal Navigation using Goal-Oriented Semantic Exploration (SemExp) | Chaplot, Gandhi, Gupta & Salakhutdinov | 2020 | [2007.00643](https://arxiv.org/abs/2007.00643) | 705 |
@@ -241,12 +241,12 @@
 
 | Status | Paper | Authors | Year | arXiv | Cites |
 |--------|-------|---------|------|-------|------:|
-| ❌ | Do As I Can, Not As I Say: Grounding Language in Robotic Affordances (SayCan) | Ahn et al. | 2022 | [2204.01691](https://arxiv.org/abs/2204.01691) | 2,928 |
-| ❌ | Inner Monologue: Embodied Reasoning through Planning with Language Models | Huang et al. | 2022 | [2207.05608](https://arxiv.org/abs/2207.05608) | 1,278 |
-| ❌ | Code as Policies: Language Model Programs for Embodied Control | Liang et al. | 2022 | [2209.07753](https://arxiv.org/abs/2209.07753) | 1,442 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2204.01691/2204.01691.md) | Do As I Can, Not As I Say: Grounding Language in Robotic Affordances (SayCan) | Ahn et al. | 2022 | [2204.01691](https://arxiv.org/abs/2204.01691) | 2,928 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2207.05608/2207.05608.md) | Inner Monologue: Embodied Reasoning through Planning with Language Models | Huang et al. | 2022 | [2207.05608](https://arxiv.org/abs/2207.05608) | 1,278 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2209.07753/2209.07753.md) | Code as Policies: Language Model Programs for Embodied Control | Liang et al. | 2022 | [2209.07753](https://arxiv.org/abs/2209.07753) | 1,442 |
 | ❌ | PaLM-E: An Embodied Multimodal Language Model | Driess et al. | 2023 | [2303.03378](https://arxiv.org/abs/2303.03378) | 2,513 |
 | ❌ | Reflexion: Language Agents with Verbal Reinforcement Learning | Shinn, Cassano, Berman, Gopinath, Narasimhan & Yao | 2023 | [2303.11366](https://arxiv.org/abs/2303.11366) | 3,003 |
-| ❌ | Voyager: An Open-Ended Embodied Agent with Large Language Models | Wang, Xie, Jiang, Mandlekar, Xiao, Zhu, Fan & Anandkumar | 2023 | [2305.16291](https://arxiv.org/abs/2305.16291) | 1,444 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2305.16291/2305.16291.md) | Voyager: An Open-Ended Embodied Agent with Large Language Models | Wang, Xie, Jiang, Mandlekar, Xiao, Zhu, Fan & Anandkumar | 2023 | [2305.16291](https://arxiv.org/abs/2305.16291) | 1,444 |
 | ❌ | AdaPlanner: Adaptive Planning from Feedback with Language Models | Sun, Zhang, Xu & Yu | 2023 | [2305.16653](https://arxiv.org/abs/2305.16653) | 202 |
 | ❌ | Large Language Models as Generalizable Policies for Embodied Tasks (LLaRP) | Szot, Schwarzer, Agrawal et al. | 2023 | [2310.17722](https://arxiv.org/abs/2310.17722) | 112 |
 | ❌ | RT-H: Action Hierarchies Using Language | Belkhale, Ding, Xiao, Sermanet, Vuong, Tompson, Chebotar, Dwibedi & Sadigh | 2024 | [2403.01823](https://arxiv.org/abs/2403.01823) | 186 |
