@@ -33,6 +33,8 @@
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2206.15378/2206.15378.md) | Mastering the Game of Stratego with Model-Free MARL (DeepNash) | Perolat et al. | 2022 | [2206.15378](https://arxiv.org/abs/2206.15378) | 263 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1908.09453/1908.09453.md) | OpenSpiel: A Framework for Reinforcement Learning in Games | Lanctot et al. | 2019 | [1908.09453](https://arxiv.org/abs/1908.09453) | 298 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2112.03178/2112.03178.md) | Student of Games: A unified learning algorithm for both perfect and imperfect information games | Schmid, Moravcik, Burch et al. | 2023 | [2112.03178](https://arxiv.org/abs/2112.03178) | 31 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/gumbel-alphazero/gumbel-alphazero.md) | Policy Improvement by Planning with Gumbel (Gumbel AlphaZero/MuZero) | Danihelka et al. | 2022 | — (ICLR) | 84 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2512.12486v1/Simultaneous%20AlphaZero%20-%20Extending%20Tree%20Search%20to%20Markov%20Games.md) | Simultaneous AlphaZero: Extending Tree Search to Markov Games | Becker & Sunberg | 2025 | [2512.12486](https://arxiv.org/abs/2512.12486) | 0 |
 
 ## Deep RL — Policy Gradient & Actor-Critic
 
@@ -80,6 +82,7 @@
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2509.20712/2509.20712.md) | CE-GPPO: Coordinating Entropy via Gradient-Preserving Clipping Policy Optimization | — | 2025 | [2509.20712](https://arxiv.org/abs/2509.20712) | 14 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2602.04417/2602.04417.md) | EMA Policy Gradient: Taming RL for LLMs with EMA Anchor and Top-k KL | Zhang & Ba | 2026 | [2602.04417](https://arxiv.org/abs/2602.04417) | 2 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1910.00177/1910.00177.md) | Advantage-Weighted Regression: Simple and Scalable Off-Policy Reinforcement Learning | Peng et al. | 2019 | [1910.00177](https://arxiv.org/abs/1910.00177) | 764 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/wang23aw/wang23aw.md) | PPG Reloaded: An Empirical Study on What Matters in Phasic Policy Gradient | Wang et al. | 2023 | — (ICML) | — |
 
 ## Deep RL — Model-based
 
@@ -292,6 +295,8 @@
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1611.01578/1611.01578.md) | Neural Architecture Search with Reinforcement Learning | Zoph & Le | 2017 | [1611.01578](https://arxiv.org/abs/1611.01578) | 3,862 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1806.09055/1806.09055.md) | DARTS: Differentiable Architecture Search | Liu et al. | 2019 | [1806.09055](https://arxiv.org/abs/1806.09055) | 1,401 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1812.01187/1812.01187.md) | Bag of Tricks for Image Classification with Convolutional Neural Networks | Tong He, Zhi Zhang, Hang Zhang, Zhongyue Zhang, Junyuan Xie, Mu Li | 2019 | [1812.01187](https://arxiv.org/abs/1812.01187) | 1,574 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2203.05482/2203.05482.md) | Model Soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time | Wortsman et al. | 2022 | [2203.05482](https://arxiv.org/abs/2203.05482) | 1,428 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/ainsworth2023gitrebasin/ainsworth2023gitrebasin.md) | Git Re-Basin: Merging Models Modulo Permutation Symmetries | Ainsworth, Hayase & Srinivasa | 2023 | [2209.04836](https://arxiv.org/abs/2209.04836) | 32 |
 
 ## Pre-Transformer NLP & Embeddings
 
@@ -302,6 +307,8 @@
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1906.08237/1906.08237.md) | XLNet: Generalized Autoregressive Pretraining for Language Understanding | Yang et al. | 2019 | [1906.08237](https://arxiv.org/abs/1906.08237) | 9,277 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1907.11692/1907.11692.md) | RoBERTa: A Robustly Optimized BERT Pretraining Approach | Liu et al. | 2019 | [1907.11692](https://arxiv.org/abs/1907.11692) | 29,087 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1607.04606/1607.04606.md) | Enriching Word Vectors with Subword Information (FastText) | Piotr Bojanowski, Edouard Grave, Armand Joulin, Tomas Mikolov | 2017 | [1607.04606](https://arxiv.org/abs/1607.04606) | 10,647 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1803.04831/1803.04831.md) | Independently Recurrent Neural Network (IndRNN): Building A Longer and Deeper RNN | Li et al. | 2018 | [1803.04831](https://arxiv.org/abs/1803.04831) | 810 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1910.06251/1910.06251.md) | Deep Independently Recurrent Neural Network (Deep IndRNN) | Li et al. | 2019 | [1910.06251](https://arxiv.org/abs/1910.06251) | 54 |
 
 ## Transformers & NLP
 
@@ -449,6 +456,18 @@
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2406.12913/2406.12913.md) | T-JEPA: Joint-Embedding Predictive Architecture for Trajectory Similarity | Li et al. | 2024 | [2406.12913](https://arxiv.org/abs/2406.12913) | 7 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2403.11772/2403.11772.md) | S-JEPA: Seamless Cross-Dataset Transfer through Dynamic Spatial Attention (EEG) | Guetschel et al. | 2024 | [2403.11772](https://arxiv.org/abs/2403.11772) | 15 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2410.13867/2410.13867.md) | ECG-JEPA: Self-Supervised Pre-Training Boosts ECG Classification | Weimann & Conrad | 2024 | [2410.13867](https://arxiv.org/abs/2410.13867) | 8 |
+
+## Time-Series Representation & Forecasting
+
+| Status | Paper | Authors | Year | arXiv | Cites |
+|--------|-------|---------|------|-------|------:|
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2106.00750/2106.00750.md) | Unsupervised Representation Learning for Time Series with Temporal Neighborhood Coding (TNC) | Tonekaboni et al. | 2021 | [2106.00750](https://arxiv.org/abs/2106.00750) | 384 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/ijcai2021-0324/ijcai2021-0324.md) | Time-Series Representation Learning via Temporal and Contextual Contrasting (TS-TCC) | Eldele et al. | 2021 | [2106.14112](https://arxiv.org/abs/2106.14112) | 530 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/aaai-20881/aaai-20881.md) | TS2Vec: Towards Universal Representation of Time Series | Yue et al. | 2022 | [2106.10466](https://arxiv.org/abs/2106.10466) | 614 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2204.11291/2204.11291.md) | Large Scale Time-Series Representation Learning via Simultaneous Low- and High-Frequency Feature Bootstrapping | Gorade et al. | 2022 | [2204.11291](https://arxiv.org/abs/2204.11291) | 12 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2211.14730/2211.14730.md) | A Time Series is Worth 64 Words: Long-Term Forecasting with Transformers (PatchTST) | Nie et al. | 2022 | [2211.14730](https://arxiv.org/abs/2211.14730) | 535 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2302.00861/2302.00861.md) | SimMTM: A Simple Pre-Training Framework for Masked Time-Series Modeling | Dong et al. | 2023 | [2302.00861](https://arxiv.org/abs/2302.00861) | 164 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2412.15315/2412.15315.md) | Enhancing Masked Time-Series Modeling via Dropping Patches (DropPatch) | Qiu et al. | 2024 | [2412.15315](https://arxiv.org/abs/2412.15315) | 4 |
 
 ## LLM-RL & Alignment
 
@@ -631,6 +650,7 @@
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1806.10779/1806.10779.md) | Differentiable Learning-to-Normalize via Switchable Normalization | Luo et al. | 2018 | [1806.10779](https://arxiv.org/abs/1806.10779) | 191 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1703.06868/1703.06868.md) | Arbitrary Style Transfer in Real-Time with Adaptive Instance Normalization (AdaIN) | Huang & Belongie | 2017 | [1703.06868](https://arxiv.org/abs/1703.06868) | 5,132 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2302.05442/2302.05442.md) | Scaling Vision Transformers to 22 Billion Parameters (QK-Norm) | Dehghani et al. | 2023 | [2302.05442](https://arxiv.org/abs/2302.05442) | 831 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1603.09025/1603.09025.md) | Recurrent Batch Normalization | Cooijmans et al. | 2016 | [1603.09025](https://arxiv.org/abs/1603.09025) | 415 |
 
 ## Regularization (additional)
 
@@ -660,6 +680,7 @@
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1910.07113/1910.07113.md) | Solving Rubik's Cube with a Robot Hand (Dactyl) | OpenAI | 2019 | [1910.07113](https://arxiv.org/abs/1910.07113) | 1,427 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2210.05492/2210.05492.md) | Human-level play in the game of Diplomacy by combining language models with strategic reasoning (Cicero) | Meta FAIR | 2022 | [2210.05492](https://arxiv.org/abs/2210.05492) | 61 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2402.04494/2402.04494.md) | Grandmaster-Level Chess Without Search (No-Search Chess) | Ruoss et al. | 2024 | [2402.04494](https://arxiv.org/abs/2402.04494) | 38 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/resource-efficient-model-free-rl-board-games/resource-efficient-model-free-rl-board-games.md) | Resource-Efficient Model-Free Reinforcement Learning for Board Games | Ota et al. | 2026 | — | 0 |
 
 ## RL — Practical Tips, Tricks & Engineering
 
@@ -713,6 +734,7 @@
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2109.11251/2109.11251.md) | HAPPO: Trust Region Policy Optimisation in Multi-Agent Reinforcement Learning | Kuba et al. | 2021 | [2109.11251](https://arxiv.org/abs/2109.11251) | 361 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2006.07869/2006.07869.md) | EPyMARL: Extended Python Multi-Agent Reinforcement Learning framework | Papoudakis et al. | 2020 | [2006.07869](https://arxiv.org/abs/2006.07869) | 328 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2011.09533/2011.09533.md) | Is Independent Learning All You Need in the StarCraft Multi-Agent Challenge? (Independent PPO analysis) | de Witt et al. | 2020 | [2011.09533](https://arxiv.org/abs/2011.09533) | 515 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1909.07528/1909.07528.md) | Emergent Tool Use From Multi-Agent Autocurricula | Baker et al. | 2019 | [1909.07528](https://arxiv.org/abs/1909.07528) | 335 |
 
 ## Adversarial Training & Robustness
 
@@ -814,6 +836,7 @@
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2302.08453/2302.08453.md) | T2I-Adapter: Learning Adapters to Dig out More Controllable Ability for Text-to-Image Diffusion Models | Mou et al. (Tencent) | 2023 | [2302.08453](https://arxiv.org/abs/2302.08453) | 1,588 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2210.09276/2210.09276.md) | Imagic: Text-Based Real Image Editing with Diffusion Models | Kawar et al. (Google) | 2023 | [2210.09276](https://arxiv.org/abs/2210.09276) | 1,431 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2306.14435/2306.14435.md) | DragDiffusion: Harnessing Diffusion Models for Interactive Point-based Image Editing | Shi et al. | 2023 | [2306.14435](https://arxiv.org/abs/2306.14435) | 338 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2208.01626/2208.01626.md) | Prompt-to-Prompt Image Editing with Cross Attention Control | Hertz et al. | 2022 | [2208.01626](https://arxiv.org/abs/2208.01626) | 2,548 |
 
 ## Audio & Music Generation
 
