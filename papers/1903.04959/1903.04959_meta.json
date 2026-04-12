@@ -1,0 +1,716 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Deep Multi-Agent Reinforcement Learning with Discrete-Continuous Hybrid\nAction Spaces",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          68.1328125,
+          88.55859375
+        ],
+        [
+          542.1483764648438,
+          88.55859375
+        ],
+        [
+          542.1483764648438,
+          119.16021728515625
+        ],
+        [
+          68.1328125,
+          119.16021728515625
+        ]
+      ]
+    },
+    {
+      "title": "Abstract",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          152.103515625,
+          216.7872314453125
+        ],
+        [
+          197.74334716796875,
+          216.7872314453125
+        ],
+        [
+          197.74334716796875,
+          228.742431640625
+        ],
+        [
+          152.103515625,
+          228.742431640625
+        ]
+      ]
+    },
+    {
+      "title": "1 Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          54.000057220458984,
+          502.8399658203125
+        ],
+        [
+          136.81373596191406,
+          502.8399658203125
+        ],
+        [
+          136.81373596191406,
+          514.795166015625
+        ],
+        [
+          54.000057220458984,
+          514.795166015625
+        ]
+      ]
+    },
+    {
+      "title": "2 Background",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          54.087890625,
+          144.6328125
+        ],
+        [
+          135.0,
+          144.6328125
+        ],
+        [
+          135.0,
+          155.4609375
+        ],
+        [
+          54.087890625,
+          155.4609375
+        ]
+      ]
+    },
+    {
+      "title": "2.1 Cooperative Stochastic Game",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          53.19140625,
+          160.48828125
+        ],
+        [
+          216.75,
+          160.48828125
+        ],
+        [
+          216.75,
+          170.54296875
+        ],
+        [
+          53.19140625,
+          170.54296875
+        ]
+      ]
+    },
+    {
+      "title": "2.2 Deep Multi-agent Reinforcement Learning",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          53.7890625,
+          315.0
+        ],
+        [
+          277.5,
+          315.0
+        ],
+        [
+          277.5,
+          325.23046875
+        ],
+        [
+          53.7890625,
+          325.23046875
+        ]
+      ]
+    },
+    {
+      "title": "2.3 Parameterized Deep Q-Networks",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          52.5,
+          669.0
+        ],
+        [
+          233.25,
+          669.0
+        ],
+        [
+          233.25,
+          678.75
+        ],
+        [
+          52.5,
+          678.75
+        ]
+      ]
+    },
+    {
+      "title": "3 Methods",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          312.873046875,
+          523.5
+        ],
+        [
+          378.0,
+          523.5
+        ],
+        [
+          378.0,
+          533.28515625
+        ],
+        [
+          312.873046875,
+          533.28515625
+        ]
+      ]
+    },
+    {
+      "title": "Deep Multi-Agent Parameterized Q-Networks\n(Deep MAPQN)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          51.99609375,
+          284.25
+        ],
+        [
+          294.0,
+          284.25
+        ],
+        [
+          294.0,
+          306.28125
+        ],
+        [
+          51.99609375,
+          306.28125
+        ]
+      ]
+    },
+    {
+      "title": "3.2 Deep Multi-Agent Hierarchical Hybrid\nQ-Networks (Deep MAHHQN)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          313.5,
+          471.0
+        ],
+        [
+          522.0,
+          471.0
+        ],
+        [
+          522.0,
+          493.83984375
+        ],
+        [
+          313.5,
+          493.83984375
+        ]
+      ]
+    },
+    {
+      "title": "4 Experimental Results",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          313.76953125,
+          533.25
+        ],
+        [
+          444.0,
+          533.25
+        ],
+        [
+          444.0,
+          543.75
+        ],
+        [
+          313.76953125,
+          543.75
+        ]
+      ]
+    },
+    {
+      "title": "4.1 Experiments with Half Field Offense (HFO) Environment Settings",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          313.171875,
+          612.5625
+        ],
+        [
+          545.25,
+          612.5625
+        ],
+        [
+          545.25,
+          636.75
+        ],
+        [
+          313.171875,
+          636.75
+        ]
+      ]
+    },
+    {
+      "title": "1v2 Defense",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          53.99992370605469,
+          313.2421875
+        ],
+        [
+          104.62985229492188,
+          313.2421875
+        ],
+        [
+          104.62985229492188,
+          324.24578857421875
+        ],
+        [
+          53.99992370605469,
+          324.24578857421875
+        ]
+      ]
+    },
+    {
+      "title": "2v1 Offense",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          314.3671875,
+          216.7763671875
+        ],
+        [
+          365.0820007324219,
+          216.7763671875
+        ],
+        [
+          365.0820007324219,
+          226.73895263671875
+        ],
+        [
+          314.3671875,
+          226.73895263671875
+        ]
+      ]
+    },
+    {
+      "title": "4.2 Experiments with Ghost Story",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          52.5,
+          389.25
+        ],
+        [
+          220.5,
+          389.25
+        ],
+        [
+          220.5,
+          399.0
+        ],
+        [
+          52.5,
+          399.0
+        ]
+      ]
+    },
+    {
+      "title": "5 Conclusion",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          313.5,
+          555.0
+        ],
+        [
+          390.75,
+          555.0
+        ],
+        [
+          390.75,
+          565.5
+        ],
+        [
+          313.5,
+          565.5
+        ]
+      ]
+    },
+    {
+      "title": "References",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          53.19140625,
+          53.75390625
+        ],
+        [
+          109.54386138916016,
+          53.75390625
+        ],
+        [
+          109.54386138916016,
+          66.7423095703125
+        ],
+        [
+          53.19140625,
+          66.7423095703125
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          265
+        ],
+        [
+          "Line",
+          99
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          128
+        ],
+        [
+          "Span",
+          115
+        ],
+        [
+          "Text",
+          16
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Equation",
+          5
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          139
+        ],
+        [
+          "Line",
+          96
+        ],
+        [
+          "Text",
+          15
+        ],
+        [
+          "Equation",
+          6
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          106
+        ],
+        [
+          "Span",
+          102
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "Equation",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          241
+        ],
+        [
+          "Line",
+          85
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "FigureGroup",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          106
+        ],
+        [
+          "Span",
+          63
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Footnote",
+          2
+        ],
+        [
+          "FigureGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          288
+        ],
+        [
+          "Line",
+          84
+        ],
+        [
+          "ListItem",
+          19
+        ],
+        [
+          "Reference",
+          18
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\1903.04959"
+}

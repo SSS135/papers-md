@@ -1,0 +1,1192 @@
+{
+  "table_of_contents": [
+    {
+      "title": "CATEGORICAL REPARAMETERIZATION\nWITH GUMBEL-SOFTMAX",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          106.98046875,
+          80.49505615234375
+        ],
+        [
+          390.82708740234375,
+          80.49505615234375
+        ],
+        [
+          390.82708740234375,
+          117.63543701171875
+        ],
+        [
+          106.98046875,
+          117.63543701171875
+        ]
+      ]
+    },
+    {
+      "title": "ABSTRACT",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          277.013671875,
+          209.6015625
+        ],
+        [
+          333.7211608886719,
+          209.6015625
+        ],
+        [
+          333.7211608886719,
+          221.58734130859375
+        ],
+        [
+          277.013671875,
+          221.58734130859375
+        ]
+      ]
+    },
+    {
+      "title": "1 INTRODUCTION",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          108.17578125,
+          367.9530334472656
+        ],
+        [
+          205.98883056640625,
+          367.9530334472656
+        ],
+        [
+          205.98883056640625,
+          379.9082336425781
+        ],
+        [
+          108.17578125,
+          379.9082336425781
+        ]
+      ]
+    },
+    {
+      "title": "2 THE GUMBEL-SOFTMAX DISTRIBUTION",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          108.17578125,
+          82.37109375
+        ],
+        [
+          329.30859375,
+          82.37109375
+        ],
+        [
+          329.30859375,
+          91.5
+        ],
+        [
+          108.17578125,
+          91.5
+        ]
+      ]
+    },
+    {
+      "title": "2.1 Gumbel-Softmax Estimator",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          106.98046875,
+          648.52734375
+        ],
+        [
+          269.25,
+          648.52734375
+        ],
+        [
+          269.25,
+          658.5
+        ],
+        [
+          106.98046875,
+          658.5
+        ]
+      ]
+    },
+    {
+      "title": "2.2 STRAIGHT-THROUGH GUMBEL-SOFTMAX ESTIMATOR",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          106.98046875,
+          240.5390625
+        ],
+        [
+          363.0,
+          240.5390625
+        ],
+        [
+          363.0,
+          249.75
+        ],
+        [
+          106.98046875,
+          249.75
+        ]
+      ]
+    },
+    {
+      "title": "3 RELATED WORK",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          107.25,
+          355.0078125
+        ],
+        [
+          211.5,
+          355.0078125
+        ],
+        [
+          211.5,
+          365.25
+        ],
+        [
+          107.25,
+          365.25
+        ]
+      ]
+    },
+    {
+      "title": "3.1 PATH DERIVATIVE GRADIENT ESTIMATORS",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          107.25,
+          447.43359375
+        ],
+        [
+          316.5,
+          447.43359375
+        ],
+        [
+          316.5,
+          458.25
+        ],
+        [
+          107.25,
+          458.25
+        ]
+      ]
+    },
+    {
+      "title": "3.2 SCORE FUNCTION-BASED GRADIENT ESTIMATORS",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          107.578125,
+          450.52734375
+        ],
+        [
+          348.421630859375,
+          450.52734375
+        ],
+        [
+          348.421630859375,
+          460.8819580078125
+        ],
+        [
+          107.578125,
+          460.8819580078125
+        ]
+      ]
+    },
+    {
+      "title": "3.3 SEMI-SUPERVISED GENERATIVE MODELS",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          107.25,
+          285.0
+        ],
+        [
+          309.75,
+          285.0
+        ],
+        [
+          309.75,
+          294.0
+        ],
+        [
+          107.25,
+          294.0
+        ]
+      ]
+    },
+    {
+      "title": "4 EXPERIMENTAL RESULTS",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          107.578125,
+          685.65234375
+        ],
+        [
+          257.25,
+          685.65234375
+        ],
+        [
+          257.25,
+          696.75
+        ],
+        [
+          107.578125,
+          696.75
+        ]
+      ]
+    },
+    {
+      "title": "4.1 STRUCTURED OUTPUT PREDICTION WITH STOCHASTIC BINARY NETWORKS",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          106.3828125,
+          224.25
+        ],
+        [
+          456.75,
+          224.25
+        ],
+        [
+          456.75,
+          233.25
+        ],
+        [
+          106.3828125,
+          233.25
+        ]
+      ]
+    },
+    {
+      "title": "4.2 Generative Modeling with Variational Autoencoders",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          106.5,
+          657.75
+        ],
+        [
+          399.75,
+          657.75
+        ],
+        [
+          399.75,
+          666.31640625
+        ],
+        [
+          106.5,
+          666.31640625
+        ]
+      ]
+    },
+    {
+      "title": "4.3 GENERATIVE SEMI-SUPERVISED CLASSIFICATION",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          106.98046875,
+          580.2394714355469
+        ],
+        [
+          343.6714782714844,
+          580.2394714355469
+        ],
+        [
+          343.6714782714844,
+          590.2020721435547
+        ],
+        [
+          106.98046875,
+          590.2020721435547
+        ]
+      ]
+    },
+    {
+      "title": "5 DISCUSSION",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          107.876953125,
+          585.8722229003906
+        ],
+        [
+          190.2013702392578,
+          585.8722229003906
+        ],
+        [
+          190.2013702392578,
+          597.8274230957031
+        ],
+        [
+          107.876953125,
+          597.8274230957031
+        ]
+      ]
+    },
+    {
+      "title": "ACKNOWLEDGMENTS",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          106.98046875,
+          691.6353912353516
+        ],
+        [
+          200.0730438232422,
+          691.6353912353516
+        ],
+        [
+          200.0730438232422,
+          701.5979919433594
+        ],
+        [
+          106.98046875,
+          701.5979919433594
+        ]
+      ]
+    },
+    {
+      "title": "REFERENCES",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          107.279296875,
+          82.37109375
+        ],
+        [
+          175.25982666015625,
+          82.37109375
+        ],
+        [
+          175.25982666015625,
+          94.7125244140625
+        ],
+        [
+          107.279296875,
+          94.7125244140625
+        ]
+      ]
+    },
+    {
+      "title": "A SEMI-SUPERVISED CLASSIFICATION MODEL",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          106.98046875,
+          360.5652160644531
+        ],
+        [
+          355.2513427734375,
+          360.5652160644531
+        ],
+        [
+          355.2513427734375,
+          372.5204162597656
+        ],
+        [
+          106.98046875,
+          372.5204162597656
+        ]
+      ]
+    },
+    {
+      "title": "B DERIVING THE DENSITY OF THE GUMBEL-SOFTMAX DISTRIBUTION",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          107.578125,
+          685.6303100585938
+        ],
+        [
+          473.34375,
+          685.6303100585938
+        ],
+        [
+          473.34375,
+          697.5855102539062
+        ],
+        [
+          107.578125,
+          697.5855102539062
+        ]
+      ]
+    },
+    {
+      "title": "B.1 CENTERED GUMBEL DENSITY",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          107.876953125,
+          416.49609375
+        ],
+        [
+          260.76983642578125,
+          416.49609375
+        ],
+        [
+          260.76983642578125,
+          427.06103515625
+        ],
+        [
+          107.876953125,
+          427.06103515625
+        ]
+      ]
+    },
+    {
+      "title": "B.2 Transforming to a Gumbel-Softmax",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          106.3828125,
+          267.75
+        ],
+        [
+          313.5,
+          267.75
+        ],
+        [
+          313.5,
+          276.75
+        ],
+        [
+          106.3828125,
+          276.75
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          139
+        ],
+        [
+          "Line",
+          54
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          60
+        ],
+        [
+          "Line",
+          50
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Equation",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          73
+        ],
+        [
+          "Line",
+          64
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Equation",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          385
+        ],
+        [
+          "Line",
+          31
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Equation",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          92
+        ],
+        [
+          "Line",
+          61
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "Equation",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          63
+        ],
+        [
+          "Span",
+          43
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          255
+        ],
+        [
+          "TableCell",
+          40
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          218
+        ],
+        [
+          "Line",
+          53
+        ],
+        [
+          "TableCell",
+          12
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Caption",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          146
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "ListItem",
+          20
+        ],
+        [
+          "Reference",
+          20
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          180
+        ],
+        [
+          "Line",
+          33
+        ],
+        [
+          "Reference",
+          11
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          474
+        ],
+        [
+          "Line",
+          63
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Equation",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          46
+        ],
+        [
+          "Span",
+          36
+        ],
+        [
+          "Equation",
+          12
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "Reference",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          16
+        ],
+        [
+          "Line",
+          10
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Equation",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\1611.01144"
+}

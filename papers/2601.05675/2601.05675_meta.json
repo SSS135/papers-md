@@ -1,0 +1,783 @@
+{
+  "table_of_contents": [
+    {
+      "title": "CHDP: Cooperative Hybrid Diffusion Policies for Reinforcement Learning in Parameterized Action Space",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          68.25,
+          98.25
+        ],
+        [
+          543.0,
+          98.25
+        ],
+        [
+          543.0,
+          127.23046875
+        ],
+        [
+          68.25,
+          127.23046875
+        ]
+      ]
+    },
+    {
+      "title": "Abstract",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          153.0,
+          241.5
+        ],
+        [
+          192.0,
+          241.5
+        ],
+        [
+          192.0,
+          250.5
+        ],
+        [
+          153.0,
+          250.5
+        ]
+      ]
+    },
+    {
+      "title": "1 Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          130.5,
+          554.25
+        ],
+        [
+          216.0,
+          554.25
+        ],
+        [
+          216.0,
+          565.5
+        ],
+        [
+          130.5,
+          565.5
+        ]
+      ]
+    },
+    {
+      "title": "2 Related Work",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          127.5,
+          489.75
+        ],
+        [
+          219.0,
+          489.75
+        ],
+        [
+          219.0,
+          500.25
+        ],
+        [
+          127.5,
+          500.25
+        ]
+      ]
+    },
+    {
+      "title": "3 Preliminaries",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          393.75,
+          343.5
+        ],
+        [
+          483.0,
+          343.5
+        ],
+        [
+          483.0,
+          354.0
+        ],
+        [
+          393.75,
+          354.0
+        ]
+      ]
+    },
+    {
+      "title": "3.1 Parameterized Action MDP (PAMDP)",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          317.35546875,
+          361.5
+        ],
+        [
+          522.75,
+          361.5
+        ],
+        [
+          522.75,
+          371.63671875
+        ],
+        [
+          317.35546875,
+          371.63671875
+        ]
+      ]
+    },
+    {
+      "title": "3.2 Diffusion Models and DQL",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          52.5,
+          87.75
+        ],
+        [
+          205.5,
+          87.75
+        ],
+        [
+          205.5,
+          98.25
+        ],
+        [
+          52.5,
+          98.25
+        ]
+      ]
+    },
+    {
+      "title": "4 Cooperative Hybrid Diffusion Policies",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          65.7421875,
+          543.75
+        ],
+        [
+          279.75,
+          543.75
+        ],
+        [
+          279.75,
+          556.875
+        ],
+        [
+          65.7421875,
+          556.875
+        ]
+      ]
+    },
+    {
+      "title": "4.1 Overview of the CHDP Framework",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          53.19140625,
+          558.75
+        ],
+        [
+          244.5,
+          558.75
+        ],
+        [
+          244.5,
+          568.5
+        ],
+        [
+          53.19140625,
+          568.5
+        ]
+      ]
+    },
+    {
+      "title": "4.2 Sequential Update Scheme",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          317.654296875,
+          391.74609375
+        ],
+        [
+          469.5,
+          391.74609375
+        ],
+        [
+          469.5,
+          401.25
+        ],
+        [
+          317.654296875,
+          401.25
+        ]
+      ]
+    },
+    {
+      "title": "4.3 Downstream Q-guided Codebook",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          318.55078125,
+          524.77734375
+        ],
+        [
+          500.25,
+          524.77734375
+        ],
+        [
+          500.25,
+          534.0
+        ],
+        [
+          318.55078125,
+          534.0
+        ]
+      ]
+    },
+    {
+      "title": "5 Experiments",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          130.587890625,
+          405.9338073730469
+        ],
+        [
+          214.7589111328125,
+          405.9338073730469
+        ],
+        [
+          214.7589111328125,
+          417.8890075683594
+        ],
+        [
+          130.587890625,
+          417.8890075683594
+        ]
+      ]
+    },
+    {
+      "title": "5.1 Performance Evaluation",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          318.849609375,
+          313.2421875
+        ],
+        [
+          457.6746826171875,
+          313.2421875
+        ],
+        [
+          457.6746826171875,
+          324.35919189453125
+        ],
+        [
+          318.849609375,
+          324.35919189453125
+        ]
+      ]
+    },
+    {
+      "title": "5.2 Ablation Study",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          54.0,
+          654.4460601806641
+        ],
+        [
+          149.1709747314453,
+          654.4460601806641
+        ],
+        [
+          149.1709747314453,
+          665.3551559448242
+        ],
+        [
+          54.0,
+          665.3551559448242
+        ]
+      ]
+    },
+    {
+      "title": "5.3 Qualitative Analysis of Expressive Policy",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          53.19140625,
+          601.7286987304688
+        ],
+        [
+          269.54296875,
+          601.7286987304688
+        ],
+        [
+          269.54296875,
+          612.6377868652344
+        ],
+        [
+          53.19140625,
+          612.6377868652344
+        ]
+      ]
+    },
+    {
+      "title": "6 Conclusion",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          400.4296875,
+          493.83984375
+        ],
+        [
+          476.28369140625,
+          493.83984375
+        ],
+        [
+          476.28369140625,
+          506.03204345703125
+        ],
+        [
+          400.4296875,
+          506.03204345703125
+        ]
+      ]
+    },
+    {
+      "title": "Acknowledgements",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          123.1171875,
+          54.140625
+        ],
+        [
+          222.66763305664062,
+          54.140625
+        ],
+        [
+          222.66763305664062,
+          66.7423095703125
+        ],
+        [
+          123.1171875,
+          66.7423095703125
+        ]
+      ]
+    },
+    {
+      "title": "References",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          144.333984375,
+          168.99609375
+        ],
+        [
+          201.0218505859375,
+          168.99609375
+        ],
+        [
+          201.0218505859375,
+          181.07220458984375
+        ],
+        [
+          144.333984375,
+          181.07220458984375
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          106
+        ],
+        [
+          "Span",
+          58
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          127
+        ],
+        [
+          "Span",
+          124
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          126
+        ],
+        [
+          "Span",
+          120
+        ],
+        [
+          "Text",
+          18
+        ],
+        [
+          "Equation",
+          7
+        ],
+        [
+          "SectionHeader",
+          4
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          115
+        ],
+        [
+          "Span",
+          53
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "Equation",
+          5
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "FigureGroup",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          313
+        ],
+        [
+          "Line",
+          104
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          380
+        ],
+        [
+          "TableCell",
+          63
+        ],
+        [
+          "Line",
+          52
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          399
+        ],
+        [
+          "Line",
+          108
+        ],
+        [
+          "TableCell",
+          33
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "TableGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          258
+        ],
+        [
+          "Line",
+          111
+        ],
+        [
+          "ListItem",
+          25
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          89
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\2601.05675"
+}

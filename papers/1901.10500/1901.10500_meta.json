@@ -1,0 +1,1602 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Discretizing Continuous Action Space for On-Policy Optimization",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          95.25,
+          89.25
+        ],
+        [
+          500.25,
+          89.25
+        ],
+        [
+          500.25,
+          103.25390625
+        ],
+        [
+          95.25,
+          103.25390625
+        ]
+      ]
+    },
+    {
+      "title": "Yunhao Tang 1 Shipra Agrawal 1",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          225.75,
+          141.0
+        ],
+        [
+          368.25,
+          141.0
+        ],
+        [
+          368.25,
+          152.3671875
+        ],
+        [
+          225.75,
+          152.3671875
+        ]
+      ]
+    },
+    {
+      "title": "Abstract",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          148.5,
+          175.18359375
+        ],
+        [
+          195.75,
+          175.18359375
+        ],
+        [
+          195.75,
+          186.0
+        ],
+        [
+          148.5,
+          186.0
+        ]
+      ]
+    },
+    {
+      "title": "1. Background",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          54.0,
+          444.75
+        ],
+        [
+          130.5,
+          444.75
+        ],
+        [
+          130.5,
+          456.71484375
+        ],
+        [
+          54.0,
+          456.71484375
+        ]
+      ]
+    },
+    {
+      "title": "2. Background",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          305.25,
+          557.25
+        ],
+        [
+          382.5,
+          557.25
+        ],
+        [
+          382.5,
+          567.31640625
+        ],
+        [
+          305.25,
+          567.31640625
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Markov Decision Process",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          306.0,
+          577.37109375
+        ],
+        [
+          432.75,
+          577.37109375
+        ],
+        [
+          432.75,
+          586.5
+        ],
+        [
+          306.0,
+          586.5
+        ]
+      ]
+    },
+    {
+      "title": "2.2. On-Policy Optimization",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          54.0,
+          130.5
+        ],
+        [
+          174.0,
+          130.5
+        ],
+        [
+          174.0,
+          139.9921875
+        ],
+        [
+          54.0,
+          139.9921875
+        ]
+      ]
+    },
+    {
+      "title": "2.2.1. Trust Region Policy Optimization (TRPO)",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          53.7890625,
+          441.24609375
+        ],
+        [
+          288.0,
+          441.24609375
+        ],
+        [
+          288.0,
+          450.75
+        ],
+        [
+          53.7890625,
+          450.75
+        ]
+      ]
+    },
+    {
+      "title": "2.2.2. PROXIMAL POLICY OPTIMIZATION (PPO)",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          305.40234375,
+          116.25
+        ],
+        [
+          513.0,
+          116.25
+        ],
+        [
+          513.0,
+          126.0703125
+        ],
+        [
+          305.40234375,
+          126.0703125
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Related Work",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          306.0,
+          353.84765625
+        ],
+        [
+          384.75,
+          353.84765625
+        ],
+        [
+          384.75,
+          362.25
+        ],
+        [
+          306.0,
+          362.25
+        ]
+      ]
+    },
+    {
+      "title": "3. Discretizing Action Space for Continuous Control",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          304.20703125,
+          203.4140625
+        ],
+        [
+          531.0,
+          203.4140625
+        ],
+        [
+          531.0,
+          228.0
+        ],
+        [
+          304.20703125,
+          228.0
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Network Architecture",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          305.25,
+          407.21484375
+        ],
+        [
+          418.95703125,
+          407.21484375
+        ],
+        [
+          418.95703125,
+          417.0
+        ],
+        [
+          305.25,
+          417.0
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Understanding Discrete Policy for Continuous\nControl",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          304.8046875,
+          589.5
+        ],
+        [
+          522.0,
+          589.5
+        ],
+        [
+          522.0,
+          610.5
+        ],
+        [
+          304.8046875,
+          610.5
+        ]
+      ]
+    },
+    {
+      "title": "4. Discrete Policy with Ordinal Architecture",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          306.0,
+          120.75
+        ],
+        [
+          532.5,
+          120.75
+        ],
+        [
+          532.5,
+          131.25
+        ],
+        [
+          306.0,
+          131.25
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Motivation",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          306.0,
+          140.25
+        ],
+        [
+          372.0,
+          140.25
+        ],
+        [
+          372.0,
+          148.5
+        ],
+        [
+          306.0,
+          148.5
+        ]
+      ]
+    },
+    {
+      "title": "4.2. Ordinal Distribution Network Architecture",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          306.0,
+          232.5
+        ],
+        [
+          510.0,
+          232.5
+        ],
+        [
+          510.0,
+          241.5
+        ],
+        [
+          306.0,
+          241.5
+        ]
+      ]
+    },
+    {
+      "title": "5. Experiments",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          54.685546875,
+          317.5831604003906
+        ],
+        [
+          132.47930908203125,
+          317.5831604003906
+        ],
+        [
+          132.47930908203125,
+          329.5383605957031
+        ],
+        [
+          54.685546875,
+          329.5383605957031
+        ]
+      ]
+    },
+    {
+      "title": "5.1. Benchmark performance",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          305.701171875,
+          154.2855224609375
+        ],
+        [
+          431.7035217285156,
+          154.2855224609375
+        ],
+        [
+          431.7035217285156,
+          164.24810791015625
+        ],
+        [
+          305.701171875,
+          164.24810791015625
+        ]
+      ]
+    },
+    {
+      "title": "PPO/TRPO - Comparison with Gaussian Baselines.",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          306.0,
+          322.91015625
+        ],
+        [
+          543.1849975585938,
+          322.91015625
+        ],
+        [
+          543.1849975585938,
+          334.8111267089844
+        ],
+        [
+          306.0,
+          334.8111267089844
+        ]
+      ]
+    },
+    {
+      "title": "PPO/TRPO - Comparison with Alternative Architec-",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          53.7890625,
+          68.8359375
+        ],
+        [
+          291.0953674316406,
+          68.8359375
+        ],
+        [
+          291.0953674316406,
+          79.33905029296875
+        ],
+        [
+          53.7890625,
+          79.33905029296875
+        ]
+      ]
+    },
+    {
+      "title": "5.2. Discrete Policy vs. Ordinal Policy",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          54.984375,
+          640.9415130615234
+        ],
+        [
+          214.85154724121094,
+          640.9415130615234
+        ],
+        [
+          214.85154724121094,
+          650.9041137695312
+        ],
+        [
+          54.984375,
+          650.9041137695312
+        ]
+      ]
+    },
+    {
+      "title": "5.3. Sensitivity to Hyper-parameters",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          305.40234375,
+          640.9415130615234
+        ],
+        [
+          461.0932312011719,
+          640.9415130615234
+        ],
+        [
+          461.0932312011719,
+          650.9041137695312
+        ],
+        [
+          305.40234375,
+          650.9041137695312
+        ]
+      ]
+    },
+    {
+      "title": "6. Conclusion",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.44000244140625,
+          529.6651611328125
+        ],
+        [
+          124.52911376953125,
+          529.6651611328125
+        ],
+        [
+          124.52911376953125,
+          541.620361328125
+        ],
+        [
+          55.44000244140625,
+          541.620361328125
+        ]
+      ]
+    },
+    {
+      "title": "7. Acknowledgements",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          54.38671875,
+          673.2441482543945
+        ],
+        [
+          166.2288360595703,
+          673.2441482543945
+        ],
+        [
+          166.2288360595703,
+          685.199348449707
+        ],
+        [
+          54.38671875,
+          685.199348449707
+        ]
+      ]
+    },
+    {
+      "title": "References",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          307.44000244140625,
+          469.88916015625
+        ],
+        [
+          362.9838562011719,
+          469.88916015625
+        ],
+        [
+          362.9838562011719,
+          481.8443603515625
+        ],
+        [
+          307.44000244140625,
+          481.8443603515625
+        ]
+      ]
+    },
+    {
+      "title": "A. Hyper-parameters",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          54.0,
+          68.25
+        ],
+        [
+          165.0,
+          68.25
+        ],
+        [
+          165.0,
+          79.6640625
+        ],
+        [
+          54.0,
+          79.6640625
+        ]
+      ]
+    },
+    {
+      "title": "B. Effects of the Number of Atomic Actions",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          54.0,
+          565.5
+        ],
+        [
+          277.5,
+          565.5
+        ],
+        [
+          277.5,
+          576.59765625
+        ],
+        [
+          54.0,
+          576.59765625
+        ]
+      ]
+    },
+    {
+      "title": "C. Additional Experiments",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          55.44000244140625,
+          350.75390625
+        ],
+        [
+          192.60202026367188,
+          350.75390625
+        ],
+        [
+          192.60202026367188,
+          363.6883544921875
+        ],
+        [
+          55.44000244140625,
+          363.6883544921875
+        ]
+      ]
+    },
+    {
+      "title": "C.1. PPO",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          54.685546875,
+          372.0234375
+        ],
+        [
+          95.01144409179688,
+          372.0234375
+        ],
+        [
+          95.01144409179688,
+          382.59808349609375
+        ],
+        [
+          54.685546875,
+          382.59808349609375
+        ]
+      ]
+    },
+    {
+      "title": "C.2. TRPO",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          55.283203125,
+          608.30859375
+        ],
+        [
+          102.7623519897461,
+          608.30859375
+        ],
+        [
+          102.7623519897461,
+          619.0731201171875
+        ],
+        [
+          55.283203125,
+          619.0731201171875
+        ]
+      ]
+    },
+    {
+      "title": "C.3. ACKTR",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          54.087890625,
+          663.99609375
+        ],
+        [
+          110.51325988769531,
+          663.99609375
+        ],
+        [
+          110.51325988769531,
+          674.8141021728516
+        ],
+        [
+          54.087890625,
+          674.8141021728516
+        ]
+      ]
+    },
+    {
+      "title": "C.4. Sensitivity to Hyper-parameters",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          54.984375,
+          469.08984375
+        ],
+        [
+          211.5703125,
+          469.08984375
+        ],
+        [
+          211.5703125,
+          479.6461181640625
+        ],
+        [
+          54.984375,
+          479.6461181640625
+        ]
+      ]
+    },
+    {
+      "title": "C.5. Comparison with Gaussian Policy with Big Networks",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          54.38671875,
+          513.4695129394531
+        ],
+        [
+          300.6195373535156,
+          513.4695129394531
+        ],
+        [
+          300.6195373535156,
+          524.00390625
+        ],
+        [
+          54.38671875,
+          524.00390625
+        ]
+      ]
+    },
+    {
+      "title": "C.6. Additional Comparison with Beta policy",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          54.984375,
+          617.030517578125
+        ],
+        [
+          246.68203735351562,
+          617.030517578125
+        ],
+        [
+          246.68203735351562,
+          626.9931182861328
+        ],
+        [
+          54.984375,
+          626.9931182861328
+        ]
+      ]
+    },
+    {
+      "title": "D. Illustration of Benchmark Tasks",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          54.38671875,
+          425.18414306640625
+        ],
+        [
+          235.10276794433594,
+          425.18414306640625
+        ],
+        [
+          235.10276794433594,
+          437.13934326171875
+        ],
+        [
+          54.38671875,
+          437.13934326171875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          96
+        ],
+        [
+          "Span",
+          81
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          109
+        ],
+        [
+          "Span",
+          91
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Equation",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          110
+        ],
+        [
+          "Span",
+          88
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          112
+        ],
+        [
+          "Line",
+          110
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Equation",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          342
+        ],
+        [
+          "Line",
+          100
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          233
+        ],
+        [
+          "Line",
+          52
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          347
+        ],
+        [
+          "Line",
+          81
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          630
+        ],
+        [
+          "TableCell",
+          114
+        ],
+        [
+          "Line",
+          65
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          216
+        ],
+        [
+          "Line",
+          74
+        ],
+        [
+          "ListItem",
+          19
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          131
+        ],
+        [
+          "Line",
+          53
+        ],
+        [
+          "ListItem",
+          16
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          131
+        ],
+        [
+          "Line",
+          56
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          440
+        ],
+        [
+          "Line",
+          85
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "Equation",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          188
+        ],
+        [
+          "Line",
+          32
+        ],
+        [
+          "TableCell",
+          10
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          163
+        ],
+        [
+          "Line",
+          25
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "FigureGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 14,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          169
+        ],
+        [
+          "Line",
+          17
+        ],
+        [
+          "TableCell",
+          9
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 15,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          183
+        ],
+        [
+          "Line",
+          16
+        ],
+        [
+          "TableCell",
+          15
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 16,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          88
+        ],
+        [
+          "Line",
+          12
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "FigureGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\1901.10500"
+}
