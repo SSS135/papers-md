@@ -915,6 +915,39 @@
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1912.03263/1912.03263.md) | Your Classifier is Secretly an Energy-Based Model and You Should Treat it Like One | Grathwohl et al. | 2019 | [1912.03263](https://arxiv.org/abs/1912.03263) | 636 |
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1903.08689/1903.08689.md) | Implicit Generation and Modeling with Energy-Based Models | Du et al. | 2019 | [1903.08689](https://arxiv.org/abs/1903.08689) | 41 |
 
+## Continuous Action Representations
+
+| Status | Paper | Authors | Year | arXiv | Cites |
+|--------|-------|---------|------|-------|------:|
+| — | Is Bang-Bang Control All You Need? Solving Continuous Control with Bernoulli Policies | Seyde et al. | 2021 | [2111.02552](https://arxiv.org/abs/2111.02552) | — |
+| — | Discretizing Continuous Action Space for On-Policy Optimization | Tang & Agrawal | 2019 | [1901.10500](https://arxiv.org/abs/1901.10500) | — |
+| — | Discretizing Continuous Action Space with Unimodal Probability Distributions | — | 2024 | [2408.00309](https://arxiv.org/abs/2408.00309) | — |
+| — | Discrete Sequential Prediction of Continuous Actions for Deep RL | Metz et al. | 2017 | [1705.05035](https://arxiv.org/abs/1705.05035) | — |
+| — | Improving Stochastic Policy Gradients in Continuous Control with the Beta Distribution | Chou et al. | 2017 | [CMU thesis](https://www.ri.cmu.edu/app/uploads/2017/06/thesis-Chou.pdf) | — |
+| — | PPO with Continuous Bounded Action Space via the Beta Distribution | Petrazzini & Antonelo | 2021 | [2111.02202](https://arxiv.org/abs/2111.02202) | — |
+| — | Categorical Reparameterization with Gumbel-Softmax | Jang et al. | 2016 | [1611.01144](https://arxiv.org/abs/1611.01144) | — |
+| — | The Concrete Distribution: A Continuous Relaxation of Discrete Random Variables | Maddison et al. | 2016 | [1611.00712](https://arxiv.org/abs/1611.00712) | — |
+| — | Autoregressive Policies for Continuous Control Deep RL | Hofmann et al. | 2019 | [1903.11524](https://arxiv.org/abs/1903.11524) | — |
+| — | Improving Exploration in SAC with Normalizing Flows Policies | Mazoure et al. | 2019 | [1906.02771](https://arxiv.org/abs/1906.02771) | — |
+| — | Boosting TRPO with Normalizing Flows Policy | Tang et al. | 2018 | [1809.10326](https://arxiv.org/abs/1809.10326) | — |
+| — | PolicyFlow: Policy Optimization with Continuous Normalizing Flow in RL | — | 2026 | [2602.01156](https://arxiv.org/abs/2602.01156) | — |
+| — | FlowPG: Action-constrained Policy Gradient with Normalizing Flows | — | 2024 | [2402.05149](https://arxiv.org/abs/2402.05149) | — |
+| — | Diffusion Policy: Visuomotor Policy Learning via Action Diffusion | Chi et al. | 2023 | [2303.04137](https://arxiv.org/abs/2303.04137) | — |
+| — | Diffusion Policy Policy Optimization (DPPO) | — | 2024 | [2409.00588](https://arxiv.org/abs/2409.00588) | — |
+| — | Training Diffusion Models with RL (DDPO) | Black et al. | 2023 | [2305.13301](https://arxiv.org/abs/2305.13301) | — |
+| — | Learning Multimodal Behaviors from Scratch with Diffusion Policy Gradient | — | 2024 | [2406.00681](https://arxiv.org/abs/2406.00681) | — |
+| — | Maximum Entropy RL via Energy-Based Normalizing Flow | — | 2024 | [2405.13629](https://arxiv.org/abs/2405.13629) | — |
+
+## Hybrid Discrete-Continuous Action Spaces
+
+| Status | Paper | Authors | Year | arXiv | Cites |
+|--------|-------|---------|------|-------|------:|
+| — | Parametrized Deep Q-Networks (P-DQN) | Xiong et al. | 2018 | [1810.06394](https://arxiv.org/abs/1810.06394) | — |
+| — | Hybrid Actor-Critic RL in Parameterized Action Space | Fan et al. | 2019 | [1903.01344](https://arxiv.org/abs/1903.01344) | — |
+| — | HyAR: Hybrid Action Representation for RL | Li et al. | 2021 | [2109.05490](https://arxiv.org/abs/2109.05490) | — |
+| — | Deep Multi-Agent RL with Discrete-Continuous Hybrid Action Spaces | Fu et al. | 2019 | [1903.04959](https://arxiv.org/abs/1903.04959) | — |
+| — | Cooperative Hybrid Diffusion Policies (CHDP) | — | 2026 | [2601.05675](https://arxiv.org/abs/2601.05675) | — |
+
 ---
 
-**Totals:** 541 papers | all 541 converted to markdown
+**Totals:** 541+ papers | all 541 converted to markdown
