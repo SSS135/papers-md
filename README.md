@@ -1212,6 +1212,40 @@
 
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2009.12293/2009.12293.md) | robosuite: A Modular Simulation Framework and Benchmark for Robot Learning | Zhu et al. | 2020 | [2009.12293](https://arxiv.org/abs/2009.12293) | 605 |
 
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2312.12044/2312.12044.md) | XLand-MiniGrid: Scalable Meta-RL Environments in JAX | Nikulin et al. | 2023 | [2312.12044](https://arxiv.org/abs/2312.12044) | 52 |
+
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2407.19396/2407.19396.md) | NAVIX: Scaling MiniGrid Environments with JAX | Pignatelli et al. | 2024 | [2407.19396](https://arxiv.org/abs/2407.19396) | 12 |
+
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2410.23208/2410.23208.md) | Kinetix: Investigating Training of General Agents through Open-Ended Physics-Based Control Tasks | Matthews et al. | 2024 | [2410.23208](https://arxiv.org/abs/2410.23208) | 15 |
+
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2310.08710/2310.08710.md) | Waymax: An Accelerated Data-Driven Simulator for Large-Scale Autonomous Driving | Gulino et al. | 2023 | [2310.08710](https://arxiv.org/abs/2310.08710) | 100 |
+
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2408.01584/2408.01584.md) | GPUDrive: Data-driven Multi-agent Driving Simulation at 1 Million FPS | Kazemkhani et al. | 2024 | [2408.01584](https://arxiv.org/abs/2408.01584) | 20 |
+
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2210.05639/2210.05639.md) | Discovered Policy Optimisation (PureJaxRL) | Lu et al. | 2022 | [2210.05639](https://arxiv.org/abs/2210.05639) | 100 |
+
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2202.05008/2202.05008.md) | EvoJAX: Hardware-Accelerated Neuroevolution | Tang et al. | 2022 | [2202.05008](https://arxiv.org/abs/2202.05008) | 70 |
+
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2311.12716/2311.12716.md) | minimax: Efficient Baselines for Autocurricula in JAX | Jiang et al. | 2023 | [2311.12716](https://arxiv.org/abs/2311.12716) | 30 |
+
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2511.04831/2511.04831.md) | Isaac Lab: A GPU-Accelerated Simulation Framework for Robot Learning | Mittal et al. | 2025 | [2511.04831](https://arxiv.org/abs/2511.04831) | 8 |
+
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2410.00425/2410.00425.md) | ManiSkill3: GPU Parallelized Robotics Simulation and Rendering | Tao et al. | 2024 | [2410.00425](https://arxiv.org/abs/2410.00425) | 177 |
+
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2502.08844/2502.08844.md) | MuJoCo Playground | DeepMind | 2025 | [2502.08844](https://arxiv.org/abs/2502.08844) | 79 |
+
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2207.03530/2207.03530.md) | VMAS: A Vectorized Multi-Agent Simulator for Collective Robot Learning | Bettini et al. | 2022 | [2207.03530](https://arxiv.org/abs/2207.03530) | 71 |
+
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2301.04195/2301.04195.md) | Orbit: A Unified Simulation Framework for Interactive Robot Learning | Mittal et al. | 2023 | [2301.04195](https://arxiv.org/abs/2301.04195) | 482 |
+
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2108.13976/2108.13976.md) | WarpDrive: Extremely Fast End-to-End Deep Multi-Agent RL on a GPU | Lan et al. | 2021 | [2108.13976](https://arxiv.org/abs/2108.13976) | 15 |
+
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2206.08686/2206.08686.md) | Bi-DexHands: Towards Human-Level Bimanual Dexterous Manipulation | Chen et al. | 2022 | [2206.08686](https://arxiv.org/abs/2206.08686) | 171 |
+
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2202.03825/2202.03825.md) | skrl: Modular and Flexible Library for Reinforcement Learning | Serrano-Munoz et al. | 2022 | [2202.03825](https://arxiv.org/abs/2202.03825) | 70 |
+
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2505.22642/2505.22642.md) | FastTD3: Simple, Fast, and Capable RL for Humanoid Control | — | 2025 | [2505.22642](https://arxiv.org/abs/2505.22642) | 31 |
+
 
 
 ## Optimizers (beyond Adam/AdamW)
@@ -1833,6 +1867,18 @@
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1505.05770/1505.05770.md) | Variational Inference with Normalizing Flows | Rezende et al. | 2015 | [1505.05770](https://arxiv.org/abs/1505.05770) | 4,800 |
 
 
+
+
+## Contrastive Learning & NCE
+
+| Status | Paper | Authors | Year | arXiv | Cites |
+|--------|-------|---------|------|-------|------:|
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2107.01152/2107.01152.md) | Simpler Faster Stronger: Breaking The log-K Curse On Contrastive Learners With FlatNCE | Chen et al. | 2021 | [2107.01152](https://arxiv.org/abs/2107.01152) | 100 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2011.08909/2011.08909.md) | C-Learning: Learning to Achieve Goals via Recursive Classification | Eysenbach et al. | 2020 | [2011.08909](https://arxiv.org/abs/2011.08909) | 200 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2206.07568/2206.07568.md) | Contrastive Learning as Goal-Conditioned Reinforcement Learning | Eysenbach et al. | 2022 | [2206.07568](https://arxiv.org/abs/2206.07568) | 300 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2103.07945/2103.07945.md) | Learning One Representation to Optimize All Rewards (Forward-Backward) | Touati \& Ollivier | 2021 | [2103.07945](https://arxiv.org/abs/2103.07945) | 200 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2310.20141/2310.20141.md) | Contrastive Difference Predictive Coding (TD InfoNCE) | Zheng et al. | 2023 | [2310.20141](https://arxiv.org/abs/2310.20141) | 40 |
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2405.00675/2405.00675.md) | Self-Play Preference Optimization for Language Model Alignment (SPPO) | Wu et al. | 2024 | [2405.00675](https://arxiv.org/abs/2405.00675) | 100 |
 
 ## Energy-Based Models
 
