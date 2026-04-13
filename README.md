@@ -506,6 +506,20 @@
 
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2503.14734/2503.14734.md) | GR00T N1: An Open Foundation Model for Generalist Humanoid Robots| NVIDIA| 2025 | [2503.14734](https://arxiv.org/abs/2503.14734) | 612 |
 
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/1906.07343/1906.07343.md) | Language as an Abstraction for Hierarchical Deep Reinforcement Learning | Jiang et al. | 2019 | [1906.07343](https://arxiv.org/abs/1906.07343) | 305 |
+
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2309.11564/2309.11564.md) | Hierarchical Reinforcement Learning with Natural Language Subgoals | Kaplan et al. | 2023 | [2309.11564](https://arxiv.org/abs/2309.11564) | 15 |
+
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2405.02749/2405.02749.md) | Sub-goal Distillation: A Method to Improve Small Language Agents | Hashemzadeh et al. | 2024 | [2405.02749](https://arxiv.org/abs/2405.02749) | 4 |
+
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2503.19007/2503.19007.md) | Option Discovery Using LLM-guided Semantic Hierarchical RL | — | 2025 | [2503.19007](https://arxiv.org/abs/2503.19007) | — |
+
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2305.17390/2305.17390.md) | SwiftSage: A Generative Agent with Fast and Slow Thinking for Complex Interactive Tasks | Lin et al. | 2023 | [2305.17390](https://arxiv.org/abs/2305.17390) | 212 |
+
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2602.16165/2602.16165.md) | HiPER: Hierarchical RL with Explicit Credit Assignment for LLM Agents | Peng et al. | 2026 | [2602.16165](https://arxiv.org/abs/2602.16165) | 1 |
+
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2401.14151/2401.14151.md) | TWOSOME: A Challenge and a Solution for LLM-Based Embodied Decision Making | — | 2024 | [2401.14151](https://arxiv.org/abs/2401.14151) | — |
+
 
 
 ## Deep Learning — Foundations
