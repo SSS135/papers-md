@@ -1184,6 +1184,8 @@
 
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2311.10090/2311.10090.md) | JaxMARL: Multi-Agent RL Environments and Algorithms in JAX | Rutherford et al. | 2023 | [2311.10090](https://arxiv.org/abs/2311.10090) | 58 |
 
+| [md](https://github.com/SSS135/papers-md/blob/master/papers/2408.11052/2408.11052.md) | Accelerating Goal-Conditioned RL Algorithms and Research (JaxGCRL) | Bortkiewicz et al. | 2024 | [2408.11052](https://arxiv.org/abs/2408.11052) | 16 |
+
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2402.16801/2402.16801.md) | Craftax: A Lightning-Fast Benchmark for Open-Ended RL | Matthews et al. | 2024 | [2402.16801](https://arxiv.org/abs/2402.16801) | 70 |
 
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2004.07219/2004.07219.md) | D4RL: Datasets for Deep Data-Driven Reinforcement Learning | Fu et al. | 2020 | [2004.07219](https://arxiv.org/abs/2004.07219) | 1,706 |
