@@ -18,8 +18,6 @@
 
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1509.06461/1509.06461.md) | Human-level Control through Deep RL (DQN Nature) | Mnih et al. | 2015 | [1509.06440](https://arxiv.org/abs/1509.06440) | 8,879 |
 
-| [md](https://github.com/SSS135/papers-md/blob/master/papers/1509.06461/1509.06461.md) | Deep RL with Double Q-Learning (Double DQN) | van Hasselt et al. | 2015 | [1509.06461](https://arxiv.org/abs/1509.06461) | 8,879 |
-
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1511.05952/1511.05952.md) | Prioritized Experience Replay | Schaul et al. | 2015 | [1511.05952](https://arxiv.org/abs/1511.05952) | 4,318 |
 
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1511.06581/1511.06581.md) | Dueling Network Architectures for Deep RL | Wang et al. | 2015 | [1511.06581](https://arxiv.org/abs/1511.06581) | 4,315 |
@@ -1046,12 +1044,6 @@
 
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2310.08864/2310.08864.md) | Open X-Embodiment: Robotic Learning Datasets and RT-X Models | Open X-Embodiment Collaboration | 2024 | [2310.08864](https://arxiv.org/abs/2310.08864) | 878 |
 
-| [md](https://github.com/SSS135/papers-md/blob/master/papers/2204.01691/2204.01691.md) | Do As I Can, Not As I Say: Grounding Language in Robotic Affordances (SayCan) | Ahn et al. | 2022 | [2204.01691](https://arxiv.org/abs/2204.01691) | 2,921 |
-
-| [md](https://github.com/SSS135/papers-md/blob/master/papers/2207.05608/2207.05608.md) | Inner Monologue: Embodied Reasoning through Planning with Language Models | Huang et al. | 2022 | [2207.05608](https://arxiv.org/abs/2207.05608) | 1,275 |
-
-| [md](https://github.com/SSS135/papers-md/blob/master/papers/2209.07753/2209.07753.md) | Code as Policies: Language Model Programs for Embodied Control | Liang et al. | 2023 | [2209.07753](https://arxiv.org/abs/2209.07753) | 1,436 |
-
 
 
 ## Science & Theory
@@ -1394,19 +1386,13 @@
 
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1807.01281/1807.01281.md) | Human-level Performance in First-Person Multiplayer Games (Capture the Flag) | Jaderberg et al. | 2019 | [1807.01281](https://arxiv.org/abs/1807.01281) | 796 |
 
-| [md](https://github.com/SSS135/papers-md/blob/master/papers/2003.13350/2003.13350.md) | Agent57: Outperforming the Atari Human Benchmark | Badia et al. | 2020 | [2003.13350](https://arxiv.org/abs/2003.13350) | 579 |
-
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2004.12919/2004.12919.md) | First Return, Then Explore (Go-Explore) | Ecoffet et al. | 2021 | [2004.12919](https://arxiv.org/abs/2004.12919) | 425 |
 
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2206.11795/2206.11795.md) | Video PreTraining: Learning to Act by Watching Unlabeled Online Videos (VPT) | Baker et al. | 2022 | [2206.11795](https://arxiv.org/abs/2206.11795) | 391 |
 
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2206.08853/2206.08853.md) | MineDojo: Building Open-Ended Embodied Agents with Internet-Scale Knowledge | Fan et al. | 2022 | [2206.08853](https://arxiv.org/abs/2206.08853) | 531 |
 
-| [md](https://github.com/SSS135/papers-md/blob/master/papers/2305.16291/2305.16291.md) | Voyager: An Open-Ended Embodied Agent with Large Language Models | Wang et al. | 2023 | [2305.16291](https://arxiv.org/abs/2305.16291) | 1,437 |
-
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2203.07814/2203.07814.md) | Competition-Level Code Generation with AlphaCode | Li et al. | 2022 | [2203.07814](https://arxiv.org/abs/2203.07814) | 2,050 |
-
-| [md](https://github.com/SSS135/papers-md/blob/master/papers/1910.07113/1910.07113.md) | Solving Rubik's Cube with a Robot Hand (Dactyl) | OpenAI | 2019 | [1910.07113](https://arxiv.org/abs/1910.07113) | 1,427 |
 
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2210.05492/2210.05492.md) | Human-level play in the game of Diplomacy by combining language models with strategic reasoning (Cicero) | Meta FAIR | 2022 | [2210.05492](https://arxiv.org/abs/2210.05492) | 61 |
 
@@ -1432,8 +1418,6 @@
 
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2111.08819/2111.08819.md) | CleanRL: High-quality Single-file Implementations of Deep RL Algorithms | Huang et al. | 2022 | [2111.08819](https://arxiv.org/abs/2111.08819) | 86 |
 
-| [md](https://github.com/SSS135/papers-md/blob/master/papers/1707.01495/1707.01495.md) | Hindsight Experience Replay (HER) | Andrychowicz et al. | 2017 | [1707.01495](https://arxiv.org/abs/1707.01495) | 2,643 |
-
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1705.05363/1705.05363.md) | Curiosity-driven Exploration by Self-supervised Prediction (ICM) | Pathak et al. | 2017 | [1705.05363](https://arxiv.org/abs/1705.05363) | 2,850 |
 
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1810.12894/1810.12894.md) | Exploration by Random Network Distillation (RND) | Burda et al. | 2019 | [1810.12894](https://arxiv.org/abs/1810.12894) | 1,600 |
@@ -1444,8 +1428,6 @@
 
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1605.09674/1605.09674.md) | VIME: Variational Information Maximizing Exploration | Houthooft et al. | 2016 | [1605.09674](https://arxiv.org/abs/1605.09674) | 80 |
 
-| [md](https://github.com/SSS135/papers-md/blob/master/papers/2002.06038/2002.06038.md) | Never Give Up: Learning Directed Exploration Strategies (NGU) | Badia et al. | 2020 | [2002.06038](https://arxiv.org/abs/2002.06038) | 348 |
-
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1706.10295/1706.10295.md) | Noisy Networks for Exploration (NoisyNet) | Fortunato et al. | 2017 | [1706.10295](https://arxiv.org/abs/1706.10295) | 992 |
 
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1602.04621/1602.04621.md) | Deep Exploration via Bootstrapped DQN | Osband et al. | 2016 | [1602.04621](https://arxiv.org/abs/1602.04621) | 1,478 |
@@ -1455,8 +1437,6 @@
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2002.12292/2002.12292.md) | RIDE: Rewarding Impact-Driven Exploration | Raileanu & Rocktäschel | 2020 | [2002.12292](https://arxiv.org/abs/2002.12292) | 196 |
 
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/2110.15191/2110.15191.md) | URLB: Unsupervised Reinforcement Learning Benchmark | Laskin et al. | 2021 | [2110.15191](https://arxiv.org/abs/2110.15191) | 175 |
-
-| [md](https://github.com/SSS135/papers-md/blob/master/papers/1802.06070/1802.06070.md) | Diversity is All You Need: Learning Skills without a Reward Function (DIAYN) | Eysenbach et al. | 2018 | [1802.06070](https://arxiv.org/abs/1802.06070) | 1,251 |
 
 | [md](https://github.com/SSS135/papers-md/blob/master/papers/1702.08165/1702.08165.md) | Soft Q-Learning: Reinforcement Learning with Deep Energy-Based Policies | Haarnoja et al. | 2017 | [1702.08165](https://arxiv.org/abs/1702.08165) | 1,552 |
 
